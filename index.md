@@ -2,7 +2,7 @@
 
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
 - Participants who connect need to do so **on their own** , or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get OPC UA servers installed, online and deliver data. If questions arise regarding the information provided in **this document** or the connection to the data hub for the umati showcase demonstrator, please write an issue here [info@umati.org](mailto:info@umati.org)
-- An FAQ is provided [here](FAQ.md) and will be updated as needed.
+- An FAQ is provided [here](FAQ.html) and will be updated as needed.
 
 ## Versioning
 
@@ -48,31 +48,37 @@ Participants can provide more than one umati partner solution type.
 
 ### Memorandum of understanding
 
-Regulations concerning offered services, obligations of the participants and brand usage are collected in a **memorandum of understanding** (MoU) which participants of the umati showcase will need to sign ahead of the umati showcase demonstration. Please refer to chapter 10 for further information.
+Regulations concerning offered services, obligations of the participants and brand usage are collected in a **memorandum of understanding** (MoU) which participants of the umati showcase will need to sign ahead of the umati showcase demonstration. Please refer to [MoU document](MoU) for further information.
 
-Every participant is permitted to advertise his or her involvement in the umati project through the free, time-limited &quot;umati partner&quot; logo, e.g. in the web or in prints etc. This permission ends one year after publication of the first umati OPC UA Companion Specification. A product-assigned label will follow.
+Every participant is permitted to advertise his or her involvement in the umati project through the free, time-limited **&quot;umati partner&quot;** logo, e.g. in the web or in prints etc. This permission ends one year after publication of the first umati OPC UA Companion Specification (OPC 40001-1 UA for Machinery). A product-assigned label will follow.
 
-Services offered by VDW include:
+### Services offered by umati iniative include
 
-- Listing all participants on the [info@umati.org](mailto:info@umati.org) website, prints, presentations etc. where practicable in scope and extent.
+- Listing all participants on the [https://umati.org](https://umati.org) website, prints, presentations etc. where practicable in scope and extent.
 - Providing a corporate design to be used by all participants for free.
-- Showing booth, advertisement flyers, press conference, social media campaign with mentioning of all participants.
+- Advertisement flyers, press conference, social media campaign with mentioning of all participants.
 
-Obligations of all participants include:
+### Obligations of all participants include
 
-- Participant must connect to the umati showcase demonstration.
-- Participants must actively announce their participation in the umati showcase demonstration ahead of the trade show, e.g. in press conferences, newsletters, advertisement, etc.
-- Participants must advertise umati at its booth in a visible way (roll-ups, banners, stickers on machines with QR code, display of informational material).
-- Participants must educate booth personnel to inform visitors about umati. At any point in time at least one expert (umati proficient) must be available at the booth.
-- For networking events of other marketing events, the participant offers at least one employee for participation.
+- The “partner” is responsible to actively support the dissemination of umati amongst his customers, suppliers and market competitors.
+- The “partner” shall participate in demonstration scenarios by connecting a product (obsolete
+if the partner is an end user of machinery or software)
+- The “partner” is obliged to ensure the visibility of umati in his communication, which includes
+placing a reference to umati in his internet presence and to link to [http://umati.org](http://www.umati.org)
+- The “partner” should become actively involved in the development of related OPC UA standards (providing feedback on documents circulated to the partners; participation in tests, plug fests, hackathons and the like).
+- The “partner” shall support communication of umati, e.g. by providing statements or visuals, and permits the use of the “partner’s” logo for all public relations activities relating to umati.
+- The “partner” must actively announce their participation in the umati showcase demonstration ahead of the trade show, e.g. in press conferences, newsletters, advertisement, etc.
+- The “partner” must advertise umati at its booth in a visible way (roll-ups, banners, stickers on machines with QR code, display of informational material).
+- The “partner” must educate booth personnel to inform visitors about umati. At any point in time at least one expert (umati proficient) must be available at the booth.
+- For networking events of other marketing events, the “partner” offers at least one employee for participation.
 
-Obligations of participants (M) connecting machinery
+#### Obligations of participants (M) connecting machinery
 
 - Participant (M) must connect one or more machines that offer reliant data during the exhibition times. The machines do not need to be present on the METAV fair ground.
 - Participant (M) agrees to full data openness, i.e. the data delivered during exhibition times may be used by any other umati showcase participant without restrictions.
 - Participant (M) consents that all data delivered during exhibition times are archived by VDW and can be used in anonymized form for future demonstrations or tests.
 
-Obligations of participants (C) supplying components
+#### Obligations of participants (C) supplying components
 
 - Participants (C) without connected machines must verifiably offer support to other participants (M) for the connectivity via the umati interface.
 
@@ -100,27 +106,25 @@ All participants received a marketing package which will be updated as the trade
 
 - **umati partner logo:** The umati Partner logo should be used in your marketing and press materials online as well as offline.
 
-- **umati sticker for the connected machines:** TODO[is currently prepared – not yet available] Each machine should be outfitted with a umati sticker. If you are connecting a machine that is not located on the fair ground, please find a suitable place for this sticker on your booth to enable visitors to access the dashboard side of your machine with this code. A picture of the sticker is shown below (diameter 200mm).
-
-TODO MachineSticker
+- **umati sticker for the connected machines:** [TODO: is currently prepared – not yet available] Each machine should be outfitted with a umati sticker. If you are connecting a machine that is not located on the fair ground, please find a suitable place for this sticker on your booth to enable visitors to access the dashboard side of your machine with this code. A picture of the sticker is shown below (diameter 200mm).
 
 - **press release from VDW** : informs about the showcase and the registered parties. Please use it also for your own communication as a template. Further press releases are going to follow.
-- **umati showcase folder** : TODO[is currently prepared – not yet available] we will prepare a umati folder like the EMO version, but with more content and listing every partner and the booth information.
+- **umati showcase folder** : [TODO:is currently prepared – not yet available] we will prepare a umati folder like the EMO version, but with more content and listing every partner and the booth information.
 - **umati dashboard:** We provide a umati dashboard via a weblink to visualize all machines connected to the showcase. You are free to use this dashboard at your own booth. The dashboard access is described in chapter 4.
 - **umati representative preparation/briefing:** We provide extensive documentation for your umati representatives (called umati Ambassadors), such that your employees can answer the most common questions concerning umati. For other booth personnel we provide a shortened version of this document.
 
-Necessary interaction by the participants are:
+### Necessary interaction by the participants are
 
 - If you publish information or are mentioning umati partnership in other places, please **keep us informed by either sending a copy or a URL** for online material.
 
-- For the METAV we will have the **umati booth** in **hall 1 booth A14**. There will be a logo wall with all umati partners. Please **provide a logo to us**.
-- For picturing your machine on the umati dashboard, please **send us a picture of the specific machine** to [metav@umati.app](mailto:metav@umati.app)(Image will be compressed to 1100x800 if it&#39;s larger) together with the Namespace URI of the machine in the datahub. If you do not provide a picture, we will instead display a dummy machine icon.
+- For the fair with a central **umati booth**, there will be a logo wall with all umati partners. Please **provide a logo to us**.
+- For picturing your machine on the umati dashboard, please **send us a picture of the specific machine** to [info@umati.org](mailto:info@umati.org) (Image will be compressed to 1100x800 if it&#39;s larger) together with the Namespace URI of the machine in the datahub. If you do not provide a picture, we will instead display a dummy machine icon.
 
 ## Connection scheme and testing
 
 ### Datahub connection
 
-For this showcase we will have a data hub provided off premise. This will act as an OPC UA aggregation server. The Machine tools (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per partner). An OPC UA client will connect to the OPC UA server(s) of that partner through the VPN tunnel. The application providers (A) will connect to an OPC UA server.
+For this showcase we will have a data hub provided off premise. This will act as an OPC UA aggregation server. The machine server (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per partner). An OPC UA client will connect to the OPC UA server(s) of that partner through the VPN tunnel. The application providers (A) will connect to an OPC UA server.
 
 To connect to this data hub (M) need an OPC UA server and OpenVPN client to access one dedicated endpoint per partner. (A) will connect via OPC UA directly to the datahub.
 
