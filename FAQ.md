@@ -1,7 +1,3 @@
-layout: page
-title: "FAQ"
-permalink: /FAQ
-
 # FAQ for the Showcase
 
 **The participant shall connect to the demonstrator scenario with a machine and/ or a “value-added service” (Platform, dashboard,…). Are there any number limits or just one machine is OK?**
