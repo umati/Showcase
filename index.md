@@ -1,7 +1,7 @@
 # General Information
 
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
-- Participants who connect need to do so **on their own** , or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get OPC UA servers installed, online and deliver data. If questions arise regarding the information provided in **this document** or the connection to the data hub for the umati showcase demonstrator, please write an issue here [info@umati.org](mailto:info@umati.org)
+- Participants who connect need to do so **on their own** , or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get [OPC UA Server](SERVER.html)s installed, online and deliver data. If questions arise regarding the information provided in **this document** or the connection to the data hub for the umati showcase demonstrator, please write an issue here [info@umati.org](mailto:info@umati.org)
 - An FAQ is provided [here](FAQ.html) and will be updated as needed.
 
 ## Versioning
@@ -18,7 +18,7 @@ This document is versioned, as some content details will be delivered later in t
 
 ## Demonstrator story umati showcase
 
-## The umati vision
+### The umati vision
 
 Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with umati interface can be easily connected with applications. No matter whether you are end user, system integrator or machine builder: with the umati interface you will be able to easily connect to machine tools of all manufacturers and controls. umati is an initiative by the German Machine Tool Builders&#39; Association (VDW) and is supported from its very start by major German machine tool builders. Over the last year, more and more partners have joined and supported the initiative which is now on an international scale.
 
@@ -40,8 +40,8 @@ Please register with [info@umati.org](mailto:info@umati.org) if you intend to pa
 
 Parties involved in the showcase will offer different umati technology. We distinguish three solution types:
 
-- **Component manufacturers (C)** supply umati partner components or industrial controls with OPC UA servers according to the umati showcase specification.
-- **Machine tool manufacturers (M)** equip machine tools with the umati interface (OPC UA server) according to the umati showcase specification.
+- **Component manufacturers (C)** supply umati partner components or industrial controls with [OPC UA Server](SERVER.html)s according to the umati showcase specification.
+- **Machine tool manufacturers (M)** equip machine tools with the umati interface ([OPC UA Server](SERVER.html)) according to the umati showcase specification.
 - **Application providers (A)** display and analyze provided data available over the umati interface according to the umati showcase specification.
 
 Participants can provide more than one umati partner solution type.
@@ -124,17 +124,15 @@ All participants received a marketing package which will be updated as the trade
 
 ### Datahub connection
 
-For this showcase we will have a data hub provided off premise. This will act as an OPC UA aggregation server. The machine server (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per partner). An OPC UA client will connect to the OPC UA server(s) of that partner through the VPN tunnel. The application providers (A) will connect to an OPC UA server.
+For this showcase we will have a data hub provided off premise. This will act as an OPC UA aggregation server. The machine server (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per partner). An OPC UA client will connect to the [OPC UA Server](SERVER.html)(s) of that partner through the VPN tunnel. The application providers (A) will connect to an [OPC UA Server](SERVER.html).
 
-To connect to this data hub (M) need an OPC UA server and OpenVPN client to access one dedicated endpoint per partner. (A) will connect via OPC UA directly to the datahub.
-
-Details about the internet connection see chapter 12.c.
+To connect to this data hub (M) need an [OPC UA Server](SERVER.html) and OpenVPN client to access one dedicated endpoint per partner. (A) will connect via OPC UA directly to the datahub.
 
 ### umati showcase test server
 
 A test server is provided for basic testing and is supplied by VDW.
 
-The test server provides the complete data model and changes its values. There is no real machine tool simulation behind the OPC UA server. The values do not necessarily have a logical connection to each other. For example, the channel can be deactivated while the job is still being processed. The server is available at `opc.tcp://opcua.umati.app:4840` ; authentication is not required.
+The test server provides the complete data model and changes its values. There is no real machine tool simulation behind the [OPC UA Server](SERVER.html). The values do not necessarily have a logical connection to each other. For example, the channel can be deactivated while the job is still being processed. The server is available at `opc.tcp://opcua.umati.app:4840` ; authentication is not required.
 
 ## Documentation, timeline and notes on implementation details for umati showcase
 
@@ -142,7 +140,7 @@ The test server provides the complete data model and changes its values. There i
 
 We have provided reference documents for the umati showcase information model as follows:
 
-- Specification of [OPC UA server](SERVER.md) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase OPC UA server as well as documentation, timeline and notes for the umati showcase OPC UA server and client implementations
+- Specification of [OPC UA server](SERVER.html) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase [OPC UA Server](SERVER.html) as well as documentation, timeline and notes for the umati showcase [OPC UA Server](SERVER.html) and client implementations
 - [Memorandum of understanding](TODO:LINK) regulates the use of the brand, services offered by VDW and obligations of the participant in context to the umati showcase demonstrations, if you have registered as a umati partner already, there is no need to sign the MoU again.
 - **Nodeset files**, describes the types specified in the umati showcase information model
 - **Example instance**, depicts an instance view of the umati showcase information model
@@ -162,7 +160,7 @@ Infrastructures and tools are still under development. In the following you find
 | **Testserver** | umati | available |
 | **Datahub update** | T-Systems | 23.08.2020 | 31.08.2020 |
 | **OpenVPN configuration** | T-Systems | available |
-| **Authentication at the datahub (OPC UA server)** | T-Systems | available |
+| **Authentication at the datahub ([OPC UA Server](SERVER.html))** | T-Systems | available |
 
 Deadlines for umati showcase participants:
 
