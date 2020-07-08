@@ -1,14 +1,10 @@
-# **umati Showcase**
-
-Specification of OPC UA server, client and parameter set for umati showcase demonstrators
-
-## General Information
+# General Information
 
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
 - Participants who connect need to do so **on their own** , or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get OPC UA servers installed, online and deliver data. If questions arise regarding the information provided in **this document** or the connection to the data hub for the umati showcase demonstrator, please write an issue here [info@umati.org](mailto:info@umati.org)
 - An FAQ is provided [here](FAQ.md) and will be updated as needed.
 
-### Versioning
+## Versioning
 
 This document is versioned, as some content details will be delivered later in time. Please refer to the latest version at [https://showcase.umati.org](https://showcase.umati.org) to receive the latest draft. If any errors of inconsistencies strike your attention, please contact us via [info@umati.org](mailto:info@umati.org) so that we can include the improvement in the next version:
 
@@ -22,7 +18,7 @@ This document is versioned, as some content details will be delivered later in t
 
 ## Demonstrator story umati showcase
 
-### The umati vision
+## The umati vision
 
 Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with umati interface can be easily connected with applications. No matter whether you are end user, system integrator or machine builder: with the umati interface you will be able to easily connect to machine tools of all manufacturers and controls. umati is an initiative by the German Machine Tool Builders&#39; Association (VDW) and is supported from its very start by major German machine tool builders. Over the last year, more and more partners have joined and supported the initiative which is now on an international scale.
 
