@@ -6,11 +6,11 @@
 
 ## Structure of the specification
 
-[OPC UA Server](SERVER.html)
-[OPC UA Client](CLIENT.html)
-[Dashboard](DASHBOARD.html)
-[Implemented Specifications](SPECS.html)
-[FAQ](FAQ.html)
+- [OPC UA Server](SERVER.html)
+- [OPC UA Client](CLIENT.html)
+- [Dashboard](DASHBOARD.html)
+- [Implemented Specifications](SPECS.html)
+- [FAQ](FAQ.html)
 
 ### Versioning
 
