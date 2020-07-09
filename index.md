@@ -167,7 +167,6 @@ Deadlines for umati showcase participants:
 | **Date** | **Activity** |
 | --- | --- |
 | **ongoing** | Sign and return MoU |
-
 | **ongoing** | Mention your umati partnership during your METAV communication |
 | **31.08.2020** | Provide machine image for umati dashboard |
 | **6 weeks before a fair date** | Clarify the sticker placement with your marketing/booth responsible person |
