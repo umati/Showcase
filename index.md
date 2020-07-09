@@ -9,7 +9,7 @@
 - [OPC UA Server](SERVER.html)
 - [OPC UA Client](CLIENT.html)
 - [Dashboard](DASHBOARD.html)
-- [Implemented Specifications](SPECS.html)
+- [Implemented Specifications](Specs.html)
 - [FAQ](FAQ.html)
 
 ### Versioning
