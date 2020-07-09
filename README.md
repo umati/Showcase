@@ -8,6 +8,8 @@ This repository provides the specification to connect to the umati virtual demon
 
 [OPC UA Client](https://showcase.umati.org/CLIENT.html)
 
+[Specs](https://showcase.umati.org/Specs.html)
+
 [umati Dashboard](https://showcase.umati.org/DASHBOARD.html)
 
 [FAQ's](https://showcase.umati.org/FAQ.html)

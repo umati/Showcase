@@ -4,7 +4,15 @@
 - Participants who connect need to do so **on their own** , or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get [OPC UA Server](SERVER.html)s installed, online and deliver data. If questions arise regarding the information provided in **this document** or the connection to the data hub for the umati showcase demonstrator, please write an issue here [info@umati.org](mailto:info@umati.org)
 - An FAQ is provided [here](FAQ.html) and will be updated as needed.
 
-## Versioning
+## Structure of the specification
+
+[OPC UA Server](SERVER.html)
+[OPC UA Client](CLIENT.html)
+[Dashboard](DASHBOARD.html)
+[Implemented Specifications](SPECS.html)
+[FAQ](FAQ.html)
+
+### Versioning
 
 This document is versioned, as some content details will be delivered later in time. Please refer to the latest version at [https://showcase.umati.org](https://showcase.umati.org) to receive the latest draft. If any errors of inconsistencies strike your attention, please contact us via [info@umati.org](mailto:info@umati.org) so that we can include the improvement in the next version:
 
@@ -20,7 +28,7 @@ This document is versioned, as some content details will be delivered later in t
 
 ### The umati vision
 
-Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with umati interface can be easily connected with applications. No matter whether you are end user, system integrator or machine builder: with the umati interface you will be able to easily connect to machine tools of all manufacturers and controls. umati is an initiative by the German Machine Tool Builders&#39; Association (VDW) and is supported from its very start by major German machine tool builders. Over the last year, more and more partners have joined and supported the initiative which is now on an international scale.
+Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with an umati interface can be easily connected with applications. No matter whether you are end user, system integrator or machine builder: with the umati interface you will be able to easily connect to machines of all manufacturers and controls. umati is an initiative by the  The umati community is an association of companies from the mechanical and plant engineering industry that jointly and comprehensively bring a common interface concept based on OPC UA to the market for the entire mechanical and plant engineering sector. Currently it is sponsored and hosted by the German Machine Tool Builders' Association [(VDW)](https://vdw.de) and the German Engineering Federation [(VDMA)](https://vdma.org).
 
 ## umati showcase
 
@@ -54,7 +62,7 @@ Every participant is permitted to advertise his or her involvement in the umati 
 
 ### Services offered by umati iniative include
 
-- Listing all participants on the [https://umati.org](https://umati.org) website, prints, presentations etc. where practicable in scope and extent.
+- Listing all participants on the [http://umati.org](http://umati.org) website, prints, presentations etc. where practicable in scope and extent.
 - Providing a corporate design to be used by all participants for free.
 - Advertisement flyers, press conference, social media campaign with mentioning of all participants.
 
