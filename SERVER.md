@@ -5,7 +5,7 @@
 ### OpenVPN client
 
 Each OPC UA server that should be connected to the datahub requires its own OpenVPN client. (e.g. when there are two machine tools with an OPC UA server each, each one will require its own VPN client. When both OPC UA servers are aggregated to one OPC UA server, one VPN client for the aggregated server is sufficient, see following scenario graphs) The OpenVPN client can be downloaded here: [https://openvpn.net/community-downloads/](https://openvpn.net/community-downloads/). The OpenVPN client will make the computer accessible to the OPC UA client running on the data hub. Each participant will connect to their own VPN server endpoint.
-x
+
 ![VPN schema](img/VPN.png "VPN schema")
 
 #### OpenVPN configuration
@@ -47,7 +47,7 @@ The functional requirements for the OPC UA server provided for the umati showcas
 
 Provide at least the OPC 40001-1 UA for Machinery namespance and a instance namespace of your machine.
 
-The minimal required profiles according to OPC UA Specification Part 7 are listed below:
+The minimal required profiles according to the OPC UA Specification Part 7 are listed below:
 
 - Micro Embedded Device 2017 Server Profile this includes:
   - 2 Sessions
@@ -70,16 +70,14 @@ In this chapter the necessary adaptations of the OPC UA information model, some 
 
 - Load at least the Machinery types (as defined by OPC 40001-1 UA for Machinery) and the adapted instances in two separate namespaces into the OPC UA server.
 - Ensure that all variables have valid values, if a variable could not be provided by the machine tool, set a neutral value. (E.g. if no override is available, set the value to 1).
-- Make sure that no NodeIDs are modified and that all defined references are available.
-
-1.
+- Make sure that no NodeIDs of the types are modified and that all defined references are available.
 
 ### OPC UA Server connecting to the datahub
 
 1. Please ensure corresponding UMATI-relevant namespace is added to the server.
 
 2. `Machines` folder have to point to base Machinery namespace, <http://opcfoundation.org/UA/Machinery>
-This is where the datahub-connectors would look for showcase-relevant UA-nodes.
+This is where the datahub-connectors would look for showcase-relevant instances.
 
 3. Only the following namespaces are accepted as well as understood by the Datahub.
 
@@ -88,9 +86,9 @@ This is where the datahub-connectors would look for showcase-relevant UA-nodes.
    - <http://opcfoundation.org/UA/IA>
    - <http://opcfoundation.org/UA/Machinery>
    - <http://opcfoundation.org/UA/MachineTools>
-   - `your custom namespace for you instance`
+   - `your custom namespace(s) for you instance(s)`
 
-4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by telnet 10.80.0.XX 4840 .
+4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
 5. When the OPC UA Server and the VPN-Connection is established, visit [https://fairconnect.umati.app](https://fairconnect.umati.app/) to check your connection and integrate the machine to the datahub.
 
 A reference to any other custom namespace would unfortunately hinder the participant&#39;s server from being aggregated.
