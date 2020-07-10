@@ -63,11 +63,9 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### Special requirements for correct locating on the dashboard
 
-The instance Location shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or
-format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885`
+The instance Location shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885`
 
-If the machine shall be referenced to more than one fair, provide a list of fair location, deliminated by slash.
- e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
+If the machine shall be referenced to more than one fair, provide a list of fair location, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
 
 FAIR Shortnames will be provided before the fair.
 
@@ -85,13 +83,13 @@ FAIR Shortnames will be provided before the fair.
 
 ## Dashboard Status Overview
 
-For the Status Overview in the dashboard, the **job status** is stored and plotted over time. The status overview bar **does NOT relate to the stacklight** status!
+For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status overview bar **does NOT relate to the stacklight** status!
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 
 | State | Color |
 | --- | --- |
-| Initialized | :radio_button: Gray |
+| Initializing | :radio_button: Gray |
 | Running | :green_circle: Green |
 | Ended | :purple_circle: Cyan |
 | Interrupted | :orange_circle: Orange |

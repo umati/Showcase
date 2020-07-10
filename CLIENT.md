@@ -37,3 +37,9 @@ This specification focuses on the points that are specific to the umati showcase
  The client must be able to ignore certain/unavailable objects because some instances are optional (e.g. spindles or lamps). This is the preferred method.
 - To get data continuously, use subscriptions and monitored items instead of repetitive read requests.
 - **Close your session,** if you do not need it anymore. Refrain from using multiple sessions, as this might reduce the performance of the OPC UA Server. For most cases a single session is sufficient for the application.
+
+### umati showcase test server
+
+A test server is provided for basic testing and is supplied by VDW.
+
+The test server provides the complete data model and changes its values. There is no real machine tool simulation behind the [OPC UA Server](SERVER.html). The values do not necessarily have a logical connection to each other. For example, the channel can be deactivated while the job is still being processed. The server is available at `opc.tcp://opcua.umati.app:4840` ; authentication is not required.
