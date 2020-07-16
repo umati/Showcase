@@ -16,7 +16,15 @@ For participants that are familiar with the information model, we have included 
 
 All participants not familiar with the release candidate information model do not need to review these changes in detail but rather follow the described model and refer to the provided xml Nodeset files and UA modeler project.
 
-### General information valid for the umati showcase demonstration
+### NodeSets for the showcase
+
+[Release Candidate NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
+
+[Protoyping NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping)
+
+**Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
+
+## General information valid for the umati showcase demonstration
 
 |  |  |
 | --- | --- |
@@ -67,7 +75,9 @@ The instance Location shall be provided in the format `<fair> <hall> <booth>`, e
 
 If the machine shall be referenced to more than one fair, provide a list of fair location, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
 
-FAIR Shortnames will be provided before the fair.
+#### FAIR Shortnames
+
+Fair shortnames are defined [here.](Fairs.html)
 
 ### Adaption of the provided information models for your purpose
 

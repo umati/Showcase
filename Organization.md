@@ -23,6 +23,7 @@ Every participant is permitted to advertise his or her involvement in the umati 
 - Listing all participants on the [http://umati.org](http://umati.org) website, prints, presentations etc. where practicable in scope and extent.
 - Providing a corporate design to be used by all participants for free.
 - Advertisement flyers, press conference, social media campaign with mentioning of all participants.
+- Access to a partners-only repositiory with necessary files and instructions to implement a solution
 
 ### Obligations of all participants include
 
