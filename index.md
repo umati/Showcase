@@ -12,6 +12,7 @@
 - [Implemented Specifications](Specs.html)
   - [MachineTools](Specs/MACHINETOOLS.html)
 - [Organizational Stuff](Organization.html)
+  - [Fairs](Spec/Fairs.html)
 - [FAQ](FAQ.html)
 
 ### Versioning
@@ -21,9 +22,12 @@ This document is versioned, as some content details will be delivered later in t
 | **Version** | **Date published** | **Note on changes** |
 | --- | --- | --- |
 | V 0.01.00 | 08.07.2020 | First draft|
+| V 1.00.00 | 21.07.2020 | First release |
 
 ### Changelog
 
+| Doc | Area | Description |
+| --- | --- | --- |
 | --- | --- | --- |
 
 ## Demonstrator story umati showcase

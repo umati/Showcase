@@ -16,14 +16,20 @@ For participants that are familiar with the information model, we have included 
 
 All participants not familiar with the release candidate information model do not need to review these changes in detail but rather follow the described model and refer to the provided xml Nodeset files and UA modeler project.
 
-### General information valid for the umati showcase demonstration
+### NodeSets for the showcase
+
+[Release Candidate NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
+
+[Protoyping NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping)
+
+**Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
+
+## General information valid for the umati showcase demonstration
 
 |  |  |
 | --- | --- |
 | **DISCLAIMER**  | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
-|  |  |
-
-The structure of the information model has to be strictly obeyed. It is not acceptable to provide an unstructured collection of nodes with only the correct NodeIDs as identification because OPC UA clients must utilize the browsing functionality and identify the located objects by their ObjectType definitions, as defined in the xml-Nodeset on the OPC UA server. This requires the implementation of correct nodes, references, browse names and NodeIDs for each item in the address space.
+***
 
 ### Identification data
 
@@ -67,17 +73,20 @@ The instance Location shall be provided in the format `<fair> <hall> <booth>`, e
 
 If the machine shall be referenced to more than one fair, provide a list of fair location, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
 
-FAIR Shortnames will be provided before the fair.
+#### FAIR Shortnames
+
+Fair shortnames are defined [here.](Fairs.html)
 
 ### Adaption of the provided information models for your purpose
 
 - The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the MachineTools companion specificaion and **must not** be changed.
 - Change the URI of the instance namespace (optional, but recommended)
 
-`http://www.<MANUFACTURERDOMAIN>/example`
+  `http://www.<MANUFACTURERDOMAIN>/example`
 
 - The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a website as a URI, it is not necessary that the website actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
- In case of multiple machines with the same NamespaceURI, the datahub will add a suffix to ensure unique namespaces.
+
+- The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 
 - **Change the BrowseName and DisplayName of MachineTool** to `Company (short only alphanumeric)-Machine Name (alphanumeric)`, e.g. `ISW-TestServerMachine` or `ISW-SharpDriller5000. This helps a human to identify the machine in the aggregated server. **Do not use any other characters than {A…Z, a…z, 0…9} for the name**. Skipping this step prevents an automated integration to the dashboard.
 
@@ -90,10 +99,10 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 | State | Color |
 | --- | --- |
 | Initializing | :radio_button: Gray |
-| Running | :green_circle: Green |
-| Ended | :purple_circle: Cyan |
-| Interrupted | :orange_circle: Orange |
-| Aborted | :red_circle: Red |
-| Any other (unspecified) state | :black_circle: Black |
+| Running | &#128994; Green |
+| Ended | &#128309; Cyan |
+| Interrupted | &#128992; Orange |
+| Aborted | &#128308; Red |
+| Any other (unspecified) state | &#9210; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.
