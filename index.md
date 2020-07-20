@@ -11,7 +11,7 @@
 - [Dashboard](DASHBOARD.html)
 - [Implemented Specifications](Specs.html)
   - [MachineTools](Specs/MACHINETOOLS.html)
-- [Organizational Stuff](Organization.html)
+- [Organizational Information](Organization.html)
   - [Fairs](Spec/Fairs.html)
 - [FAQ](FAQ.html)
 
