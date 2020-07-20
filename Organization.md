@@ -112,4 +112,3 @@ Deadlines for umati showcase participants:
 | **31.08.2020** | Provide machine image for umati dashboard |
 | **6 weeks before a fair date** | Clarify the sticker placement with your marketing/booth responsible person |
 | **10.09.2020** | Integration of an OPC UA-Server in the datahub. The integration is not possible during the fair. |
-| --- | --- |
