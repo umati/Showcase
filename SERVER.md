@@ -82,10 +82,10 @@ This is where the datahub-connectors would look for showcase-relevant instances.
 3. Only the following namespaces are accepted as well as understood by the Datahub.
 
    - <http://opcfoundation.org/UA/>
-   - <http://opcfoundation.org/UA/DI>
-   - <http://opcfoundation.org/UA/IA>
-   - <http://opcfoundation.org/UA/Machinery>
-   - <http://opcfoundation.org/UA/MachineTools>
+   - <http://opcfoundation.org/UA/DI/>
+   - <http://opcfoundation.org/UA/IA/>
+   - <http://opcfoundation.org/UA/Machinery/>
+   - <http://opcfoundation.org/UA/MachineTools/>
    - `your custom namespace(s) for you instance(s)`
 
 4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
