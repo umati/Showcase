@@ -28,7 +28,6 @@ This documentation is versioned, as some content details will be delivered later
 
 | Doc | Area | Description |
 | --- | --- | --- |
-| --- | --- | --- |
 
 ## Demonstrator story umati showcase
 

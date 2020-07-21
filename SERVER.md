@@ -88,10 +88,15 @@ This is where the datahub-connectors would look for showcase-relevant instances.
 
    - <http://opcfoundation.org/UA/>
    - <http://opcfoundation.org/UA/DI/>
+   - <http://vdw.de/protoyping/> (optional)
    - <http://opcfoundation.org/UA/IA/>
+   - <http://opcfoundation.org/UA/IA#Prototyping/> (optional)
    - <http://opcfoundation.org/UA/Machinery/>
+   - <http://opcfoundation.org/UA/MachineTool#Prototyping/> (optional)
    - <http://opcfoundation.org/UA/MachineTools/>
    - `your custom namespace(s) for you instance(s)`
+
+   (optional: to enable use of a UA base NodeSet without the added *OrderedListType* object, needed for the IA and MachineTools release candidate specifications)
 
 4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
 5. When the OPC UA Server and the VPN-Connection is established, visit [https://fairconnect.umati.app](https://fairconnect.umati.app/) to check your connection and integrate the machine to the datahub.
