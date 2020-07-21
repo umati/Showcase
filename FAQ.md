@@ -17,7 +17,6 @@ We will show all connected machines at the umati dashboard at the umati booth.
 **Do we need to show data from other participants at our own booth?**
 You are free to choose. All machine data is available to all participants.
 
-
 ## umati Experts and booth personell
 
 **What do you expect for "UMATI expert" at trade fair show ground?**
@@ -28,11 +27,3 @@ Be a contact for sales and customers to tell more about umati, and point to the 
 
 **From when do you expect to start preparation at show ground? i.e. from when he must be at show ground?**
 This is many up to your preparation planning. We are anticipating that all machines the connect from the show ground are up and running until Friday. Therefore, he just needs to be reachable by phone or mail to troubleshoot the connection after you have set up the machine on the fair ground.
-
-
-
-
-
-
-
-

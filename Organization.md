@@ -1,7 +1,10 @@
 # Organizational and technical requirements for umati showcase participants
 
 ## Disclaimer
+
 The following documentation is phrased for in-person trade fairs. Nontheless, the requirements shall be applicable to the virtual showcase as well.
+
+---
 
 ## umati showcase demonstration participants
 
@@ -73,8 +76,7 @@ All participants received a marketing package which will be updated as the trade
 
 ### Necessary interaction by the participants are
 
-- If you publish information or are mentioning umati partnership in other places, please **keep us informed by either sending a copy or a URL to  [info@umati.org](mailto:info@umati.org) ** for online material.
-
+- If you publish information or are mentioning umati partnership in other places, please **keep us informed by either sending a copy or a URL to [info@umati.org](mailto:info@umati.org)** for online material.
 - For fairs with a central **umati booth**, there will be a logo wall with all umati partners. Please **provide a logo to us**.
 - For picturing your machine on the umati dashboard, please **send us a picture of the specific machine** to [info@umati.org](mailto:info@umati.org) (Image will be compressed to 1100x800 if it&#39;s larger) together with the Namespace URI of the machine in the datahub. If you do not provide a picture, we will instead display a dummy machine icon.
 
