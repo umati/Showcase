@@ -1,19 +1,20 @@
 # General Information
 
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
-- Participants who connect to the showcase, need to do so **on their own** , or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get [OPC UA Server](SERVER.html)s installed, online and deliver data. If questions arise regarding the information provided in **this documentation** or the connection to the data hub for the umati showcase demonstrator, please write an issue in this github here [https://github.com/umati/Showcase](https://github.com/umati/Showcase)
-- An FAQ is provided [here](FAQ.html) and will be updated as needed.
+- Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get [OPC UA Servers](SERVER.md) installed, online and deliver data. If questions arise regarding the information provided in **this documentation** or the connection to the datahub for the umati showcase demonstrator, please open an issue [here](https://github.com/umati/Showcase).
+
+- An FAQ is provided [here](FAQ.md) and will be updated as needed.
 
 ## Structure of the specification
 
-- [OPC UA Server](SERVER.html)
-- [OPC UA Client](CLIENT.html)
-- [Dashboard](DASHBOARD.html)
-- [Implemented Specifications](Specs.html)
-  - [MachineTools](Specs/MACHINETOOLS.html)
-- [Organizational Information](Organization.html)
-  - [Fairs](Spec/Fairs.html)
-- [FAQ](FAQ.html)
+- [OPC UA Server](SERVER.md)
+- [OPC UA Client](CLIENT.md)
+- [Dashboard](DASHBOARD.md)
+- [Implemented Specifications](Specs.md)
+  - [MachineTools](Specs/MACHINETOOLS.md)
+- [Organizational Information](Organization.md)
+  - [Fairs](Spec/Fairs.md)
+- [FAQ](FAQ.md)
 
 ### Versioning
 
@@ -28,6 +29,7 @@ This documentation is versioned, as some content details will be delivered later
 
 | Doc | Area | Description |
 | --- | --- | --- |
+| ... | ... | ... |
 
 ## Demonstrator story umati showcase
 

@@ -2,23 +2,23 @@
 
 This repository provides the specification to connect to the umati virtual demonstration showcase.
 
-[Overview](https://showcase.umati.org)
+[Overview](index.md)
 
-[OPC UA Server](https://showcase.umati.org/SERVER.html)
+[OPC UA Server](SERVER.md)
 
-[OPC UA Client](https://showcase.umati.org/CLIENT.html)
+[OPC UA Client](CLIENT.md)
 
-[umati Dashboard](https://showcase.umati.org/DASHBOARD.html)
+[umati Dashboard](DASHBOARD.md)
 
-[Specs](https://showcase.umati.org/Specs.html)
+[Specs](Specs.md)
 
-- [MachineTools](https://showcase.umati.org/Specs/MACHINETOOLS.html)
+- [MachineTools](Specs/MACHINETOOLS.md)
 
-[Organizational Information](Organization.html)
+[Organizational Information](Organization.md)
 
-- [Fairs](Spec/Fairs.html)
+- [Fairs](Spec/Fairs.md)
 
-[FAQ's](https://showcase.umati.org/FAQ.html)
+[FAQ's](FAQ.md)
 
 ## Contact
 
