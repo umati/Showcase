@@ -1,5 +1,11 @@
 # Organizational and technical requirements for umati showcase participants
 
+## Disclaimer
+
+The following documentation is phrased for in-person trade fairs. Nontheless, the requirements shall be applicable to the virtual showcase as well.
+
+---
+
 ## umati showcase demonstration participants
 
 Please register with [info@umati.org](mailto:info@umati.org) if you intend to participate at the umati showcase demonstration to ensure you receive all necessary information.
@@ -41,9 +47,9 @@ placing a reference to umati in his internet presence and to link to [http://uma
 
 #### Obligations of participants (M) connecting machinery
 
-- Participant (M) must connect one or more machines that offer reliant data during the exhibition times. The machines do not need to be present on the METAV fair ground.
+- Participant (M) must connect one or more machines that offer reliant data during the exhibition times. The machines do not need to be present on the fair ground.
 - Participant (M) agrees to full data openness, i.e. the data delivered during exhibition times may be used by any other umati showcase participant without restrictions.
-- Participant (M) consents that all data delivered during exhibition times are archived by VDW and can be used in anonymized form for future demonstrations or tests.
+- Participant (M) consents that all data delivered during exhibition times are archived by umati and can be used in anonymized form for future demonstrations or tests.
 
 #### Obligations of participants (C) supplying components
 
@@ -61,18 +67,17 @@ All participants received a marketing package which will be updated as the trade
 
 - **umati partner logo:** The umati Partner logo should be used in your marketing and press materials online as well as offline.
 
-- **umati sticker for the connected machines:** [TODO: is currently prepared – not yet available] Each machine should be outfitted with a umati sticker. If you are connecting a machine that is not located on the fair ground, please find a suitable place for this sticker on your booth to enable visitors to access the dashboard side of your machine with this code. A picture of the sticker is shown below (diameter 200mm).
+- **umati sticker for the connected machines:** [is currently prepared – not yet available] Each machine should be outfitted with a umati sticker. If you are connecting a machine that is not located on the fair ground, please find a suitable place for this sticker on your booth to enable visitors to access the dashboard side of your machine with this code. A picture of the sticker is shown below (diameter 200mm).
 
-- **press release from VDW** : informs about the showcase and the registered parties. Please use it also for your own communication as a template. Further press releases are going to follow.
-- **umati showcase folder** : [TODO:is currently prepared – not yet available] we will prepare a umati folder like the EMO version, but with more content and listing every partner and the booth information.
+- **press release from umati** : informs about the showcase and the registered parties. Please use it also for your own communication as a template. Further press releases are going to follow.
+- **umati showcase folder** : [is currently prepared – not yet available] we will prepare a umati showcase folder, with more content and listing every partner and the booth information.
 - **umati dashboard:** We provide a umati dashboard via a weblink to visualize all machines connected to the showcase. You are free to use this dashboard at your own booth. The dashboard access is described in chapter 4.
 - **umati representative preparation/briefing:** We provide extensive documentation for your umati representatives (called umati Ambassadors), such that your employees can answer the most common questions concerning umati. For other booth personnel we provide a shortened version of this document.
 
 ### Necessary interaction by the participants are
 
-- If you publish information or are mentioning umati partnership in other places, please **keep us informed by either sending a copy or a URL** for online material.
-
-- For the fair with a central **umati booth**, there will be a logo wall with all umati partners. Please **provide a logo to us**.
+- If you publish information or are mentioning umati partnership in other places, please **keep us informed by either sending a copy or a URL to [info@umati.org](mailto:info@umati.org)** for online material.
+- For fairs with a central **umati booth**, there will be a logo wall with all umati partners. Please **provide a logo to us**.
 - For picturing your machine on the umati dashboard, please **send us a picture of the specific machine** to [info@umati.org](mailto:info@umati.org) (Image will be compressed to 1100x800 if it&#39;s larger) together with the Namespace URI of the machine in the datahub. If you do not provide a picture, we will instead display a dummy machine icon.
 
 ## Documentation, timeline and notes on implementation details for umati showcase
@@ -83,9 +88,7 @@ We have provided reference documents for the umati showcase information model as
 
 - Specification of [OPC UA server](SERVER.html) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase [OPC UA Server](SERVER.html) as well as documentation, timeline and notes for the umati showcase [OPC UA Server](SERVER.html) and client implementations
 - [Memorandum of understanding](TODO:LINK) regulates the use of the brand, services offered by VDW and obligations of the participant in context to the umati showcase demonstrations, if you have registered as a umati partner already, there is no need to sign the MoU again.
-- **Nodeset files**, describes the types specified in the umati showcase information model
-- **Example instance**, depicts an instance view of the umati showcase information model
-- **UaModeler-project**, combines the afore-mentioned XML-Nodesets in a common SDK tool environment to view the information model and adapt the instances easily to your machine tool (license required for XML export).
+- **Nodeset files**,**Example instance**, **UaModeler-project** [with updated base specification nodeset](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject) or [with prototyping nodeset](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping): The nodeset files describes the types specified in the umati showcase information model. The example instance depicts an instance view of the umati showcase information model. The UaModeler-project combines the afore-mentioned XML-Nodesets in a common SDK tool environment to view the information model and adapt the instances easily to your machine tool (license required for XML export).
 - for marketing materials and the umati ambassador/booth personnel documentation see [https://vdw.de/umati-partner](https://vdw.de/umati-partner) for current versions and details.
 
 ### Timeline for ramp-up

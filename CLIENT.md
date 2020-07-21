@@ -32,9 +32,9 @@ This specification focuses on the points that are specific to the umati showcase
 
 - A test server is available for the development of OPC UA clients. This does not correspond to a real machine behavior, but provides changing values in the parameters for functionality testing.
 
-- The start node of the Machines folder in the address space is described in chapter 9 of the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803).There is no guarantee that the namespace index of a machine will remain the same permanently (e.g. if the datahub is restarted or the connection between the machine and the datahub is interrupted). Therefore, the URI should be used to identify the correct namespace.
+- The start node of the Machines folder in the address space is described in chapter 9 of the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803). There is no guarantee that the namespace index of a machine will remain the same permanently (e.g. if the datahub is restarted or the connection between the machine and the datahub is interrupted). Therefore, the URI should be used to identify the correct namespace.
 - The other nodes can be identified by Browse/ TranslateBrowsePathsToNodeIds.
- The client must be able to ignore certain/unavailable objects because some instances are optional (e.g. spindles or lamps). This is the preferred method.
+ The client must be able to ignore certain/unavailable objects because some instances are optional (e.g. spindles or lamps).
 - To get data continuously, use subscriptions and monitored items instead of repetitive read requests.
 - **Close your session,** if you do not need it anymore. Refrain from using multiple sessions, as this might reduce the performance of the OPC UA Server. For most cases a single session is sufficient for the application.
 
