@@ -4,7 +4,7 @@
 
 ### Datahub and the fairconnect-configuration
 
-For this showcase we will have a datahub provided off premise. This will act as an OPC UA aggregation server. The machine tools (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per partner). An OPC UA client will connect to the OPC UA server(s) of that partner through the VPN tunnel. The application providers (A) will connect to the datahub OPC UA server, as an [OPC UA Client](CLIENT.html).
+For this showcase we will have a datahub provided off premise. This will act as an OPC UA aggregation server. The machine tools (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per partner). An OPC UA client will connect to the OPC UA server(s) of that partner through the VPN tunnel. The application providers (A) will connect to the datahub OPC UA server, as an [OPC UA Client](CLIENT.md).
 To connect to this datahub (M) need an OPC UA server and OpenVPN client to access one dedicated endpoint per partner.
 In order to ease the onboarding process onto the datahub, we provide the [fairconnect configuration page](https://fairconnect.umati.app) and a specified process for connecting OPC UA servers to the showcase:
 

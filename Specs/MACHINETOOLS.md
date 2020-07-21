@@ -75,7 +75,7 @@ If the machine shall be referenced to more than one fair, provide a list of fair
 
 #### FAIR Shortnames
 
-Fair shortnames are defined [here.](Fairs.html)
+Fair shortnames are defined [here.](Fairs.md)
 
 ### Adaption of the provided information models for your purpose
 

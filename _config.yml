@@ -6,3 +6,8 @@ show_downloads: false
 plugins:
   - jemoji
   - jekyll-titles-from-headings
+  - jekyll-sitemap
+
+relative_links:
+  enabled:     true
+  collections: false  

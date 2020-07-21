@@ -12,8 +12,8 @@ Please register with [info@umati.org](mailto:info@umati.org) if you intend to pa
 
 Parties involved in the showcase will offer different umati technology. We distinguish three solution types:
 
-- **Component manufacturers (C)** supply umati partner components or industrial controls with [OPC UA Server](SERVER.html)s according to the umati showcase specification.
-- **Machine tool manufacturers (M)** equip machine tools with the umati interface ([OPC UA Server](SERVER.html)) according to the umati showcase specification.
+- **Component manufacturers (C)** supply umati partner components or industrial controls with [OPC UA Server](SERVER.md)s according to the umati showcase specification.
+- **Machine tool manufacturers (M)** equip machine tools with the umati interface ([OPC UA Server](SERVER.md)) according to the umati showcase specification.
 - **Application providers (A)** display and analyze provided data available over the umati interface according to the umati showcase specification.
 
 Participants can provide more than one umati partner solution type.
@@ -86,7 +86,7 @@ All participants received a marketing package which will be updated as the trade
 
 We have provided reference documents for the umati showcase information model as follows:
 
-- Specification of [OPC UA server](SERVER.html) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase [OPC UA Server](SERVER.html) as well as documentation, timeline and notes for the umati showcase [OPC UA Server](SERVER.html) and client implementations
+- Specification of [OPC UA server](SERVER.md) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase [OPC UA Server](SERVER.md) as well as documentation, timeline and notes for the umati showcase [OPC UA Server](SERVER.md) and client implementations
 - [Memorandum of understanding](TODO:LINK) regulates the use of the brand, services offered by VDW and obligations of the participant in context to the umati showcase demonstrations, if you have registered as a umati partner already, there is no need to sign the MoU again.
 - **Nodeset files**, **Example instance**, **UaModeler-project** [with updated base specification nodeset](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject) or [with prototyping nodeset](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping): The nodeset files describes the types specified in the umati showcase information model. The example instance depicts an instance view of the umati showcase information model. The UaModeler-project combines the afore-mentioned XML-Nodesets in a common SDK tool environment to view the information model and adapt the instances easily to your machine tool (license required for XML export).
 - for marketing materials and the umati ambassador/booth personnel documentation see [https://vdw.de/umati-partner](https://vdw.de/umati-partner) for current versions and details.
@@ -104,7 +104,7 @@ Infrastructures and tools are still under development. In the following you find
 | **Testserver** | umati | available |
 | **Datahub update** | T-Systems | 23.08.2020 | 31.08.2020 |
 | **OpenVPN configuration** | T-Systems | available |
-| **Authentication at the datahub ([OPC UA Server](SERVER.html))** | T-Systems | available |
+| **Authentication at the datahub ([OPC UA Server](SERVER.md))** | T-Systems | available |
 
 Deadlines for umati showcase participants:
 
