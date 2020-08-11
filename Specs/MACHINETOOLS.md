@@ -26,8 +26,8 @@ All participants not familiar with the release candidate information model do no
 
 ## General information valid for the umati showcase demonstration
 
-| --- | --- |
 | **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
+| --- | --- |
 
 ### Identification data
 
@@ -36,18 +36,18 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### [**MachineIdentificationType Definition**](https://opcua.vdma.org/catalog-detail/-/catalog/3803)
 
-| **Attribute** | **Value** | --- | --- | --- | --- |
+| **Attribute** | **Value** |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |
 | BrowseName | MachineIdentificationType |
 | IsAbstract | False |
 | Description | Contains information about the identification and nameplate of a machine |
-| --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |
 | **References** | **Node Class** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
 | Subtype of the 2:FunctionalGroupType defined in OPC 10000-100, i.e. inheriting the InstanceDeclarations of that Node. |
-| 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType | - |
+| 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType |     |
 | 0:HasInterface | ObjectType | IMachineVendorNameplateType |
 | 0:HasInterface | ObjectType | IMachineTagNameplateType |
-| Applied from IMachineVendorNameplateType | --- | --- | --- | --- | --- |
+| Applied from IMachineVendorNameplateType |     |     |     |     |     |
 | 0:HasProperty | Variable | 2:ProductInstanceUri | 0:String | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:Manufacturer | 0:LocalizedText | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:ManufacturerUri | 0:String | 0:PropertyType | O, RO |
@@ -60,7 +60,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | YearOfConstruction | UInt16 | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | MonthOfConstruction | Byte | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | InitialOperationDate | DateTime | 0:PropertyType | O, RO |
-| Applied from IMachineTagNameplateType |
+| Applied from IMachineTagNameplateType |     |     |     |     |     |
 | 0:HasProperty | Variable | 2:AssetId | 0:String | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | Location | 0:String | 0:PropertyType | **M**, RW |

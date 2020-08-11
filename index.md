@@ -24,12 +24,14 @@ This documentation is versioned, as some content details will be delivered later
 | --- | --- | --- |
 | V 0.01.00 | 08.07.2020 | First draft|
 | V 1.00.00 | 21.07.2020 | First release |
+| V 1.01.00 | 11.08.2020 | Update on Machine Tools and Fairs |
 
 ### Changelog
 
-| Doc | Area | Description |
-| --- | --- | --- |
-| ... | ... | ... |
+| Doc | Area | Description | Commit |
+| --- | --- | --- | --- |
+| [OPC UA Server](SERVER.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | a2c4926 |
+| [Fairs](Specs/Fairs.md) | Shortnames | Update of the fair shortnames | 084e061 |
 
 ## Demonstrator story umati showcase
 
