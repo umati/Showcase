@@ -13,7 +13,7 @@
 - [Implemented Specifications](Specs.md)
   - [MachineTools](Specs/MACHINETOOLS.md)
 - [Organizational Information](Organization.md)
-  - [Fairs](Spec/Fairs.md)
+  - [Fairs](Specs/Fairs.md)
 - [FAQ](FAQ.md)
 
 ### Versioning
