@@ -24,10 +24,19 @@ All participants not familiar with the release candidate information model do no
 
 **Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
 
+### Prototyping vs Non-Prototyping Machine Tools Nodesets
+
+The OPC UA companion specification for Machine Tools uses the *OrderedListType*, which was introduced in [OPC 10001-13 / Errata 1.04.7](https://opcfoundation.org/developer-tools/specifications-unified-architecture/specification-release-candidates-for-review/).
+This specific nodeset can only be integrated to an OPC UA server, which also supports this amendment. As severals SDKs and toolchains are not yet updated to 1.04.7 and do not allow the exchange of namespace 0, we provide the prototyping nodeset which is compatible to all 1.04 Servers. The prototyping nodeset introduces an additional namespace `http://vdw.de/protoyping/`, which adds the required ObjectTypes of the amendmend to the address space.
+
+To determine if your toolchain is compatible with the OPC UA companion specification for Machine Tools specification, check for the *OrderedListType* (NodeId `ns0;i=23518`) and have a look at `Root->Objects->Server->Namespaces->http://opcfoundation.org/UA/->NamespaceVersion` (NodeId: `ns0;i=15959`) whether the version is greater or equal to 1.04.7. If the toolchain is not compatible, stick with the prototyping nodeset for the showcase.
+
+The prototyping nodeset is only supported for the upcoming showcases in 2020 and the **support of the prototyping nodeset may be dropped for further showcases** in 2021 when a reasonable amount of SDKs have been updated.
+
 ## General information valid for the umati showcase demonstration
 
-| --- | --- |
 | **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
+| --- | --- |
 
 ### Identification data
 
@@ -36,18 +45,18 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### [**MachineIdentificationType Definition**](https://opcua.vdma.org/catalog-detail/-/catalog/3803)
 
-| **Attribute** | **Value** | --- | --- | --- | --- |
+| **Attribute** | **Value** |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |
 | BrowseName | MachineIdentificationType |
 | IsAbstract | False |
 | Description | Contains information about the identification and nameplate of a machine |
-| --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |
 | **References** | **Node Class** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
 | Subtype of the 2:FunctionalGroupType defined in OPC 10000-100, i.e. inheriting the InstanceDeclarations of that Node. |
-| 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType | - |
+| 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType |     |
 | 0:HasInterface | ObjectType | IMachineVendorNameplateType |
 | 0:HasInterface | ObjectType | IMachineTagNameplateType |
-| Applied from IMachineVendorNameplateType | --- | --- | --- | --- | --- |
+| Applied from IMachineVendorNameplateType |     |     |     |     |     |
 | 0:HasProperty | Variable | 2:ProductInstanceUri | 0:String | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:Manufacturer | 0:LocalizedText | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:ManufacturerUri | 0:String | 0:PropertyType | O, RO |
@@ -60,7 +69,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | YearOfConstruction | UInt16 | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | MonthOfConstruction | Byte | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | InitialOperationDate | DateTime | 0:PropertyType | O, RO |
-| Applied from IMachineTagNameplateType |
+| Applied from IMachineTagNameplateType |     |     |     |     |     |
 | 0:HasProperty | Variable | 2:AssetId | 0:String | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | Location | 0:String | 0:PropertyType | **M**, RW |
@@ -96,11 +105,11 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 
 | State | Color |
 | --- | --- |
-| Initializing | :radio_button: Gray |
+| Initializing | &#9898; Gray |
 | Running | &#128994; Green |
 | Ended | &#128309; Cyan |
 | Interrupted | &#128992; Orange |
 | Aborted | &#128308; Red |
-| Any other (unspecified) state | :black_circle: Black |
+| Any other (unspecified) state | &#9899; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.

@@ -101,15 +101,6 @@ This is where the datahub-connectors would look for showcase-relevant instances.
 4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
 5. When the OPC UA Server and the VPN-Connection is established, visit [https://fairconnect.umati.app](https://fairconnect.umati.app/) to check your connection and integrate the machine to the datahub.
 
-## Prototyping vs Non-Prototyping Machine Tools Nodesets
-
-The OPC UA companion specification for Machine Tools uses the *OrderedListType*, which was introduced in [OPC 10001-13 / Errata 1.04.7](https://opcfoundation.org/developer-tools/specifications-unified-architecture/specification-release-candidates-for-review/).
-This specific nodeset can only be integrated to an OPC UA server, which also supports this amendment. As severals SDKs and toolchains are not yet updated to 1.04.7 and do not allow the exchange of namespace 0, we provide the prototyping nodeset which is compatible to all 1.04 Servers. The prototyping nodeset introduces an additional namespace `http://vdw.de/protoyping/`, which adds the required ObjectTypes of the amendmend to the address space.
-
-To determine if your toolchain is compatible with the OPC UA companion specification for Machine Tools specification, check for the *OrderedListType* (NodeId `ns0;i=23518`) and have a look at `Root->Objects->Server->Namespaces->http://opcfoundation.org/UA/->NamespaceVersion` (NodeId: `ns0;i=15959`) whether the version is greater or equal to 1.04.7. If the toolchain is not compatible, stick with the prototyping nodeset for the showcase.
-
-The prototyping nodeset is only supported for the upcoming showcases in 2020 and the **support of the prototyping nodeset may be dropped for further showcases** in 2021 when a reasonable amount of SDKs have been updated.
-
 ## Aggregating multiple umati OPC UA servers
 
 The aggregation should be equivalent to an aggregation that implement the [Device Information Model Specification](https://reference.opcfoundation.org/v104/DI/v102/docs/5.9/).

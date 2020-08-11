@@ -2,23 +2,17 @@
 
 This repository provides the specification to connect to the umati virtual demonstration showcase.
 
-[Overview](index.md)
+## Structure of the specification
 
-[OPC UA Server](SERVER.md)
-
-[OPC UA Client](CLIENT.md)
-
-[umati Dashboard](DASHBOARD.md)
-
-[Specs](Specs.md)
-
-- [MachineTools](Specs/MACHINETOOLS.md)
-
-[Organizational Information](Organization.md)
-
-- [Fairs](Spec/Fairs.md)
-
-[FAQ's](FAQ.md)
+- [Overview](index.md)
+- [OPC UA Server](SERVER.md)
+- [OPC UA Client](CLIENT.md)
+- [Dashboard](DASHBOARD.md)
+- [Implemented Specifications](Specs.md)
+  - [MachineTools](Specs/MACHINETOOLS.md)
+- [Organizational Information](Organization.md)
+  - [Fairs](Specs/Fairs.md)
+- [FAQ](FAQ.md)
 
 ## Contact
 

@@ -24,12 +24,14 @@ This documentation is versioned, as some content details will be delivered later
 | --- | --- | --- |
 | V 0.01.00 | 08.07.2020 | First draft|
 | V 1.00.00 | 21.07.2020 | First release |
+| V 1.01.00 | 11.08.2020 | Update on Machine Tools and Fairs |
 
 ### Changelog
 
-| Doc | Area | Description |
-| --- | --- | --- |
-| ... | ... | ... |
+| Doc | Area | Description | Commit |
+| --- | --- | --- | --- |
+| [MachineTools](Specs/MACHINETOOLS.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | [a2c4926](https://github.com/umati/Showcase/commit/a2c49264ca66caf6813de1ad8a5706d83ec3aa46) [7628b8a](https://github.com/umati/Showcase/commit/7628b8af38c41da2e01dac70f3d8f8be44f8949c) |
+| [Fairs](Specs/Fairs.md) | Shortnames | Update of the fair shortnames | [084e061](https://github.com/umati/Showcase/commit/084e0611be0bf4618e17c07260dd24d397e31ce0) |
 
 ## Demonstrator story umati showcase
 
