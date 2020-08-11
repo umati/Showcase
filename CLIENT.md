@@ -7,9 +7,9 @@
 The OPC UA endpoint of the datahub is public accessible by its DNS name. Each client needs to authenticate itself by username/password. The authentication details will be provided to everyone who has sign the MoU and wants to participate in the showcase. (See also chapter 13)
 
 The datahub server will have the data of all connected machines in its address space.
-See [Aggregating multiple umati OPC UA servers](Server.md "#Aggregating multiple umati OPC UA servers") for details on the information model.
+See [Aggregating multiple umati OPC UA servers](SERVER.md) for details on the information model.
 
-The datahub OPC UA Server is available at `opc.tcp://datahub.umati.app:12686/umati`.
+The datahub OPC UA Server will be available at `opc.tcp://datahub.umati.app:4840`. (Starting with the plugfest End of August)
 
 The following username and password is required to access the OPC UA Server:
 

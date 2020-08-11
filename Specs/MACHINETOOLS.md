@@ -29,7 +29,6 @@ All participants not familiar with the release candidate information model do no
 | --- | --- |
 | **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
 
-
 ### Identification data
 
 The identification for machine tools are inherited from the Machinery companion specification.
