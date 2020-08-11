@@ -96,11 +96,11 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 
 | State | Color |
 | --- | --- |
-| Initializing | :radio_button: Gray |
+| Initializing | &#9898; Gray |
 | Running | &#128994; Green |
 | Ended | &#128309; Cyan |
 | Interrupted | &#128992; Orange |
 | Aborted | &#128308; Red |
-| Any other (unspecified) state | :black_circle: Black |
+| Any other (unspecified) state | &#9899; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.
