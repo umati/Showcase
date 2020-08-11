@@ -24,6 +24,15 @@ All participants not familiar with the release candidate information model do no
 
 **Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
 
+### Prototyping vs Non-Prototyping Machine Tools Nodesets
+
+The OPC UA companion specification for Machine Tools uses the *OrderedListType*, which was introduced in [OPC 10001-13 / Errata 1.04.7](https://opcfoundation.org/developer-tools/specifications-unified-architecture/specification-release-candidates-for-review/).
+This specific nodeset can only be integrated to an OPC UA server, which also supports this amendment. As severals SDKs and toolchains are not yet updated to 1.04.7 and do not allow the exchange of namespace 0, we provide the prototyping nodeset which is compatible to all 1.04 Servers. The prototyping nodeset introduces an additional namespace `http://vdw.de/protoyping/`, which adds the required ObjectTypes of the amendmend to the address space.
+
+To determine if your toolchain is compatible with the OPC UA companion specification for Machine Tools specification, check for the *OrderedListType* (NodeId `ns0;i=23518`) and have a look at `Root->Objects->Server->Namespaces->http://opcfoundation.org/UA/->NamespaceVersion` (NodeId: `ns0;i=15959`) whether the version is greater or equal to 1.04.7. If the toolchain is not compatible, stick with the prototyping nodeset for the showcase.
+
+The prototyping nodeset is only supported for the upcoming showcases in 2020 and the **support of the prototyping nodeset may be dropped for further showcases** in 2021 when a reasonable amount of SDKs have been updated.
+
 ## General information valid for the umati showcase demonstration
 
 | **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
