@@ -30,8 +30,8 @@ This documentation is versioned, as some content details will be delivered later
 
 | Doc | Area | Description | Commit |
 | --- | --- | --- | --- |
-| [OPC UA Server](SERVER.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | a2c4926 |
-| [Fairs](Specs/Fairs.md) | Shortnames | Update of the fair shortnames | 084e061 |
+| [MachineTools](Specs/MACHINETOOLS.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | [a2c4926](https://github.com/umati/Showcase/commit/a2c49264ca66caf6813de1ad8a5706d83ec3aa46) [7628b8a](https://github.com/umati/Showcase/commit/7628b8af38c41da2e01dac70f3d8f8be44f8949c) |
+| [Fairs](Specs/Fairs.md) | Shortnames | Update of the fair shortnames | [084e061](https://github.com/umati/Showcase/commit/084e0611be0bf4618e17c07260dd24d397e31ce0) |
 
 ## Demonstrator story umati showcase
 
