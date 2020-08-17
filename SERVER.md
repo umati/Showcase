@@ -90,9 +90,9 @@ This is where the datahub-connectors would look for showcase-relevant instances.
    - <http://opcfoundation.org/UA/DI/>
    - <http://vdw.de/protoyping/> (optional)
    - <http://opcfoundation.org/UA/IA/>
-   - <http://opcfoundation.org/UA/IA#Prototyping/> (optional)
+   - <http://opcfoundation.org/UA/IA-Prototyping/> (optional)
    - <http://opcfoundation.org/UA/Machinery/>
-   - <http://opcfoundation.org/UA/MachineTool#Prototyping/> (optional)
+   - <http://opcfoundation.org/UA/MachineTool-Prototyping/> (optional)
    - <http://opcfoundation.org/UA/MachineTools/>
    - `your custom namespace(s) for you instance(s)`
 
