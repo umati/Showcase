@@ -63,7 +63,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | 2:Model | 0:LocalizedText | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:ProductCode | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:HardwareRevision | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | 2:SoftwareRevision | 0:String | 0:PropertyType | O, RO |
+| 0:HasProperty | Variable | 2:SoftwareRevision | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:DeviceClass | 0:String | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | 2:SerialNumber | 0:String | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | YearOfConstruction | UInt16 | 0:PropertyType | **M**, RO |
