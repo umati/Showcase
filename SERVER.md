@@ -96,6 +96,8 @@ This is where the datahub-connectors would look for showcase-relevant instances.
    - <http://opcfoundation.org/UA/MachineTools/>
    - `your custom namespace(s) for you instance(s)`
 
+   Your custom instance namespace **must not** contain references to any other namespace (e.g. instantiation a different companion specification in this namespace is not allowed).
+
    (optional: to enable use of an UA base NodeSet without the added *OrderedListType* object, needed by the IA and MachineTools release candidate specifications)
 
 4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
