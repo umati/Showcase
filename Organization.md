@@ -13,8 +13,8 @@ Please register with [info@umati.org](mailto:info@umati.org) if you intend to pa
 Parties involved in the showcase will offer different umati technology. We distinguish three solution types:
 
 - **Component manufacturers (C)** supply umati partner components or industrial controls with [OPC UA Server](SERVER.md)s according to the umati showcase specification.
-- **Machine tool manufacturers (M)** equip machine tools with the umati interface ([OPC UA Server](SERVER.md)) according to the umati showcase specification.
-- **Application providers (A)** display and analyze provided data available over the umati interface according to the umati showcase specification.
+- **Machine tool manufacturers (M)** equip machine with ([OPC UA Server](SERVER.md)) according to the umati showcase specification.
+- **Application providers (A)** display and analyze provided data available over the umati datahub according to the umati showcase specification.
 
 Participants can provide more than one umati partner solution type.
 
@@ -22,7 +22,7 @@ Participants can provide more than one umati partner solution type.
 
 Regulations concerning offered services, obligations of the participants and brand usage are collected in a **memorandum of understanding** (MoU) which participants of the umati showcase will need to sign ahead of the umati showcase demonstration. Please refer to **MoU document** for further information. (Please request a copy by mailing to [info@umati.org](mailto:info@umati.org))
 
-Every participant is permitted to advertise his or her involvement in the umati project through the free, time-limited **&quot;umati partner&quot;** logo, e.g. in the web or in prints etc. This permission ends one year after publication of the first umati OPC UA Companion Specification (OPC 40001-1 UA for Machinery). A product-assigned label will follow.
+Every participant is permitted to advertise his or her involvement in the umati community through the free, time-limited **&quot;umati partner&quot;** logo, e.g. in the web or in prints etc.  Details of this permission are regulated in the individual **MoU**.
 
 ### Services offered by umati iniative include
 
@@ -34,10 +34,8 @@ Every participant is permitted to advertise his or her involvement in the umati 
 ### Obligations of all participants include
 
 - The “partner” is responsible to actively support the dissemination of umati amongst his customers, suppliers and market competitors.
-- The “partner” shall participate in demonstration scenarios by connecting a product (obsolete
-if the partner is an end user of machinery or software)
-- The “partner” is obliged to ensure the visibility of umati in his communication, which includes
-placing a reference to umati in his internet presence and to link to [http://umati.org](http://www.umati.org)
+- The “partner” shall participate in demonstration scenarios by connecting a product (obsolete if the partner is an end user of machinery or software)
+- The “partner” is obliged to ensure the visibility of umati in his communication, which includes placing a reference to umati in his internet presence and to link to [http://umati.org](http://www.umati.org)
 - The “partner” should become actively involved in the development of related OPC UA standards (providing feedback on documents circulated to the partners; participation in tests, plug fests, hackathons and the like).
 - The “partner” shall support communication of umati, e.g. by providing statements or visuals, and permits the use of the “partner’s” logo for all public relations activities relating to umati.
 - The “partner” must actively announce their participation in the umati showcase demonstration ahead of the trade show, e.g. in press conferences, newsletters, advertisement, etc.
@@ -55,11 +53,13 @@ placing a reference to umati in his internet presence and to link to [http://uma
 
 - Participants (C) without connected machines must verifiably offer support to other participants (M) for the connectivity via the umati interface.
 
-Obligations of participants (A) showing applications
+#### Obligations of participants (A) showing applications
 
-Participants (A) need to be aware, show sensitivity, and communicate that the umati showcase demonstration is demonstration only, i.e., data flowing in which can be used for analysis is not real production data and cannot be used to deduct any considerations regarding the performance of any connected equipment.
+- Participants (A) need to be aware, show sensitivity, and communicate that the umati showcase demonstration is demonstration only, i.e., data flowing in which can be used for analysis is not real production data and cannot be used to deduct any considerations regarding the performance of any connected equipment.
 
-Please refer to the MoU for further details. In case of doubt/discrepancies to the preceding list the regulations as denoted in the MoU shall apply. A separate MoU is available for associations or other organizations that want to support umati. Please contact us at [info@umati.org](mailto:info@umati.org) for details.
+Please refer to the MoU for further details. In case of doubt/discrepancies to the preceding list the regulations as denoted in the MoU shall apply.
+
+A separate MoU is available for associations or other organizations that want to support umati. Please contact us at [info@umati.org](mailto:info@umati.org) for details.
 
 ## Marketing package for umati showcase participants
 
@@ -97,12 +97,13 @@ Infrastructures and tools are still under development. In the following you find
 
 | **Item** | **Supplier** | **Prototype available for all umati showcase participants** | **Design Freeze for umati showcase** |
 | --- | --- | --- | --- |
-| **Information Model Outline** | umati Initiative | 21.07.2020 |
-| **Parameter Specification** | umati Initiative | 21.07.2020 | 31.08.2020 |
-| **Server Functionality Specification** | umati Initiative | 21.07.2020 |
+| **Information Model Outline Machine Tools** | umati Initiative | 21.07.2020 | [available](https://github.com/umati/Showcase/commit/86910d3ccae820a3b683a6edab1125e79425faad) |
+| **Information Model Outline Future Machinery** | umati Initiative | tbd |
+| **Parameter Specification Machine Tools** | umati Initiative | 21.07.2020 | [31.08.2020](https://github.com/umati/Showcase/commit/86910d3ccae820a3b683a6edab1125e79425faad) |
+| **Server Functionality Specification** | umati Initiative | 21.07.2020 | [availabe](https://github.com/umati/Showcase/commit/86910d3ccae820a3b683a6edab1125e79425faad)
 | **Dashboard** | umati | available |
 | **Testserver** | umati | available |
-| **Datahub update** | T-Systems | 23.08.2020 | 31.08.2020 |
+| **Datahub update** | T-Systems | 23.08.2020 | available |
 | **OpenVPN configuration** | T-Systems | available |
 | **Authentication at the datahub ([OPC UA Server](SERVER.md))** | T-Systems | available |
 

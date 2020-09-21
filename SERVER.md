@@ -79,9 +79,9 @@ In this chapter the necessary adaptations of the OPC UA information model, some 
 
 ### OPC UA Server connecting to the datahub
 
-1. Please ensure corresponding UMATI-relevant namespace is added to the server.
+1. Please ensure corresponding umati-relevant namespace is added to the server.
 
-2. `Machines` folder have to point to base Machinery namespace, <http://opcfoundation.org/UA/Machinery>
+2. `Machines` folder have to point to base Machinery namespace, <http://opcfoundation.org/UA/Machinery/>
 This is where the datahub-connectors would look for showcase-relevant instances.
 
 3. Only the following namespaces are accepted as well as understood by the Datahub.
@@ -93,7 +93,7 @@ This is where the datahub-connectors would look for showcase-relevant instances.
    - <http://opcfoundation.org/UA/IA-Prototyping/> (optional)
    - <http://opcfoundation.org/UA/Machinery/>
    - <http://opcfoundation.org/UA/MachineTool-Prototyping/> (optional)
-   - <http://opcfoundation.org/UA/MachineTools/>
+   - <http://opcfoundation.org/UA/MachineTool/>
    - `your custom namespace(s) for you instance(s)`
 
    Your custom instance namespace **must not** contain references to any other namespace (e.g. instantiation a different companion specification in this namespace is not allowed).
