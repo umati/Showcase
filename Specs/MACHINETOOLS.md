@@ -93,7 +93,13 @@ Fair shortnames are defined [here.](Fairs.md)
 
 - **Change the BrowseName and DisplayName of MachineTool** to `Company (short only alphanumeric)-Machine Name (alphanumeric)`, e.g. `ISW-TestServerMachine` or `ISW-SharpDriller5000. This helps a human to identify the machine in the aggregated server. **Do not use any other characters than {A…Z, a…z, 0…9} for the name**. Skipping this step prevents an automated integration to the dashboard.
 
-## Dashboard Status Overview
+## Value mapping between OPC UA companion specification and umati.app MachineTool
+
+### Overview Machine Tool
+
+![Overview](../img/MachineTool/MT-Overview.png "MT Overview")
+
+### Dashboard Status Overview
 
 For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status overview bar **does NOT relate to the stacklight** status!
 
@@ -109,3 +115,7 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 | Any other (unspecified) state | &#9899; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.
+
+### Idenfication Machine Tool
+
+![Overview](../img/MachineTool/MT-Identification.png "MT Overview")
