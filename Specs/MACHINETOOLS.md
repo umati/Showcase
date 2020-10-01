@@ -1,12 +1,8 @@
 # umati showcase information model for Machine Tools
 
-In the following the umati showcase OPC UA Information Model for **Machine Tools** describes the additional informations on top of the [OPC 40501-1 UA for MachineTools](https://opcua.vdma.org/catalog-detail/-/catalog/3914) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for MachineTools](https://opcua.vdma.org/catalog-detail/-/catalog/3914) companion specification.
+
 Please refer to the provided xml-Nodesets or UaModeler-project for exemplary implementation.
-
-## umati showcase information model based on current standardization activities
-
-The umati showcase information model highly relies on the information model release candidate [published](https://opcua.vdma.org/catalog-detail/-/catalog/3914) in May 2020.
-Furthermore a few bugfixes are incorporated in the nodeset files provided.
 
 ## Changes/Deletions/Exceptions to the release candidate information model
 
@@ -18,7 +14,7 @@ All participants not familiar with the release candidate information model do no
 
 ### NodeSets for the showcase
 
-[Release Candidate NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
+[Release NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
 
 [Protoyping NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping)
 
@@ -26,8 +22,8 @@ All participants not familiar with the release candidate information model do no
 
 ### Prototyping vs Non-Prototyping Machine Tools Nodesets
 
-The OPC UA companion specification for Machine Tools uses the *OrderedListType*, which was introduced in [OPC 10001-13 / Errata 1.04.7](https://opcfoundation.org/developer-tools/specifications-unified-architecture/specification-release-candidates-for-review/).
-This specific nodeset can only be integrated to an OPC UA server, which also supports this amendment. As severals SDKs and toolchains are not yet updated to 1.04.7 and do not allow the exchange of namespace 0, we provide the prototyping nodeset which is compatible to all 1.04 Servers. The prototyping nodeset introduces an additional namespace `http://vdw.de/protoyping/`, which adds the required ObjectTypes of the amendmend to the address space.
+The OPC UA companion specification for Machine Tools uses the *OrderedListType*, which was introduced in [OPC 10001-13 / Errata 1.04.7](https://reference.opcfoundation.org/v104/Core/docs/Amendment13/).
+This specific nodeset can only be integrated to an OPC UA server, which also supports this amendment. As severals SDKs and toolchains are not yet updated to 1.04.7 and do not allow the exchange of namespace 0, we provide the prototyping nodeset which is compatible to all 1.04 Servers. The prototyping nodeset introduces an additional namespace `http://vdw.de/protoyping/`, which adds the required ObjectTypes of the amendment to the address space.
 
 To determine if your toolchain is compatible with the OPC UA companion specification for Machine Tools specification, check for the *OrderedListType* (NodeId `ns0;i=23518`) and have a look at `Root->Objects->Server->Namespaces->http://opcfoundation.org/UA/->NamespaceVersion` (NodeId: `ns0;i=15959`) whether the version is greater or equal to 1.04.7. If the toolchain is not compatible, stick with the prototyping nodeset for the showcase.
 
@@ -60,19 +56,19 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | 2:ProductInstanceUri | 0:String | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:Manufacturer | 0:LocalizedText | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:ManufacturerUri | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | 2:Model | 0:LocalizedText | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | 2:ProductCode | 0:String | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **2:Model** | 0:LocalizedText | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **2:ProductCode** | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:HardwareRevision | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | 2:SoftwareRevision | 0:String | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **2:SoftwareRevision** | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:DeviceClass | 0:String | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | 2:SerialNumber | 0:String | 0:PropertyType | M, RO |
-| 0:HasProperty | Variable | YearOfConstruction | UInt16 | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **YearOfConstruction** | UInt16 | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | MonthOfConstruction | Byte | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | InitialOperationDate | DateTime | 0:PropertyType | O, RO |
 | Applied from IMachineTagNameplateType |     |     |     |     |     |
 | 0:HasProperty | Variable | 2:AssetId | 0:String | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
-| 0:HasProperty | Variable | Location | 0:String | 0:PropertyType | **M**, RW |
+| 0:HasProperty | Variable | **Location** | 0:String | 0:PropertyType | **M**, RW |
 
 #### Special requirements for correct locating on the dashboard
 
@@ -97,9 +93,15 @@ Fair shortnames are defined [here.](Fairs.md)
 
 - **Change the BrowseName and DisplayName of MachineTool** to `Company (short only alphanumeric)-Machine Name (alphanumeric)`, e.g. `ISW-TestServerMachine` or `ISW-SharpDriller5000. This helps a human to identify the machine in the aggregated server. **Do not use any other characters than {A…Z, a…z, 0…9} for the name**. Skipping this step prevents an automated integration to the dashboard.
 
-## Dashboard Status Overview
+## Value mapping between OPC UA companion specification and umati.app MachineTool
 
-For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status overview bar **does NOT relate to the stacklight** status!
+### Machine Tool - Overview
+
+![Overview](../img/MachineTool/MT-Overview.png "MT Overview")
+
+### Active Program Statusbar
+
+For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 
@@ -112,4 +114,20 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 | Aborted | &#128308; Red |
 | Any other (unspecified) state | &#9899; Black |
 
-A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.
+A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
+
+### Machine Tool - Identification
+
+![Identification](../img/MachineTool/MT-Identification.png "MT Identification")
+
+### Machine Tool - Equipment - Tools
+
+![Tools](../img/MachineTool/MT-Tools.png "MT Tools")
+
+### Machine Tool - Active Program
+
+![ActiveProgram](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
+
+### Machine Tool - Monitoring
+
+![Monitoring](../img/MachineTool/MT-Monitoring.png "MT Monitoring")
