@@ -95,7 +95,7 @@ Fair shortnames are defined [here.](Fairs.md)
 
 ## Value mapping between OPC UA companion specification and umati.app MachineTool
 
-### Overview Machine Tool
+### Machine Tool - Overview
 
 ![Overview](../img/MachineTool/MT-Overview.png "MT Overview")
 
@@ -116,6 +116,18 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.
 
-### Idenfication Machine Tool
+### Machine Tool - Identification
 
-![Overview](../img/MachineTool/MT-Identification.png "MT Overview")
+![Overview](../img/MachineTool/MT-Identification.png "MT Identification")
+
+### Machine Tool - Equipment - Tools
+
+![Overview](../img/MachineTool/MT-Tools.png "MT Tools")
+
+### Machine Tool - Active Program
+
+![Overview](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
+
+### Machine Tool - Monitoring
+
+![Overview](../img/MachineTool/MT-Monitoring.png "MT Monitoring")
