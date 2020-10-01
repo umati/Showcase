@@ -56,19 +56,19 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | 2:ProductInstanceUri | 0:String | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:Manufacturer | 0:LocalizedText | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | 2:ManufacturerUri | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | 2:Model | 0:LocalizedText | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | 2:ProductCode | 0:String | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **2:Model** | 0:LocalizedText | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **2:ProductCode** | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:HardwareRevision | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | 2:SoftwareRevision | 0:String | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **2:SoftwareRevision** | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:DeviceClass | 0:String | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | 2:SerialNumber | 0:String | 0:PropertyType | M, RO |
-| 0:HasProperty | Variable | YearOfConstruction | UInt16 | 0:PropertyType | **M**, RO |
+| 0:HasProperty | Variable | **YearOfConstruction** | UInt16 | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | MonthOfConstruction | Byte | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | InitialOperationDate | DateTime | 0:PropertyType | O, RO |
 | Applied from IMachineTagNameplateType |     |     |     |     |     |
 | 0:HasProperty | Variable | 2:AssetId | 0:String | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
-| 0:HasProperty | Variable | Location | 0:String | 0:PropertyType | **M**, RW |
+| 0:HasProperty | Variable | **Location** | 0:String | 0:PropertyType | **M**, RW |
 
 #### Special requirements for correct locating on the dashboard
 
@@ -99,9 +99,9 @@ Fair shortnames are defined [here.](Fairs.md)
 
 ![Overview](../img/MachineTool/MT-Overview.png "MT Overview")
 
-### Dashboard Status Overview
+### Active Program Statusbar
 
-For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status overview bar **does NOT relate to the stacklight** status!
+For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 
@@ -114,20 +114,20 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 | Aborted | &#128308; Red |
 | Any other (unspecified) state | &#9899; Black |
 
-A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown below.
+A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
 
 ### Machine Tool - Identification
 
-![Overview](../img/MachineTool/MT-Identification.png "MT Identification")
+![Identification](../img/MachineTool/MT-Identification.png "MT Identification")
 
 ### Machine Tool - Equipment - Tools
 
-![Overview](../img/MachineTool/MT-Tools.png "MT Tools")
+![Tools](../img/MachineTool/MT-Tools.png "MT Tools")
 
 ### Machine Tool - Active Program
 
-![Overview](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
+![ActiveProgram](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
 
 ### Machine Tool - Monitoring
 
-![Overview](../img/MachineTool/MT-Monitoring.png "MT Monitoring")
+![Monitoring](../img/MachineTool/MT-Monitoring.png "MT Monitoring")
