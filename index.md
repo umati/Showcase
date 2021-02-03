@@ -20,6 +20,7 @@ To learn more please visit [https://umati.org](https://umati.org)
   - [Machinetools](Specs/Machinetools.md)
   - [Software Solutions](Specs/Software.md)
 - Upcoming Specifications
+  - [Woodworking](Specs/Woodworking.md)
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
   - [MachineVision](Specs/WIP.md)
