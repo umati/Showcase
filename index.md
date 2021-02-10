@@ -12,6 +12,7 @@
 - [Dashboard](DASHBOARD.md)
 - [Implemented Specifications](Specs.md)
   - [MachineTools](Specs/MACHINETOOLS.md)
+- Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
   - [MachineVision](Specs/WIP.md)
@@ -32,6 +33,7 @@ This documentation is versioned, as some content details will be delivered later
 | V 1.02.00 | 28.08.2020 | Update on Machine Tools and Fairs |
 | V 1.02.01 | 02.10.2020 | Update on Machine Tools |
 | V 1.02.02 | 23.11.2020 | Update License and activate CLA |
+| V 1.02.03 | 11.02.2021 | Update on Machine Tools |
 
 ### Changelog
 

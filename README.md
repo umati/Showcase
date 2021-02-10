@@ -10,6 +10,11 @@ This repository provides the specification to connect to the umati virtual demon
 - [Dashboard](DASHBOARD.md)
 - [Implemented Specifications](Specs.md)
   - [MachineTools](Specs/MACHINETOOLS.md)
+- Upcoming Specifications
+  - [Robotics](Specs/WIP.md)
+  - [PlasticsRubber](Specs/WIP.md)
+  - [MachineVision](Specs/WIP.md)
+  - [Scales](Specs/WIP.md)
 - [Organizational Information](Organization.md)
   - [Fairs](Specs/Fairs.md)
 - [FAQ](FAQ.md)
