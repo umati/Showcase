@@ -98,7 +98,7 @@ This is where the datahub-connectors would look for showcase-relevant instances.
 
    Your custom instance namespace **must not** contain references to any other namespace (e.g. instantiation a different companion specification in this namespace is not allowed).
 
-   (optional: to enable use of an UA base NodeSet without the added *OrderedListType* object, needed by the IA and MachineTools release candidate specifications)
+   (optional: to enable use of an UA base NodeSet without the added *OrderedListType* object, needed by the IA and Machinetools release candidate specifications)
 
 4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
 5. When the OPC UA Server and the VPN-Connection is established, visit [https://fairconnect.umati.app](https://fairconnect.umati.app/) to check your connection and integrate the machine to the datahub.
@@ -113,8 +113,8 @@ one machine tool:
 
 ![Address space](img/Addressspace_sample.png "Addressspace sample")
 
-These two address spaces should be merged so that in the aggregated server there is only one MachineTools-Folder and each Machine is under this node with the same NodeId-Identifiers und NodeId-URI (the NodeId-Index will be different) as in the original OPC UA server.
+These two address spaces should be merged so that in the aggregated server there is only one Machinetools-Folder and each Machine is under this node with the same NodeId-Identifiers und NodeId-URI (the NodeId-Index will be different) as in the original OPC UA server.
 
-The required namespaces for Machinery and MachineTools (see 4. above) is only loaded once in the aggregated server.
+The required namespaces for Machinery and Machinetools (see 4. above) is only loaded once in the aggregated server.
 
 ![Address space](img/Addressspace_aggregated.png "Adress space aggregated")

@@ -4,17 +4,18 @@ In the following the umati showcase describes the additional information on top 
 
 Please refer to the provided xml-Nodesets or UaModeler-project for exemplary implementation.
 
-## Changes/Deletions/Exceptions to the release candidate information model
+## Changes/Deletions/Exceptions to the released information model
 
 The following describes the umati showcase information model for Machine Tools.
 
-For participants that are familiar with the information model, we have included comments and descriptions about changes between the release candidate information model and the showcase information model.
+For participants that are familiar with the information model, we have included comments and descriptions about changes between the released information model and the showcase information model.
 
-All participants not familiar with the release candidate information model do not need to review these changes in detail but rather follow the described model and refer to the provided xml Nodeset files and UA modeler project.
+All participants not familiar with the released information model do not need to review these changes in detail but rather follow the described model and refer to the provided xml Nodeset files and UA modeler project.
 
 ### NodeSets for the showcase
 
-[Release NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
+[Released UaModeler Project](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
+[Released NodeSet](https://github.com/OPCFoundation/UA-Nodeset/tree/v1.04/MachineTool)
 
 [Protoyping NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping)
 
@@ -32,7 +33,8 @@ The prototyping nodeset is only supported for the upcoming showcases in 2020 and
 ## General information valid for the umati showcase demonstration
 
 | **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
-| --- | --- |
+
+---
 
 ### Identification data
 

@@ -11,7 +11,9 @@
 - [OPC UA Client](CLIENT.md)
 - [Dashboard](DASHBOARD.md)
 - [Implemented Specifications](Specs.md)
-  - [MachineTools](Specs/MACHINETOOLS.md)
+  - [Machinetools](Specs/Machinetools.md)
+  - [Software Solutions](Specs/Software.md)
+- Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
   - [MachineVision](Specs/WIP.md)
@@ -32,6 +34,7 @@ This documentation is versioned, as some content details will be delivered later
 | V 1.02.00 | 28.08.2020 | Update on Machine Tools and Fairs |
 | V 1.02.01 | 02.10.2020 | Update on Machine Tools |
 | V 1.02.02 | 23.11.2020 | Update License and activate CLA |
+| V 1.02.03 | 18.02.2021 | Update on Machine Tools and Software Solutions |
 
 ### Changelog
 
@@ -39,10 +42,12 @@ This documentation is versioned, as some content details will be delivered later
 | --- | --- | --- | --- |
 | [Dashboard](DASHBOARD.md) | Dashboard | Extend the datahub section | [122940e](https://github.com/umati/Showcase/commit/122940ebdd091251cbe5a028c3ffe719b5b6ec63) |
 | [License](LICENSE) | License | Update of Repo License| [1e4f3d9](https://github.com/umati/Showcase/commit/1e4f3d934e4e4420554d0509fff11ba4f853e2f3)|
-| [MachineTools](Specs/MACHINETOOLS.md) | Mapping of information | Pictures of app with mapping added | [f59f93d](https://github.com/umati/Showcase/commit/f59f93dc4eda4bdf4bf00efc53f8560bc6108b35) |
-| [MachineTools](Specs/MACHINETOOLS.md) | Fair Specification | SoftwareRevision mandatory | [117ce4b](https://github.com/umati/Showcase/pull/16/commits/117ce4bde7a57574de1240e76d2d3aa1160bd517) |
-| [MachineTools](Specs/MACHINETOOLS.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | [a2c4926](https://github.com/umati/Showcase/commit/a2c49264ca66caf6813de1ad8a5706d83ec3aa46) [7628b8a](https://github.com/umati/Showcase/commit/7628b8af38c41da2e01dac70f3d8f8be44f8949c) |
+| [Machinetools](Specs/Machinetools.md) | Mapping of information | Pictures of app with mapping added | [f59f93d](https://github.com/umati/Showcase/commit/f59f93dc4eda4bdf4bf00efc53f8560bc6108b35) |
+| [Machinetools](Specs/Machinetools.md) | Fair Specification | SoftwareRevision mandatory | [117ce4b](https://github.com/umati/Showcase/pull/16/commits/117ce4bde7a57574de1240e76d2d3aa1160bd517) |
+| [Machinetools](Specs/Machinetools.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | [a2c4926](https://github.com/umati/Showcase/commit/a2c49264ca66caf6813de1ad8a5706d83ec3aa46) [7628b8a](https://github.com/umati/Showcase/commit/7628b8af38c41da2e01dac70f3d8f8be44f8949c) |
 | [Fairs](Specs/Fairs.md) | Shortnames | Update of the fair shortnames | [084e061](https://github.com/umati/Showcase/commit/084e0611be0bf4618e17c07260dd24d397e31ce0) [7a63e15](https://github.com/umati/Showcase/pull/16/commits/7a63e15d3e0fe691630e07814ad9e82dfe2f92b0) |
+| [Software](Specs/Software.md) | Software Solutions | Dashboard will show software solutions | [231ffc1](https://github.com/umati/Showcase/commit/231ffc1089b60020570286e095011defcee29b3b) |
+| [Machinetools](Specs/Machinetools.md) | Description | Clarification of nodesets and requirements | [c61c73f](https://github.com/umati/Showcase/commit/c61c73fa74b17dce58fd7c938f9992746dbf688d) |
 
 ## Demonstrator story umati showcase
 
