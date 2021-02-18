@@ -9,7 +9,8 @@ This repository provides the specification to connect to the umati virtual demon
 - [OPC UA Client](CLIENT.md)
 - [Dashboard](DASHBOARD.md)
 - [Implemented Specifications](Specs.md)
-  - [MachineTools](Specs/MACHINETOOLS.md)
+  - [Machinetools](Specs/Machinetools.md)
+  - [Software Solutions](Specs/Software.md)
 - Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
