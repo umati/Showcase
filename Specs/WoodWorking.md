@@ -4,7 +4,7 @@ In the following the umati showcase describes the additional information on top 
 
 Please refer to the provided xml-Nodesets or UaModeler-project for exemplary implementation.
 
-The following describes the umati showcase information model for Machine Tools.
+The following describes the umati showcase information model for Wood Working.
 
 For participants that are familiar with the information model, we have included comments and descriptions about changes between the release candidate information model and the showcase information model.
 
@@ -71,7 +71,7 @@ Fair shortnames are defined [here.](Fairs.md)
 
 ### Adaption of the provided information models for your purpose
 
-- The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the MachineTools companion specificaion and **must not** be changed.
+- The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the WoodWorking companion specificaion and **must not** be changed.
 - Change the URI of the instance namespace (optional, but recommended)
 
   `http://www.<MANUFACTURERDOMAIN>/example`
@@ -80,43 +80,40 @@ Fair shortnames are defined [here.](Fairs.md)
 
 - The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 
-- **Change the BrowseName and DisplayName of MachineTool** to `Company (short only alphanumeric)-Machine Name (alphanumeric)`, e.g. `ISW-TestServerMachine` or `ISW-SharpDriller5000. This helps a human to identify the machine in the aggregated server. **Do not use any other characters than {A…Z, a…z, 0…9} for the name**. Skipping this step prevents an automated integration to the dashboard.
+## Value mapping between OPC UA companion specification and umati.app WoodWorking
 
-## Value mapping between OPC UA companion specification and umati.app MachineTool
+### Wood Working - Overview
 
-### Machine Tool - Overview
-
-![Overview](../img/MachineTool/MT-Overview.png "MT Overview")
-
+![Overview](../img/WoodWorking/WWM-Overview.png "WW Overview")
+ 
 ### Active Program Statusbar
 
-For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
+For the status overview in the dashboard, the *State* of the *RecipeInRun* is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 
 | State | Color |
 | --- | --- |
-| Initializing | &#9898; Gray |
-| Running | &#128994; Green |
-| Ended | &#128309; Cyan |
-| Interrupted | &#128992; Orange |
-| Aborted | &#128308; Red |
+| STANDBY | &#9898; Gray |
+| WORKING | &#128994; Green |
+| READY | &#128992; Yellow |
+| ERROR | &#128308; Red |
 | Any other (unspecified) state | &#9899; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
 
-### Machine Tool - Identification
+### Wood Working - Identification
 
-![Identification](../img/MachineTool/MT-Identification.png "MT Identification")
+![Identification](../img/WoodWorking/WWM-Identification.png "MT Identification")
 
-### Machine Tool - Equipment - Tools
+### Wood Working - Active Program
 
-![Tools](../img/MachineTool/MT-Tools.png "MT Tools")
+![ActiveProgram](../img/WoodWorking/WWM-ActiveProgram.png "MT ActiveProgram")
 
-### Machine Tool - Active Program
+### Wood Working - Monitoring Stationary
 
-![ActiveProgram](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
+![MonitoringStationary](../img/WoodWorking/WWM-MonitoringStationary.png "MT Monitoring")
 
-### Machine Tool - Monitoring
+### Wood Working - Monitoring Throughfeed
 
-![Monitoring](../img/MachineTool/MT-Monitoring.png "MT Monitoring")
+![MonitoringThroughfeed](../img/WoodWorking/WWM-MonitoringThroughfeed.png "MT Monitoring")
