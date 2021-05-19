@@ -1,13 +1,15 @@
-# umati Dashboard
+# umati Dashboard (The "umati app")
 
-The umati dashboard at [https://umati.app](https://umati.app) is available as a neutral sample application. It is connected as a client application to the datahub OPC UA endpoint.
+The umati dashboard at [https://umati.app](https://umati.app) is available as a neutral sample application to demonstrate OPC UA companion specification standardization. 
 
-- This dashboard shows all error free machine servers according to the defined standards.
+- This dashboard shows all error free machine servers according to the defined [standards](Specs.md).
 - It lists [software solutions](Specs/Software.md) from umati partners, who provide a web accessible demonstration instance.
 
-Currently only the integration of the [OPC 40501-1 UA for Machinetools](https://opcua.vdma.org/catalog-detail/-/catalog/3914) is developed. Details about the information modell implentation requrirements are shown [here](Specs/Machinetools.html).
+It is connected as an OPC UA client application to the datahub OPC UA endpoint.
 
-Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803) are foreseen.
+Currently the integration of [OPC 40001-1 UA for Machinery](https://reference.opcfoundation.org/Machinery/docs/) [OPC 40501-1 UA for Machinetools](https://reference.opcfoundation.org/MachineTool/docs/) is developed.
+
+Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803) are in progress.
 
 ## Datahub
 
