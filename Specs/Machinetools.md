@@ -93,9 +93,7 @@ Fair shortnames are defined [here.](Fairs.md)
 
 - The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 
-- **Change the BrowseName and DisplayName of MachineTool** to `Company (short only alphanumeric)-Machine Name (alphanumeric)`, e.g. `ISW-TestServerMachine` or `ISW-SharpDriller5000. This helps a human to identify the machine in the aggregated server. **Do not use any other characters than {A…Z, a…z, 0…9} for the name**. Skipping this step prevents an automated integration to the dashboard.
-
-## Value mapping between OPC UA companion specification and umati.app MachineTool
+## Value mapping between OPC UA companion specification and umati.app MachineTool page
 
 ### Machine Tool - Overview
 
@@ -130,6 +128,10 @@ A gap is left for periods of time in which no data was recorded (e.g. machine of
 
 ![ActiveProgram](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
 
-### Machine Tool - Monitoring
+### Machine Tool - Monitoring (Machine Tool / Channel)
 
-![Monitoring](../img/MachineTool/MT-Monitoring.png "MT Monitoring")
+![Monitoring](../img/MachineTool/MT-Monitoring.png "MT Monitoring Machine Tool / Channel")
+
+### Machine Tool - Monitoring (Working Units)
+
+![Monitoring](../img/MachineTool/MT-Monitoring-WorkingUnit.png "MT Monitoring Working Units")
