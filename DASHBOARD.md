@@ -11,6 +11,35 @@ Currently the integration of [OPC 40001-1 UA for Machinery](https://reference.op
 
 Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803) are in progress.
 
+## Location of Fair, Machine and Software icons on the dashboard
+
+### Fairs
+
+![Fair](img/map_pin_fair.svg)
+
+Location is set by fair organiser.
+
+### Machines
+
+![Machine](img/map_pin_machine_magenta.svg)
+
+The machine instance _Location_ property (according to OPC 40001-1) shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885` for GPS coordinates.
+
+**The machine only gets a map icon, if is provides at least the GPS location** 
+
+Machines can be referenced to more than one fair by providing a list of fair locations, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
+
+#### FAIR Shortnames
+
+Fair shortnames are defined [here.](Fairs.md)
+
+### Software
+
+![Software](img/map_pin_software_cyan.svg)
+
+The software location will be manual set for now, based on the same principle like machines.
+
+
 ## Datahub
 
 ### Datahub connection

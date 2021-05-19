@@ -63,7 +63,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | **Location** | 0:String | 0:PropertyType | **M**, RW |
 
-#### Special requirements for correct locating on the dashboard
+#### Special requirements for correct location of the machine icon on the dashboard
 
 The instance _Location_ property is evaluated according to the special requirements detailed [here](DASHBOARD.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
