@@ -12,36 +12,27 @@ For participants that are familiar with the information model, we have included 
 
 All participants not familiar with the released information model do not need to review these changes in detail but rather follow the described model and refer to the provided xml Nodeset files and UA modeler project.
 
-### NodeSets for the showcase
+### NodeSets
 
-[Released UaModeler Project](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject)
-[Released NodeSet](https://github.com/OPCFoundation/UA-Nodeset/tree/v1.04/MachineTool)
+[Normative NodeSet hosted by the OPC Foundation](https://github.com/OPCFoundation/UA-Nodeset/tree/v1.04/MachineTool)
 
-[Protoyping NodeSet](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping)
 
-**Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
+### For umati Machine Tool partners
 
-### Prototyping vs Non-Prototyping Machine Tools Nodesets
-
-The OPC UA companion specification for Machine Tools uses the *OrderedListType*, which was introduced in [OPC 10001-13 / Errata 1.04.7](https://reference.opcfoundation.org/v104/Core/docs/Amendment13/).
-This specific nodeset can only be integrated to an OPC UA server, which also supports this amendment. As severals SDKs and toolchains are not yet updated to 1.04.7 and do not allow the exchange of namespace 0, we provide the prototyping nodeset which is compatible to all 1.04 Servers. The prototyping nodeset introduces an additional namespace `http://vdw.de/protoyping/`, which adds the required ObjectTypes of the amendment to the address space.
-
-To determine if your toolchain is compatible with the OPC UA companion specification for Machine Tools specification, check for the *OrderedListType* (NodeId `ns0;i=23518`) and have a look at `Root->Objects->Server->Namespaces->http://opcfoundation.org/UA/->NamespaceVersion` (NodeId: `ns0;i=15959`) whether the version is greater or equal to 1.04.7. If the toolchain is not compatible, stick with the prototyping nodeset for the showcase.
-
-The prototyping nodeset is only supported for the upcoming showcases in 2020 and the **support of the prototyping nodeset may be dropped for further showcases** in 2021 when a reasonable amount of SDKs have been updated.
+[UaModeler Project](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject) as a quick start ( **Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org)))
 
 ## General information valid for the umati showcase demonstration
 
-| **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIDs for the instances. Clients will need to browse Instances or translate BrowsePaths find the NodeID for accessing the address space and available instances. |
+| **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIds for the instances. Clients will need to browse Instances or translate BrowsePaths to find the NodeId for accessing the address space and available instances. |
 
 ---
 
 ### Identification data
 
-The identification for machine tools are inherited from the Machinery companion specification.
+The identification for Machine Tools are inherited from the Machinery companion specification.
 To fill the demo dashboard machine page with the most content the variables marked with a **strong mandatory** should be provided if you like to look the machine identification nicely.
 
-#### [**MachineIdentificationType Definition**](https://opcua.vdma.org/catalog-detail/-/catalog/3803)
+#### [**MachineIdentificationType Definition**](https://reference.opcfoundation.org/Machinery/docs/8.6/)
 
 | **Attribute** | **Value** |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |
@@ -74,17 +65,11 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### Special requirements for correct locating on the dashboard
 
-The instance Location shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885`
-
-If the machine shall be referenced to more than one fair, provide a list of fair location, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
-
-#### FAIR Shortnames
-
-Fair shortnames are defined [here.](Fairs.md)
+The instance _Location_ property is evaluated according to the special requirements detailed [here](DASHBOARD.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
 ### Adaption of the provided information models for your purpose
 
-- The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the MachineTools companion specificaion and **must not** be changed.
+- The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the MachineTools companion specification and **must not** be changed.
 - Change the URI of the instance namespace (optional, but recommended)
 
   `http://www.<MANUFACTURERDOMAIN>/example`
