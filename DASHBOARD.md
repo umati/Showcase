@@ -1,13 +1,44 @@
-# umati Dashboard
+# umati Dashboard (The "umati app")
 
-The umati dashboard at [https://umati.app](https://umati.app) is available as a neutral sample application. It is connected as a client application to the datahub OPC UA endpoint.
+The umati dashboard at [https://umati.app](https://umati.app) is available as a neutral sample application to demonstrate OPC UA companion specification standardization. 
 
-- This dashboard shows all error free machine servers according to the defined standards.
+- This dashboard shows all error free machine servers according to the defined [standards](Specs.md).
 - It lists [software solutions](Specs/Software.md) from umati partners, who provide a web accessible demonstration instance.
 
-Currently only the integration of the [OPC 40501-1 UA for Machinetools](https://opcua.vdma.org/catalog-detail/-/catalog/3914) is developed. Details about the information modell implentation requrirements are shown [here](Specs/Machinetools.html).
+It is connected as an OPC UA client application to the datahub OPC UA endpoint.
 
-Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803) are foreseen.
+Currently the integration of [OPC 40001-1 UA for Machinery](https://reference.opcfoundation.org/Machinery/docs/) [OPC 40501-1 UA for Machinetools](https://reference.opcfoundation.org/MachineTool/docs/) is developed.
+
+Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803) are in progress.
+
+## Location of Fair, Machine and Software icons on the dashboard
+
+### Fairs
+
+![Fair](img/map_pin_fair.svg)
+
+Location is set by fair organiser.
+
+### Machines
+
+![Machine](img/map_pin_machine_magenta.svg)
+
+The machine instance _Location_ property (according to OPC 40001-1) shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885` for GPS coordinates.
+
+**The machine only gets a map icon, if it provides at least the GPS location** 
+
+Machines can be referenced to more than one fair by providing a list of fair locations, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
+
+#### FAIR Shortnames
+
+Fair shortnames are defined [here.](Fairs.md)
+
+### Software
+
+![Software](img/map_pin_software_cyan.svg)
+
+The software location will be manual set for now, based on the same principle like machines.
+
 
 ## Datahub
 
