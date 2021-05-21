@@ -23,7 +23,7 @@ All participants not familiar with the released information model do not need to
 
 ## General information valid for the umati showcase demonstration
 
-| **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIds for the instances. Clients will need to browse Instances or translate BrowsePaths to find the NodeId for accessing the address space and available instances. |
+| **DISCLAIMER** | For all applications the OPC UA server is to be configured without predefined NodeIds for the instances. Clients need to utilize the Services [Browse](https://reference.opcfoundation.org/Core/docs/Part4/5.8.2/) and [TranslateBrowsePathsToNodeIds](https://reference.opcfoundation.org/Core/docs/Part4/5.8.4/) to access nodes of interest. |
 
 ---
 

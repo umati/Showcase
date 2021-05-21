@@ -25,7 +25,7 @@ Location is set by fair organiser.
 
 The machine instance _Location_ property (according to OPC 40001-1) shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885` for GPS coordinates.
 
-**The machine only gets a map icon, if is provides at least the GPS location** 
+**The machine only gets a map icon, if it provides at least the GPS location** 
 
 Machines can be referenced to more than one fair by providing a list of fair locations, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
 

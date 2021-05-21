@@ -9,13 +9,13 @@ The OPC UA endpoint of the datahub is public accessible by its DNS name. Each cl
 The datahub server will have the data of all connected machines in its address space.
 See [Aggregating multiple umati OPC UA servers](SERVER.md) for details on the information model.
 
-The datahub OPC UA Server will be available at `opc.tcp://datahub.umati.app:4840`. (Starting with the plugfest End of August)
+The datahub OPC UA Server is be available at `opc.tcp://datahub.umati.app:4840`.
 
 The following username and password is required to access the OPC UA Server:
 
 **User**: umati-user
 
-**Password**: Please request at [info@umati.org](mailto:info@umati.org) and [g.goerisch@vdw.de](mailto:g.goerisch@vdw.de)
+**Password**: Please request at [info@umati.org](mailto:info@umati.org) and [g.goerisch@vdw.de](mailto:g.goerisch@vdw.de) 
 
 ## OPC UA client functionalities
 
@@ -24,7 +24,7 @@ As described in [OPC UA Server](SERVER.md), the client needs to support an encry
 - Standard UA Client 2017 Profile this includes:
   - Security Policy Required (encrypted connection required)
   - Security User Name Password Client
-- Session Client Renew NodeIDs (namespace table might change over time, URI is necessary to detect the required namespace index)
+- Session Client Renew NodeIds (namespace table might change over time, URI is necessary to detect the required namespace index)
 
 ## Getting started: OPC UA client for umati showcase
 
@@ -32,7 +32,7 @@ This specification focuses on the points that are specific to the umati showcase
 
 - A test server is available for the development of OPC UA clients. This does not correspond to a real machine behavior, but provides changing values in the parameters for functionality testing.
 
-- The start node of the Machines folder in the address space is described in chapter 9 of the [OPC 40001-1 UA for Machinery](https://opcua.vdma.org/catalog-detail/-/catalog/3803). There is no guarantee that the namespace index of a machine will remain the same permanently (e.g. if the datahub is restarted or the connection between the machine and the datahub is interrupted). Therefore, the URI should be used to identify the correct namespace.
+- The start node of the Machines folder in the address space is described in chapter 9 of the [OPC 40001-1 UA for Machinery](https://reference.opcfoundation.org/Machinery/docs/). There is no guarantee that the namespace index of a machine will remain the same permanently (e.g. if the datahub is restarted or the connection between the machine and the datahub is interrupted). Therefore, the URI should be used to identify the correct namespace.
 - The other nodes can be identified by Browse/ TranslateBrowsePathsToNodeIds.
  The client must be able to ignore certain/unavailable objects because some instances are optional (e.g. spindles or lamps).
 - To get data continuously, use subscriptions and monitored items instead of repetitive read requests.

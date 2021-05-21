@@ -2,6 +2,12 @@
 
 This repository provides the specification to connect to the umati virtual demonstration showcase.
 
+## What is umati - the universal machine technology interface
+
+To learn more please visit [https://umati.org](https://umati.org)
+
+---
+
 ## Structure of the specification
 
 - [Overview](index.md)
