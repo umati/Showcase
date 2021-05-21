@@ -49,7 +49,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | **2:ProductCode** | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:HardwareRevision | 0:String | 0:PropertyType | O, RO |
 | 0:HasProperty | Variable | **2:SoftwareRevision** | 0:String | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | 2:DeviceClass | 0:String | 0:PropertyType | O, RO |
+| 0:HasProperty | Variable | 2:DeviceClass | 0:String | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | 2:SerialNumber | 0:String | 0:PropertyType | M, RO |
 | 0:HasProperty | Variable | **YearOfConstruction** | UInt16 | 0:PropertyType | **M**, RO |
 | 0:HasProperty | Variable | MonthOfConstruction | Byte | 0:PropertyType | O, RO |
@@ -117,3 +117,14 @@ A gap is left for periods of time in which no data was recorded (e.g. machine of
 ### Wood Working - Monitoring Throughfeed
 
 ![MonitoringThroughfeed](../img/WoodWorking/WWM-MonitoringThroughfeed.png "MT Monitoring")
+
+### Device Classes
+
+- SawingMachine --> Throughfeed
+- ProfilingMachine --> Throughfeed
+- EdgebandingMachine --> Throughfeed
+- BoringMachine --> Throughfeed
+- SandingMachine --> Throughfeed
+- MachiningCenter --> Stationary
+- Press --> Stationary
+- HandlingMachine --> Throughfeed
