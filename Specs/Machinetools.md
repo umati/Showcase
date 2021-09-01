@@ -16,7 +16,6 @@ All participants not familiar with the released information model do not need to
 
 [Normative NodeSet hosted by the OPC Foundation](https://github.com/OPCFoundation/UA-Nodeset/tree/v1.04/MachineTool)
 
-
 ### For umati Machine Tool partners
 
 [UaModeler Project](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject) as a quick start ( **Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org)))
