@@ -59,8 +59,8 @@ This documentation is versioned, as some content details will be delivered later
 | [Machinetools](Specs/Machinetools.md) | Description | Clarification of nodesets and requirements | [c61c73f](https://github.com/umati/Showcase/commit/c61c73fa74b17dce58fd7c938f9992746dbf688d) [e9313fb](https://github.com/umati/Showcase/commit/e9313fb65cd264aee6c256a43e3fd758b737c449) |
 | [Machinetools](Specs/Machinetools.md) | Mapping | Updated pictures and mapping | [938a064](https://github.com/umati/Showcase/commit/938a0645771e879ca7cb5ab79be7706b0d4267d4)
 | [Server](SERVER.md) | Fairconnect | Updated fairconnect and connection possibilities | [4f46e04](https://github.com/umati/Showcase/commit/4f46e04431582ccbd1c6714cbd018255e1d09262) |
-| [Woodworking](Specs/Woodworking.md) | Specficaiton | Added specification for WoodWorking companion specification | [2810a69](https://github.com/umati/Showcase/commit/2810a691b42c59f312ec9525fc554ec697e1567f) |
-| [Organizational Information](Organization.md) | Timeline | Removed the obsolete timeline for a 2020 showcase | [commit](https://github.com/umati/Showcase/commit/commit) |
+| [Woodworking](Specs/Woodworking.md) | Specficaiton | Added specification for WoodWorking companion specification | [7642c16](https://github.com/umati/Showcase/commit/7642c16db5f13a44fa8862483a8af8cd43fb43ec) |
+| [Organizational Information](Organization.md) | Timeline | Removed the obsolete timeline for a 2020 showcase | [2416d15](https://github.com/umati/Showcase/commit/2416d1569cc43267d86530a934dcab267833d7fb) |
 
 ## Demonstrator story umati showcase
 
