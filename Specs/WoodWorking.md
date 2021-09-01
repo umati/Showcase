@@ -10,13 +10,11 @@ For participants that are familiar with the information model, we have included 
 
 All participants not familiar with the release candidate information model do not need to review these changes in detail but rather follow the described model and refer to the provided xml Nodeset files and UA modeler project.
 
-### NodeSets for the showcase
+## NodeSets for the showcase
 
 [Release NodeSet](https://)
 
-[Protoyping NodeSet](https://)
-
-**Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
+[Protoyping NodeSet](https://github.com/umati/Woodworking/tree/main/Model) **Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
 
 ## General information valid for the umati showcase demonstration
 
@@ -28,7 +26,7 @@ All participants not familiar with the release candidate information model do no
 The identification for machine tools are inherited from the Machinery companion specification.
 To fill the demo dashboard machine page with the most content the variables marked with a **strong mandatory** should be provided if you like to look the machine identification nicely.
 
-#### [**MachineIdentificationType Definition**](https://opcua.vdma.org/catalog-detail/-/catalog/3803)
+#### [**MachineIdentificationType Definition**](https://reference.opcfoundation.org/Machinery/docs/8.6/)
 
 | **Attribute** | **Value** |     |     |     |     |
 | --- | --- | --- | --- | --- | --- |
@@ -59,11 +57,9 @@ To fill the demo dashboard machine page with the most content the variables mark
 | 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
 | 0:HasProperty | Variable | **Location** | 0:String | 0:PropertyType | **M**, RW |
 
-#### Special requirements for correct locating on the dashboard
+#### Special requirements for correct location of the machine icon on the dashboard
 
-The instance Location shall be provided in the format `<fair> <hall> <booth>`, e.g, “METAV 1 A22” or format `<N/S> <Latitude|##.#########> <EW> <Longitude|###.#########>`, e.g. `N 51.257315 E 6.740885`
-
-If the machine shall be referenced to more than one fair, provide a list of fair location, deliminated by slash e.g. `METAV <XXX> <XXX>/EMO 12 D17/N 51.257315 E 6.740885`
+The instance _Location_ property is evaluated according to the special requirements detailed [here](DASHBOARD.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
 #### FAIR Shortnames
 
@@ -85,7 +81,7 @@ Fair shortnames are defined [here.](Fairs.md)
 ### Wood Working - Overview
 
 ![Overview](../img/WoodWorking/WWM-Overview.png "WW Overview")
- 
+
 ### Active Program Statusbar
 
 For the status overview in the dashboard, the *State* of the *RecipeInRun* is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
@@ -120,11 +116,20 @@ A gap is left for periods of time in which no data was recorded (e.g. machine of
 
 ### Device Classes
 
+Based on the _DeviceClass_ the image for the individual machine page is selected.
+
+This is the current mapping:
+
+#### Throughfeed
+
 - SawingMachine --> Throughfeed
 - ProfilingMachine --> Throughfeed
 - EdgebandingMachine --> Throughfeed
 - BoringMachine --> Throughfeed
 - SandingMachine --> Throughfeed
-- MachiningCenter --> Stationary
-- Press --> Stationary
 - HandlingMachine --> Throughfeed
+
+#### Stationary
+
+- MachiningCenter
+- Press
