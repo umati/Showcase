@@ -1,4 +1,4 @@
-# General Information 
+# General Information
 
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
 - Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get [OPC UA Servers](SERVER.md) installed, online and deliver data. If questions arise regarding the information provided in **this documentation** or the connection to the datahub for the umati showcase demonstrator, please open an issue [here](https://github.com/umati/Showcase).
@@ -19,6 +19,7 @@ To learn more please visit [https://umati.org](https://umati.org)
 - [Implemented Specifications](Specs.md)
   - [Machinetools](Specs/Machinetools.md)
   - [Software Solutions](Specs/Software.md)
+  - [Woodworking](Specs/Woodworking.md)
 - Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
@@ -42,6 +43,7 @@ This documentation is versioned, as some content details will be delivered later
 | v1.02.2 | 23.11.2020 | Update License and activate CLA |
 | v1.02.3 | 18.02.2021 | Update on Machine Tools and Software Solutions |
 | v1.03.0 | 21.05.2021 | Complete update to latest developments |
+| v1.04.0 | 03.09.2021 | Addition of WoodWorking companion specification |
 
 ### Changelog
 
@@ -57,7 +59,8 @@ This documentation is versioned, as some content details will be delivered later
 | [Machinetools](Specs/Machinetools.md) | Description | Clarification of nodesets and requirements | [c61c73f](https://github.com/umati/Showcase/commit/c61c73fa74b17dce58fd7c938f9992746dbf688d) [e9313fb](https://github.com/umati/Showcase/commit/e9313fb65cd264aee6c256a43e3fd758b737c449) |
 | [Machinetools](Specs/Machinetools.md) | Mapping | Updated pictures and mapping | [938a064](https://github.com/umati/Showcase/commit/938a0645771e879ca7cb5ab79be7706b0d4267d4)
 | [Server](SERVER.md) | Fairconnect | Updated fairconnect and connection possibilities | [4f46e04](https://github.com/umati/Showcase/commit/4f46e04431582ccbd1c6714cbd018255e1d09262) |
-
+| [Woodworking](Specs/Woodworking.md) | Specficaiton | Added specification for WoodWorking companion specification | [7642c16](https://github.com/umati/Showcase/commit/7642c16db5f13a44fa8862483a8af8cd43fb43ec) |
+| [Organizational Information](Organization.md) | Timeline | Removed the obsolete timeline for a 2020 showcase | [2416d15](https://github.com/umati/Showcase/commit/2416d1569cc43267d86530a934dcab267833d7fb) |
 
 ## Demonstrator story umati showcase
 
