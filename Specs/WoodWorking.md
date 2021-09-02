@@ -12,7 +12,7 @@ All participants not familiar with the release candidate information model do no
 
 ## NodeSets for the showcase
 
-[Release NodeSet](https://)
+[Release Candidate NodeSet](https://github.com/umati/Sample-Server/tree/main/model/Woodworking)
 
 [Protoyping NodeSet](https://github.com/umati/Woodworking/tree/main/Model) **Remark:** You have to be umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
 
