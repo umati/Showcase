@@ -122,14 +122,14 @@ This is the current mapping:
 
 #### Throughfeed
 
-- SawingMachine --> Throughfeed
-- ProfilingMachine --> Throughfeed
-- EdgebandingMachine --> Throughfeed
-- BoringMachine --> Throughfeed
-- SandingMachine --> Throughfeed
-- HandlingMachine --> Throughfeed
+- ProfilingMachine
+- EdgebandingMachine
+- BoringMachine
+- SandingMachine
+- HandlingMachine
 
 #### Stationary
 
 - MachiningCenter
 - Press
+- SawingMachine
