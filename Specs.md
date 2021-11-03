@@ -1,6 +1,7 @@
 # Current implemented specifications
 
 - [GENERIC](Specs/prgeneric.md) - Generic Model for umati Plastics and Rubber
+- [OPC 40010-1 UA for Robotics](Specs/Robotics.md)
 - [OPC 40501-1 UA for MachineTool](Specs/MachineTool.md)
 - [OPC 40077 - IMM 2 MES](Specs/pr40077.md) - Data exchange between injection
 moulding machines and MES
@@ -11,5 +12,5 @@ moulding machines and MES
 - [OPC 40084-3 - EXTRUDER](Specs/pr40084-3.md) - Extrusion – Part 3: Extruder
 - [OPC 40084-11 - CORRUGATOR](Specs/pr40084-11.md) - Extrusion – Part 11: Corrugator
 - [OPC 40550 UA for Woodworking](Specs/Woodworking.md)
-  - [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+- [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
 - [Software Solutions](Specs/Software.md)
