@@ -10,6 +10,8 @@ moulding machines and MES
 - [OPC 40082-3 - LSR](Specs/pr40082-3.md) - Peripheral devices – Part 3: LSR Dosing Systems
 - [OPC 40084-3 - EXTRUDER](Specs/pr40084-3.md) - Extrusion – Part 3: Extruder
 - [OPC 40084-11 - CORRUGATOR](Specs/pr40084-11.md) - Extrusion – Part 11: Corrugator
-- [OPC 40550 UA for Woodworking](Specs/Woodworking.md)
-  - [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+- [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+- [OPC 40451-1 UA for Tightening Systems](Specs/Tightening.md)
+- [OPC 40501-1 UA for Machinetools](Specs/Machinetools.md)
+- [OPC 40550 UA for Woodworking](Specs/WoodWorking.md)
 - [Software Solutions](Specs/Software.md)

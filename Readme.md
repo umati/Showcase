@@ -18,6 +18,7 @@ To learn more please visit [https://umati.org](https://umati.org)
   - [MachineTool](Specs/MachineTool.md)
   - [PlasticsRubber](Specs/PlasticsRubber.md)
   - [Software Solutions](Specs/Software.md)
+  - [Tightening](Specs/Tightening.md)
   - [WoodWorking](Specs/Woodworking.md)
   - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
 - Upcoming Specifications
