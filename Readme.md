@@ -11,13 +11,13 @@ To learn more please visit [https://umati.org](https://umati.org)
 ## Structure of the specification
 
 - [Overview](index.md)
-- [OPC UA Server](SERVER.md)
-- [OPC UA Client](CLIENT.md)
-- [Dashboard](DASHBOARD.md)
+- [OPC UA Server](Server.md)
+- [OPC UA Client](Client.md)
+- [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
-  - [Machinetools](Specs/Machinetools.md)
+  - [MachineTool](Specs/MachineTool.md)
   - [Software Solutions](Specs/Software.md)
-  - [WoodWorking](Specs/WoodWorking.md)
+  - [Woodworking](Specs/Woodworking.md)
 - Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
