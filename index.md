@@ -19,7 +19,8 @@ To learn more please visit [https://umati.org](https://umati.org)
 - [Implemented Specifications](Specs.md)
   - [MachineTool](Specs/MachineTool.md)
   - [Software Solutions](Specs/Software.md)
-  - [Woodworking](Specs/Woodworking.md)
+  - [WoodWorking](Specs/Woodworking.md)
+  - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
 - Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [PlasticsRubber](Specs/WIP.md)
@@ -44,7 +45,8 @@ This documentation is versioned, as some content details will be delivered later
 | v1.02.3 | 18.02.2021 | Update on Machine Tools and Software Solutions |
 | v1.03.0 | 21.05.2021 | Complete update to latest developments |
 | v1.04.0 | 03.09.2021 | Addition of Woodworking companion specification |
-| v1.04.1 | 08.02.2022 | Updates to Machine Tools, Woodworking|
+| v1.04.1 | 08.02.2022 | Updates to Machine Tools, Woodworking |
+| v1.05.0 | 03.03.2022 | Integrates Geomentrical Measuring Systems |
 
 ### Changelog
 
@@ -64,6 +66,7 @@ This documentation is versioned, as some content details will be delivered later
 | [Organizational Information](Organization.md) | Timeline | Removed the obsolete timeline for a 2020 showcase | [2416d15](https://github.com/umati/Showcase/commit/2416d1569cc43267d86530a934dcab267833d7fb) |
 | [MachineTool](Specs/MachineTool.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
 | [Woodworking](Specs/Woodworking.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
+| [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS | Adds specification page |  |
 
 ## Demonstrator story umati showcase
 
