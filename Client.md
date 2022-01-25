@@ -7,7 +7,7 @@
 The OPC UA endpoint of the datahub is public accessible by its DNS name. Each client needs to authenticate itself by username/password. The authentication details will be provided to everyone who has sign the MoU and wants to participate in the showcase. (See also chapter 13)
 
 The datahub server will have the data of all connected machines in its address space.
-See [Aggregating multiple umati OPC UA servers](SERVER.md) for details on the information model.
+See [Aggregating multiple umati OPC UA servers](Server.md) for details on the information model.
 
 The datahub OPC UA Server is be available at `opc.tcp://datahub.umati.app:4840`.
 
@@ -19,7 +19,7 @@ The following username and password is required to access the OPC UA Server:
 
 ## OPC UA client functionalities
 
-As described in [OPC UA Server](SERVER.md), the client needs to support an encrypted connection, which is authenticated by username and password. The required profiles according to OPC UA Specification Part 7 are listed below:
+As described in [OPC UA Server](Server.md), the client needs to support an encrypted connection, which is authenticated by username and password. The required profiles according to OPC UA Specification Part 7 are listed below:
 
 - Standard UA Client 2017 Profile this includes:
   - Security Policy Required (encrypted connection required)
@@ -42,4 +42,4 @@ This specification focuses on the points that are specific to the umati showcase
 
 A test server is provided for basic testing and is supplied by VDW.
 
-The test server provides the complete data model and changes its values. There is no real machine tool simulation behind the [OPC UA Server](SERVER.md). The values do not necessarily have a logical connection to each other. For example, the channel can be deactivated while the job is still being processed. The server is available at `opc.tcp://opcua.umati.app:4840` ; authentication is not required.
+The test server provides the complete data model and changes its values. There is no real machine tool simulation behind the [OPC UA Server](Server.md). The values do not necessarily have a logical connection to each other. For example, the channel can be deactivated while the job is still being processed. The server is available at `opc.tcp://opcua.umati.app:4840` ; authentication is not required.

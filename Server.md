@@ -4,14 +4,14 @@
 
 ### Datahub and the fairconnect-configuration
 
-For this showcase we have a datahub provided off premise. This acts as an OPC UA aggregation server. The OPC UA servers (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per participant; multiple are possible in case of multiple machines But preaggregation of machines to a single OPC UA Server at the participant is also possible, [see below for details](SERVER.md#openvpn-configuration).). An OPC UA client will connect to the OPC UA server(s) of that participant through the VPN tunnel. The application providers (A) will connect to the datahub OPC UA server endpoint, as an [OPC UA Client](CLIENT.md).
+For this showcase we have a datahub provided off premise. This acts as an OPC UA aggregation server. The OPC UA servers (M) will connect via an OpenVPN tunnel to an VPN endpoint (one per participant; multiple are possible in case of multiple machines But preaggregation of machines to a single OPC UA Server at the participant is also possible, [see below for details](Server.md#openvpn-configuration).). An OPC UA client will connect to the OPC UA server(s) of that participant through the VPN tunnel. The application providers (A) will connect to the datahub OPC UA server endpoint, as an [OPC UA Client](Client.md).
 To connect to this datahub (M) need an OPC UA server and OpenVPN client to access one dedicated endpoint per partner.
 In order to ease the onboarding process onto the datahub, we provide the [fairconnect application](https://fairconnect.umati.app) and a specified process for connecting OPC UA servers to the showcase:
 
 #### Process summary for connecting an OPC UA server to the data hub via VPN
 
 1. Fill in and sign the MoU as participant and indicate which/how many machines or you want to connect.
-2. Install the [OpenVPN client](https://openvpn.net/community-downloads/) 
+2. Install the [OpenVPN client](https://openvpn.net/community-downloads/)
 3. Wait to receive an email with a link to register your machine on the datahub.
 4. Click the link and set a password for the machine account
 5. Login into [fairconnect](https://fairconnect.umati.app) with the set password from step 4.
@@ -123,7 +123,7 @@ one machine tool:
 
 ![Address space](img/Addressspace_sample.png "Addressspace sample")
 
-These two address spaces should be merged so that in the aggregated server there is only one Machinetools-Folder and each Machine is under this node with the same NodeId-Identifiers und NodeId-URI (the NodeId-Index will be different) as in the original OPC UA server.
+These two address spaces should be merged so that in the aggregated server there is only one MachineTool-Folder and each Machine is under this node with the same NodeId-Identifiers und NodeId-URI (the NodeId-Index will be different) as in the original OPC UA server.
 
 The required namespaces for Machinery and Machine Tools (see 4. above) is only loaded once in the aggregated server.
 
