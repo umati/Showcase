@@ -63,7 +63,7 @@ A separate MoU is available for associations or other organizations that want to
 
 ## Marketing package for umati showcase participants
 
-All participants received a marketing package which will be updated as the trade fairs approach. It currently contains the following items and can be found at: [https://vdw.de/umati-partner](https://vdw.de/umati-partner):
+All participants received a marketing package which will be updated as the trade fairs approach. It currently contains the following items and can be found at: [https://umati.org/Partners/partner-material/](https://umati.org/Partners/partner-material/):
 
 - **umati partner logo:** The umati Partner logo should be used in your marketing and press materials online as well as offline.
 
@@ -88,5 +88,4 @@ We have provided reference documents for the umati showcase information model as
 
 - Specification of [OPC UA server](Server.md) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase [OPC UA Server](Server.md) as well as documentation, timeline and notes for the umati showcase [OPC UA Server](Server.md) and client implementations
 - [Memorandum of understanding](TODO:LINK) regulates the use of the brand, services offered by VDW and obligations of the participant in context to the umati showcase demonstrations, if you have registered as a umati partner already, there is no need to sign the MoU again.
-- **Nodeset files**, **Example instance**, **UaModeler-project** [with updated base specification nodeset](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject) or [with prototyping nodeset](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProtoyping): The nodeset files describes the types specified in the umati showcase information model. The example instance depicts an instance view of the umati showcase information model. The UaModeler-project combines the afore-mentioned XML-Nodesets in a common SDK tool environment to view the information model and adapt the instances easily to your machine tool (license required for XML export).
-- for marketing materials and the umati ambassador/booth personnel documentation see [https://vdw.de/umati-partner](https://vdw.de/umati-partner) for current versions and details.
+- for marketing materials and the umati ambassador/booth personnel documentation see [https://umati.org/Partners/partner-material/](https://umati.org/Partners/partner-material/) for current versions and details.
