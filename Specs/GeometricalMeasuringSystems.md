@@ -1,6 +1,6 @@
 # umati showcase information model for Geometrical Measuring Systems
 
-In the following the umati showcase describes the additional information on top of the [OPC 40210 UA for Geometrical Measuring Systems](https://) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40210 UA for Geometrical Measuring Systems](https://www.vdma.org/viewer/-/v2article/render/47597927) companion specification.
 
 Please refer to the provided xml-Nodesets or UaModeler-project for exemplary implementation.
 
@@ -82,7 +82,7 @@ Fair shortnames are defined [here.](Fairs.md)
 
 ### Active Program Statusbar
 
-For the status overview in the dashboard, the *State* of the *ProductionActiveProgramType* is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
+For the status overview in the dashboard, the _State_ of the _ProductionActiveProgramType_ is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 

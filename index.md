@@ -66,7 +66,7 @@ This documentation is versioned, as some content details will be delivered later
 | [Organizational Information](Organization.md) | Timeline | Removed the obsolete timeline for a 2020 showcase | [2416d15](https://github.com/umati/Showcase/commit/2416d1569cc43267d86530a934dcab267833d7fb) |
 | [MachineTool](Specs/MachineTool.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
 | [Woodworking](Specs/Woodworking.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
-| [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS | Adds specification page |  |
+| [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS | Adds specification page [49c11bc](https://github.com/umati/Showcase/commit/49c11bc70113b8ceb4ea718e8cef5e27dd9ec5ff) |
 
 ## Demonstrator story umati showcase
 
