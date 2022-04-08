@@ -14,10 +14,7 @@ In order to ease the onboarding process onto the datahub, we provide the [fairco
 2. Install the [OpenVPN client](https://openvpn.net/community-downloads/)
 3. Wait to receive an email with a link to register your machine on the datahub.
 4. Click the link and set a password for the machine account
-5. Login into [fairconnect](https://fairconnect.umati.app) with the set password from step 4.
-
-![Fairconnect screen](img/Fairconnect.png "Fairconnect screen")
-
+5. Login into [fairconnect](https://fairconnect.umati.app) with the set password from step 4. ![Fairconnect screen](img/Fairconnect.png "Fairconnect screen")
 6. Download your individual OpenVPN client configuration
 7. Import the provided configuration and start the VPN connection on the OpenVPN client.
 8. Insert the TCP port of the OPC UA Server
@@ -57,10 +54,12 @@ The default OPC UA connection settings are (encryption is done by the VPN):
 
 The client connection will be established to higher security profiles, if they are available in the server.
 Futhermore as of now the authentication to a OPC UA server is also available using either
-- [User/Password](http://opcfoundation.org/UA-Profile/Security/UserToken/Server/UserNamePassword) enter credentials at **(9)**. 
-or
-- [X509 client certificate](http://opcfoundation.org/UA-Profile/Security/UserToken/Server/X509Certificate) select check box and download/install X509 client cert at **(9a)**.
 
+- [User/Password](http://opcfoundation.org/UA-Profile/Security/UserToken/Server/UserNamePassword) enter credentials at **(9)**.
+
+or
+
+- [X509 client certificate](http://opcfoundation.org/UA-Profile/Security/UserToken/Server/X509Certificate) select check box and download/install X509 client cert at **(9a)**.
 
 ## OPC UA server functionalities
 
@@ -106,6 +105,8 @@ This is where the datahub OPC UA client looks for showcase-relevant instances.
    - <http://opcfoundation.org/UA/IA/>
    - <http://opcfoundation.org/UA/Machinery/>
    - <http://opcfoundation.org/UA/MachineTool/>
+   - <http://opcfoundation.org/UA/Woodworking/>
+   - <http://opcfoundation.org/GMS/>
    - `your custom namespace(s) for you instance(s)`
 
    Your custom instance namespace **must not** contain references to any other namespace (e.g. instantiation a different companion specification in this namespace is not allowed).
@@ -113,7 +114,7 @@ This is where the datahub OPC UA client looks for showcase-relevant instances.
 4. If the computer, where the OpenVPN Client runs is accessible, try connecting to your OPC UA Server via the Open VPN IP-address (begins with 10.80.0.). If no OPC UA Client is available on this computer, basic connection test can also be done by using telnet, by `telnet 10.80.0.XX 4840` .
 5. When the OPC UA Server and the VPN-Connection is established, visit [https://fairconnect.umati.app](https://fairconnect.umati.app/) to check your connection and integrate the machine to the datahub.
 
-## Aggregating multiple umati OPC UA servers
+## Aggregating multiple OPC UA servers
 
 The aggregation should be equivalent to an aggregation that implement the [Device Information Model Specification](https://reference.opcfoundation.org/v104/DI/v102/docs/5.9/).
 
