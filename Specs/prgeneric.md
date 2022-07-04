@@ -86,8 +86,3 @@ MSCH
 | :- | :- | :- | :- |
 |**ProcessValue\_1**|Temperature of …|“Temperature”|“°C” or “°F”|
 |**ProcessValue\_2**|Pressure of …|“Pressure”|“bar” or “psi”|
-
-
-
-ENDE
-
