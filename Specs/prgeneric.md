@@ -71,7 +71,7 @@ The process values are modelled as optional placeholder in the generic model. Th
 
 DeviceClass: “Blow moulding machine”
 
-MSCH
+
 ||**Description**|**Name**|**Unit**|
 | :- | :- | :- | :- |
 |**ProcessValue\_1**|Temperature of …|“Temperature”|“°C” or “°F”|
@@ -81,7 +81,7 @@ MSCH
 
 DeviceClass: “Particle foam machine”
 
-MSCH
+
 ||**Description**|**Name**|**Unit**|
 | :- | :- | :- | :- |
 |**ProcessValue\_1**|Temperature of …|“Temperature”|“°C” or “°F”|
