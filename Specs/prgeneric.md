@@ -77,7 +77,7 @@ DeviceClass: “Blow moulding machine”
 |**ProcessValue\_1**|Temperature of …|“Temperature”|“°C” or “°F”|
 |**ProcessValue\_2**|Pressure of …|“Pressure”|“bar” or “psi”|
 
-### 2.2 2.2	Particle Foam Machines
+### 2.2	Particle Foam Machines
 
 DeviceClass: “Particle foam machine”
 
