@@ -17,7 +17,8 @@ To learn more please visit [https://umati.org](https://umati.org)
 
 - [Overview](index.md)
 - [OPC UA Server](Server.md)
-- [OPC UA Gateway](Gateway.md)
+- [OPC UA Client](Client.md)
+- [OPC UA PubSub](PubSub.md)
 - [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
   - [Flat Glass Processing](Specs/Flatglass.md)
@@ -73,21 +74,21 @@ This documentation is versioned, as some content details will be delivered later
 | [MachineTool](Specs/MachineTool.md)                                   | Description                | Clarification of nodesets and requirements                                                   | [c61c73f](https://github.com/umati/Showcase/commit/c61c73fa74b17dce58fd7c938f9992746dbf688d) [e9313fb](https://github.com/umati/Showcase/commit/e9313fb65cd264aee6c256a43e3fd758b737c449)          |
 | [MachineTool](Specs/MachineTool.md)                                   | Mapping                    | Updated pictures and mapping                                                                 | [938a064](https://github.com/umati/Showcase/commit/938a0645771e879ca7cb5ab79be7706b0d4267d4)                                                                                                       |
 | [Server](Server.md)                                                   | Fairconnect                | Updated fairconnect and connection possibilities                                             | [4f46e04](https://github.com/umati/Showcase/commit/4f46e04431582ccbd1c6714cbd018255e1d09262)                                                                                                       |
-| [Woodworking](Specs/Woodworking.md)                                   | Specfication               | Added specification for Woodworking companion specification                                  | [7642c16](https://github.com/umati/Showcase/commit/7642c16db5f13a44fa8862483a8af8cd43fb43ec)                                                                                                       |
+| [Woodworking](Specs/Woodworking.md)                                   | Specification              | Added specification for Woodworking companion specification                                  | [7642c16](https://github.com/umati/Showcase/commit/7642c16db5f13a44fa8862483a8af8cd43fb43ec)                                                                                                       |
 | [Organizational Information](Organization.md)                         | Timeline                   | Removed the obsolete timeline for a 2020 showcase                                            | [2416d15](https://github.com/umati/Showcase/commit/2416d1569cc43267d86530a934dcab267833d7fb)                                                                                                       |
 | [MachineTool](Specs/MachineTool.md)                                   | Links                      | Updates broken links                                                                         | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)                                                                                                       |
 | [Woodworking](Specs/Woodworking.md)                                   | Links                      | Updates broken links                                                                         | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)                                                                                                       |
 | [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS                        | Adds specification page                                                                      | [49c11bc](https://github.com/umati/Showcase/commit/49c11bc70113b8ceb4ea718e8cef5e27dd9ec5ff)                                                                                                       |
 | [PlasticsRubber](Specs/PlasticsRubber.md)                             | PlasticsRubber             | Adds specifications 40077, 40079 RC, 40082-1, 40082-2, 40082-3, 40084-2, 40084-11, PRGeneric | [5c95751](https://github.com/umati/Showcase/commit/5c95751e6a9220ed2fdda5f030d841a8b22e944b)                                                                                                       |
 | [LaserSystems](Specs/Laser.md)                                        | LaserSystems               | Adds specification 40530                                                                     | [8391639](https://github.com/umati/Showcase/commit/839163922925d93c733563f6c99b133f2ccc120c)                                                                                                       |
-| [TextileTestingDevices](Specs/TTD.md)                                 | Textile Testing Devices    | Adds specification 40444                                                                     | [d7dd188](https://github.com/umati/Showcase/commit/d7dd18858a1d67414c98c4aa3d3535a87f5e7dec)                                                                                                       |
+| [TextileTestingDevices](Specs/TTD.md)                                 | TextileTestingDevices      | Adds specification 40444                                                                     | [d7dd188](https://github.com/umati/Showcase/commit/d7dd18858a1d67414c98c4aa3d3535a87f5e7dec)                                                                                                       |
 
 ## Demonstrator story umati showcase
 
 ### The umati vision
 
 Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with an umati interface can be easily connected with applications.
-No matter whether you are end user, system integrator or machine builder: with the umati endorsed companion specficiations you will be able to easily connect to machines of all manufacturers and controls.
+No matter whether you are end user, system integrator or machine builder: with the umati endorsed companion specifications you will be able to easily connect to machines of all manufacturers and controls.
 umati is an initiative by the umati community and is an association of companies from the mechanical and plant engineering industry that jointly and comprehensively bring a common interface concept based on OPC UA to the market for the entire mechanical and plant engineering sector.
 
 Currently it is sponsored and hosted by the German Machine Tool Builders' Association [(VDW)](https://vdw.de) and the mechanical engineering industry association [(VDMA)](https://vdma.eu).

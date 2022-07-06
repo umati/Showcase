@@ -1,0 +1,29 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Production/ActiveProgram/State/CurrentState",
+    "payload": {
+        "MessageId": "1c8ce787-d3af-44be-89ce-81d1b3a8082c",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "Number": {
+                        "UaType": 7,
+                        "Value": 1
+                    },
+                    "Id": {
+                        "UaType": 17,
+                        "Value": {
+                            "Id": 138,
+                            "Namespace": 5
+                        }
+                    },
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.5:Production.5:ActiveProgram.5:State.CurrentState"
+                    }
+                }
+            }
+        ]
+    }
+}

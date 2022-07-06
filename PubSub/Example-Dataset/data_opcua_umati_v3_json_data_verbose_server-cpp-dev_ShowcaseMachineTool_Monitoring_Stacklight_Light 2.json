@@ -1,0 +1,38 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Monitoring/Stacklight/Light 2",
+    "payload": {
+        "MessageId": "19956dd7-0797-411a-af20-cb2a0af376e2",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "NumberInList": {
+                        "UaType": 5,
+                        "Value": 2
+                    },
+                    "IsPartOfBase": {
+                        "UaType": 1,
+                        "Value": false
+                    },
+                    "SignalOn": {
+                        "UaType": 1,
+                        "Value": false
+                    },
+                    "SignalMode": {
+                        "UaType": 6,
+                        "Value": 0
+                    },
+                    "SignalColor": {
+                        "UaType": 6,
+                        "Value": 2
+                    },
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.5:Monitoring.5:Stacklight.17:Light 2"
+                    }
+                }
+            }
+        ]
+    }
+}

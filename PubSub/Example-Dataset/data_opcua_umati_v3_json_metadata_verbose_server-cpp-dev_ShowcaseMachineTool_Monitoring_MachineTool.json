@@ -1,0 +1,276 @@
+{
+    "topic": "opcua/umati/v3/json/metadata/verbose/server-cpp-dev/ShowcaseMachineTool/Monitoring/MachineTool",
+    "payload": {
+        "MessageId": "365e7e3b-9f51-43a1-8564-4dbde78bcb96",
+        "MessageType": "ua-metadata",
+        "PublisherId": "1",
+        "DataSetWriterId": 8,
+        "MetaData": {
+            "Namespaces": [
+                "http://opcfoundation.org/UA/",
+                "urn:UmatiSampleServer",
+                "http://opcfoundation.org/UA/DI/",
+                "http://opcfoundation.org/UA/Machinery/",
+                "http://opcfoundation.org/UA/IA/",
+                "http://opcfoundation.org/UA/MachineTool/",
+                "http://opcfoundation.org/UA/Woodworking/",
+                "http://opcfoundation.org/UA/Machinery/Result/",
+                "http://opcfoundation.org/UA/GMS/",
+                "http://opcfoundation.org/UA/Dictionary/IRDI",
+                "http://opcfoundation.org/UA/PADIM/",
+                "http://opcfoundation.org/UA/Machinery/ProcessValues/",
+                "http://opcfoundation.org/UA/AdditiveManufacturing/NodeSet2/",
+                "http://example.com/FullMachineTool/",
+                "http://example.com/FullMachineToolDynamic/",
+                "http://example.com/BasicMachineTool/",
+                "http://example.com/MRMachineTool/",
+                "http://example.com/ShowcaseMachineTool/",
+                "http://example.com/CNShowcaseMachineTool/",
+                "http://example.com/BasicWoodworking/",
+                "http://example.com/FullWoodworking/",
+                "http://www.isw.uni-stuttgart.de/BasicGMS/",
+                "https://www.hexagonmi.com/Hexagon PMM Gold/",
+                "https://www.hexagonmi.com/Hexagon GLOBAL S/",
+                "http://www.ogpgmbh.de/SmartScope CNC 500/",
+                "http://www.wenzel-group.com/Wenzel LH 87/",
+                "http://www.3yourmind.com/BasicAMMachine/",
+                "http://www.3yourmind.com/ShowcaseAMMachine/"
+            ],
+            "EnumDataTypes": [
+                {
+                    "DataTypeId": {
+                        "Id": 65,
+                        "Namespace": 5
+                    },
+                    "Name": {
+                        "Name": "MachineOperationMode",
+                        "Uri": 5
+                    },
+                    "EnumDefinition": {
+                        "Fields": [
+                            {
+                                "Value": "0",
+                                "Description": {
+                                    "Text": "The machine tool is controlled manually, by the operator. Depending on technology specific norms, the maximum axis movement speeds of the machine tool are limited.",
+                                    "Locale": "en"
+                                },
+                                "Name": "Manual"
+                            },
+                            {
+                                "Value": "1",
+                                "Description": {
+                                    "Text": "Operating mode for the automatic, programmed and continuous operation of the machine. Manual loading and unloading workpieces are possible when the automatic program is stopped. Axis movement speeds are fully available to the machine tool’s ability.",
+                                    "Locale": "en"
+                                },
+                                "Name": "Automatic"
+                            },
+                            {
+                                "Value": "2",
+                                "Description": {
+                                    "Text": "Depending on technology specific norms, the maximum axis movement speeds of the machine tool are limited. In this mode, the operator can make settings for the subsequent work processes.",
+                                    "Locale": "en"
+                                },
+                                "Name": "Setup"
+                            },
+                            {
+                                "Value": "3",
+                                "Description": {
+                                    "Text": "Operating mode with the possibility of manual interventions in the machining process as well as limited automatic operation started by the operator. Depending on technology specific norms, the maximum axis movement speeds of the machine tool are limited.",
+                                    "Locale": "en"
+                                },
+                                "Name": "AutoWithManualIntervention"
+                            },
+                            {
+                                "Value": "4",
+                                "Description": {
+                                    "Text": "Operating mode for service purposes. This mode shall not be used for manufacturing any parts. This mode shall only be used by authorized personnel.",
+                                    "Locale": "en"
+                                },
+                                "Name": "Service"
+                            },
+                            {
+                                "Value": "5",
+                                "Description": {
+                                    "Text": "The machine operation mode is different from the values defined in this enumeration.",
+                                    "Locale": "en"
+                                },
+                                "Name": "Other"
+                            }
+                        ]
+                    },
+                    "BuiltInType": 0
+                }
+            ],
+            "Name": "ns=17;i=59005",
+            "Fields": [
+                {
+                    "Name": "OperationMode",
+                    "FieldFlags": 0,
+                    "BuiltInType": 29,
+                    "DataType": {
+                        "Id": 65,
+                        "Namespace": 5
+                    },
+                    "ValueRank": -2,
+                    "MaxStringLength": 0,
+                    "DataSetFieldId": "11a86a69-7cd3-4df1-ba51-ef7aecd64333"
+                },
+                {
+                    "Name": "PowerOnDuration",
+                    "FieldFlags": 0,
+                    "BuiltInType": 7,
+                    "DataType": {
+                        "Id": 7
+                    },
+                    "ValueRank": -2,
+                    "MaxStringLength": 0,
+                    "DataSetFieldId": "e6b28d0c-afd5-4efa-8029-2130d8ef8827"
+                },
+                {
+                    "Name": "virtualId",
+                    "Description": {
+                        "Text": "VirtualId used by the Gateway"
+                    },
+                    "FieldFlags": 0,
+                    "BuiltInType": 12,
+                    "DataType": {
+                        "Id": 12
+                    },
+                    "ValueRank": -1,
+                    "MaxStringLength": 0,
+                    "DataSetFieldId": "4099e407-2591-4a0f-ac8a-d9967be8ee07",
+                    "Properties": [
+                        {
+                            "Key": {
+                                "Name": "relations"
+                            },
+                            "Value": {
+                                "Type": 24,
+                                "Body": [
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 59006,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "OperationMode",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "OperationMode"
+                                                },
+                                                "NodeClass": 2,
+                                                "TypeDefinition": {
+                                                    "Id": 63
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 59018,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "PowerOnDuration",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "PowerOnDuration"
+                                                },
+                                                "NodeClass": 2,
+                                                "TypeDefinition": {
+                                                    "Id": 63
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": false,
+                                                "NodeId": {
+                                                    "Id": 59004,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "Monitoring",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "Monitoring"
+                                                },
+                                                "NodeClass": 1,
+                                                "TypeDefinition": {
+                                                    "Id": 14,
+                                                    "Namespace": 5
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 40
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 26,
+                                                    "Namespace": 5
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "MachineOperationMonitoringType",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "MachineOperationMonitoringType"
+                                                },
+                                                "NodeClass": 8
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "ConfigurationVersion": {
+                "MajorVersion": 1,
+                "MinorVersion": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Identification",
+    "payload": {
+        "MessageId": "b71881d2-88c0-4149-97f0-ca7e8c08d98c",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "SerialNumber": {
+                        "UaType": 12,
+                        "Value": "2021-15360620311222485159"
+                    },
+                    "ProductInstanceUri": {
+                        "UaType": 12,
+                        "Value": "https://showcase.umati.org/Specs/Machinetools.html"
+                    },
+                    "Manufacturer": {
+                        "UaType": 21,
+                        "Value": {
+                            "Text": "umati Showcase"
+                        }
+                    },
+                    "YearOfConstruction": {
+                        "UaType": 5,
+                        "Value": 2021
+                    },
+                    "ProductCode": {
+                        "UaType": 12,
+                        "Value": "2653837gg1548"
+                    },
+                    "SoftwareRevision": {
+                        "UaType": 12,
+                        "Value": "v1.02.1"
+                    },
+                    "DeviceClass": {
+                        "UaType": 12,
+                        "Value": "Machining centre (other)"
+                    },
+                    "Location": {
+                        "UaType": 12,
+                        "Value": "EMO 6 A18/VIRTUAL 1 1/N 49.871215 E 8.654204"
+                    },
+                    "Model": {
+                        "UaType": 21,
+                        "Value": {
+                            "Text": "ShowcaseMachineTool"
+                        }
+                    },
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.2:Identification"
+                    }
+                }
+            }
+        ]
+    }
+}

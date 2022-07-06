@@ -2,7 +2,7 @@
 
 ## Disclaimer
 
-The following documentation is phrased for in-person trade fairs. Nontheless, the requirements shall be applicable to the virtual showcase as well.
+The following documentation is phrased for in-person trade fairs. Nonetheless, the requirements shall be applicable to the virtual showcase as well.
 
 ---
 
@@ -24,12 +24,12 @@ Regulations concerning offered services, obligations of the participants and bra
 
 Every participant is permitted to advertise his or her involvement in the umati community through the free, time-limited **&quot;umati partner&quot;** logo, e.g. in the web or in prints etc. Details of this permission are regulated in the individual **MoU**.
 
-### Services offered by umati iniative include
+### Services offered by umati initiative include
 
 - Listing all participants on the [http://umati.org](http://umati.org) site, prints, presentations etc. where practicable in scope and extent.
 - Providing a corporate design to be used by all participants for free.
 - Advertisement flyers, press conference, social media campaign with mentioning of all participants.
-- Access to a partners-only repositiory with necessary files and instructions to implement a solution
+- Access to a partners-only repository with necessary files and instructions to implement a solution
 
 ### Obligations of all participants include
 
@@ -79,13 +79,3 @@ All participants received a marketing package which will be updated as the trade
 - If you publish information or are mentioning umati partnership in other places, please **keep us informed by either sending a copy or a URL to [info@umati.org](mailto:info@umati.org)** for online material.
 - For fairs with a central **umati booth**, there will be a logo wall with all umati partners. Please **provide a logo to us**.
 - For picturing your machine on the umati dashboard, please **send us a picture of the specific machine** to [info@umati.org](mailto:info@umati.org) (Image will be compressed to 1100x800 if it&#39;s larger) together with the Namespace URI of the machine in the datahub. If you do not provide a picture, we will instead display a dummy machine icon.
-
-## Documentation, timeline and notes on implementation details for umati showcase
-
-### Provided documents and files
-
-We have provided reference documents for the umati showcase information model as follows:
-
-- Specification of [OPC UA server](Server.md) and parameter set for umati demonstrators, offers an extensive description of the umati showcase demonstrator story, organizational and technical requirements for all participants, specification of the umati showcase [OPC UA Server](Server.md) as well as documentation, timeline and notes for the umati showcase [OPC UA Server](Server.md) and client implementations
-- [Memorandum of understanding](TODO:LINK) regulates the use of the brand, services offered by VDW and obligations of the participant in context to the umati showcase demonstrations, if you have registered as a umati partner already, there is no need to sign the MoU again.
-- for marketing materials and the umati ambassador/booth personnel documentation see [https://umati.org/Partners/partner-material/](https://umati.org/Partners/partner-material/) for current versions and details.
