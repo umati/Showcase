@@ -17,6 +17,7 @@ To learn more please visit [https://umati.org](https://umati.org)
 
 - [OPC UA Server](Server.md)
 - [OPC UA Client](Client.md)
+- [OPC UA PubSub](PubSub.md)
 - [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
   - [MachineTool](Specs/MachineTool.md)
