@@ -1,0 +1,34 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Equipment/Tools/Tool1",
+    "payload": {
+        "MessageId": "cdcc812b-ff60-4bd6-b484-c16f09858e41",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "Locked": {
+                        "UaType": 1,
+                        "Value": false
+                    },
+                    "ControlIdentifierInterpretation": {
+                        "UaType": 6,
+                        "Value": 0
+                    },
+                    "ControlIdentifier1": {
+                        "UaType": 7,
+                        "Value": 12
+                    },
+                    "Name": {
+                        "UaType": 12,
+                        "Value": "Tool1"
+                    },
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.5:Equipment.5:Tools.17:Tool1"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"$schema": "https://biomejs.dev/schemas/2.5.0/schema.json",
+	"files": {
+		"includes": ["img/**/*.svg", "!biome.json"]
+	},
+	"linter": {
+		"rules": {
+			"a11y": {
+				"noSvgWithoutTitle": "off"
+			}
+		}
+	}
+}

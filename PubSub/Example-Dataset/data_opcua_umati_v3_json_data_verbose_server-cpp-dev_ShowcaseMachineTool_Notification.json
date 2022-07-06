@@ -1,0 +1,18 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Notification",
+    "payload": {
+        "MessageId": "3c1c858e-fe2b-414b-8fe8-6da0ffc89e45",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.5:Notification"
+                    }
+                }
+            }
+        ]
+    }
+}

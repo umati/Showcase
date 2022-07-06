@@ -1,0 +1,7 @@
+# MQTT message dump files (not valid standalone JSON)
+PubSub/Example-Dataset/*
+
+# biome.json is formatted by biome itself (uses tabs)
+biome.json
+PubSub.md
+Readme.md

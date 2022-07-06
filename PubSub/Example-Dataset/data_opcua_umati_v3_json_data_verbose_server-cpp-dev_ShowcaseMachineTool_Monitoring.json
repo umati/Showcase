@@ -1,0 +1,18 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Monitoring",
+    "payload": {
+        "MessageId": "74077e44-d6d1-4291-9424-8f3943c2b4bb",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.5:Monitoring"
+                    }
+                }
+            }
+        ]
+    }
+}

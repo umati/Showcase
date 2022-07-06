@@ -1,0 +1,26 @@
+{
+    "topic": "opcua/umati/v3/json/data/verbose/server-cpp-dev/ShowcaseMachineTool/Monitoring/MachineTool",
+    "payload": {
+        "MessageId": "45b1af10-74bd-49e8-93a1-3822501aa376",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "OperationMode": {
+                        "UaType": 6,
+                        "Value": 1
+                    },
+                    "PowerOnDuration": {
+                        "UaType": 7,
+                        "Value": 120
+                    },
+                    "virtualId": {
+                        "UaType": 12,
+                        "Value": "17:ShowcaseMachineTool.5:Monitoring.5:MachineTool"
+                    }
+                }
+            }
+        ]
+    }
+}
