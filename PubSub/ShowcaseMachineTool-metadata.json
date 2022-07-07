@@ -1,0 +1,334 @@
+
+<Prefix>/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Identification_Writer
+
+{
+    "MessageId": null,
+    "MessageType": "ua-metadata",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 44,
+    "DataSetWriterName": "ShowcaseMachineTool_.Identification_Writer",
+    "MetaData": {
+        "Namespaces": [],
+        "StructureDataTypes": [],
+        "EnumDataTypes": [],
+        "SimpleDataTypes": [],
+        "Name": "ShowcaseMachineTool_.Identification",
+        "Description": {
+            "Locale": "",
+            "Text": ""
+        },
+        "Fields": [
+            {
+                "Name": "YearOfConstruction",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 4,
+                "DataType": {
+                    "Id": 5
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "D53929D3-A29E-D417-C57C-87D89EE93EC3",
+                "Properties": []
+            },
+            {
+                "Name": "MonthOfConstruction",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 2,
+                "DataType": {
+                    "Id": 3
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "9365FB93-CF33-3A63-3623-B2AB8AF89F49",
+                "Properties": []
+            },
+            {
+                "Name": "Manufacturer",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 20,
+                "DataType": {
+                    "Id": 21
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "CCFDDD0D-481C-5EB3-5F25-22224844F4EF",
+                "Properties": []
+            },
+            {
+                "Name": "ProductInstanceUri",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "2A9BE71F-22AF-AAF9-6756-C56C26922922",
+                "Properties": []
+            },
+            {
+                "Name": "SerialNumber",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "51B61CE5-7832-7772-9109-90F91851D54D",
+                "Properties": []
+            },
+            {
+                "Name": "Model",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 20,
+                "DataType": {
+                    "Id": 21
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "A9796F5F-0CF1-48BA-31F3-3F438568A60A",
+                "Properties": []
+            },
+            {
+                "Name": "ProductCode",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "8FAD3CA6-D560-05CE-9379-17E19B79E7BE",
+                "Properties": []
+            },
+            {
+                "Name": "SoftwareRevision",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "E5E3D349-A2C1-D864-A51A-21A2C29C7967",
+                "Properties": []
+            },
+            {
+                "Name": "DeviceClass",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "7496B952-17BF-9EF0-3DD3-CD8CB4EB5E55",
+                "Properties": []
+            },
+            {
+                "Name": "Location",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "0B235BE3-3E28-7818-D02D-62F621B2AB3A",
+                "Properties": []
+            },
+            {
+                "Name": "ComponentName",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 20,
+                "DataType": {
+                    "Id": 21
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "D054D032-4F1B-173C-1E71-F74FB8DB3DB3",
+                "Properties": []
+            }
+        ],
+        "DataSetClassId": "00000000-0000-0000-0000-000000000000",
+        "ConfigurationVersion": {
+            "MajorVersion": 3215292588,
+            "MinorVersion": 3215289318
+        }
+    }
+}
+
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Equipment.Tools.Tool1_Writer
+
+{
+    "MessageId": null,
+    "MessageType": "ua-metadata",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 22,
+    "DataSetWriterName": "ShowcaseMachineTool_.Equipment.Tools.Tool1_Writer",
+    "MetaData": {
+        "Namespaces": [],
+        "StructureDataTypes": [],
+        "EnumDataTypes": [],
+        "SimpleDataTypes": [],
+        "Name": "ShowcaseMachineTool_.Equipment.Tools.Tool1",
+        "Description": {
+            "Locale": "",
+            "Text": ""
+        },
+        "Fields": [
+            {
+                "Name": "ControlIdentifier1",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 6,
+                "DataType": {
+                    "Id": 7
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "BA546448-2880-FD4D-0890-19813A73F77F",
+                "Properties": []
+            },
+            {
+                "Name": "ControlIdentifierInterpretation",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 26,
+                "DataType": {
+                    "Id": 69,
+                    "Namespace": 5
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "F84FFDD6-727D-DA00-AEDA-1D6199F9AF1A",
+                "Properties": []
+            },
+            {
+                "Name": "Locked",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 0,
+                "DataType": {
+                    "Id": 1
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "6B5C1AD6-0C05-6486-D4CD-AC9A5FD53DF3",
+                "Properties": [
+                    {
+                        "Key": {
+                            "Name": "ReasonForLocking",
+                            "Uri": 5
+                        },
+                        "Value": {
+                            "Type": 6,
+                            "Body": 5
+                        }
+                    }
+                ]
+            },
+            {
+                "Name": "Name",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "08CCE62F-CA86-736D-2FC2-2C4268266206",
+                "Properties": []
+            }
+        ],
+        "DataSetClassId": "00000000-0000-0000-0000-000000000000",
+        "ConfigurationVersion": {
+            "MajorVersion": 3215296508,
+            "MinorVersion": 3215295278
+        }
+    }
+}
+
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Equipment.Tools_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.MachineTool_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.Channel 1_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.Spindle_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.Stacklight.Light 0_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.Stacklight.Light 1_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.Stacklight.Light 2_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Monitoring.Stacklight_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Production.ActiveProgram.State_Writer
+vdw/json/metadata/ShowcaseMachineTool/MachineTool_WriterGroup/ShowcaseMachineTool_.Production.ActiveProgram_Writer
