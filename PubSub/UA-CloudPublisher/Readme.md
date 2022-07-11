@@ -29,17 +29,17 @@ For demonstration purpose we provide a sample [publishednodes.json](publishednod
 
 ``` json
 {
-    "MessageId": "914",
+    "MessageId": "32050",
     "MessageType": "ua-data",
     "PublisherId": "UACloudPublisher",
     "Messages": [
         {
-            "DataSetWriterId": 3383,
-            "Timestamp": "2022-07-11T10:48:02.9933409Z",
+            "DataSetWriterId": 45938,
+            "Timestamp": "2022-07-11T13:03:42.977107Z",
             "Payload": {
                 "FeedOverride": {
                     "Type": 11,
-                    "Body": 90
+                    "Body": 120
                 }
             }
         }
@@ -51,30 +51,29 @@ For demonstration purpose we provide a sample [publishednodes.json](publishednod
 
 ``` json
 {
-    "MessageId": "782",
-    "MessageType": "ua-metadata",
-    "PublisherId": "UACloudPublisher",
-    "DataSetWriterId": 23389,
-    "MetaData": {
-        "Name": "urn:SampleServer;nsu=http://example.com/ShowcaseMachineTool/;i=55188",
-        "Fields": [
-            {
-                "Name": "CurrentState",
-                "FieldFlags": 0,
-                "BuiltInType": 21,
-                "DataType": {
-                    "Id": 24
-                },
-                "ValueRank": -1,
-                "MaxStringLength": 0,
-                "DataSetFieldId": "f282a68f-7815-47f4-8f39-96ce3ea0d658"
-            }
-        ],
-        "ConfigurationVersion": {
-            "MajorVersion": 1,
-            "MinorVersion": 1
-        }
+  "MessageId": "32986",
+  "MessageType": "ua-metadata",
+  "PublisherId": "UACloudPublisher",
+  "DataSetWriterId": 45938,
+  "MetaData": {
+    "Name": "urn:SampleServer;nsu=http://example.com/ShowcaseMachineTool/;i=55229",
+    "Fields": [
+      {
+        "Name": "FeedOverride",
+        "FieldFlags": 0,
+        "BuiltInType": 11,
+        "DataType": {
+          "Id": 24
+        },
+        "ValueRank": -1,
+        "MaxStringLength": 0,
+        "DataSetFieldId": "5486271c-89f0-4607-aceb-e4c7741ea605"
+      }
+    ],
+    "ConfigurationVersion": {
+      "MajorVersion": 1,
+      "MinorVersion": 1
     }
+  }
 }
-
 ```
