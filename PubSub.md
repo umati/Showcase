@@ -9,12 +9,12 @@ This page describe how to connect to the umati.app Dashboard by using PubSub ins
 
 ## Setup
 
-The publisher could be implemented together with the OPC UA Server application on the same instance.
-Additionally Gateways such as UA-Publisher or Azure OPC Publisher can be used to subscribe to the OPC UA Server and publish the information.
+To connect with PubSub to the umati.app, the publisher could be implemented together with the OPC UA Server application on the same instance.
+Additionally Gateways such as [UA-CloudPublisher](https://github.com/umati/UA-CloudPublisher) provided by Erich Barnstedt (@barnstee) or [OPC Pulisher (Microsoft Azure IoT)](https://github.com/Azure/Industrial-IoT#opc-publisher---standalone) can be used to subscribe to the OPC UA Server and publish the information.
 
-OPC UA Server/Publisher -- MQTT/JSON --> MQTT Broker
+`OPC UA Server/Publisher` -- MQTT/JSON --> `MQTT Broker`
 
-OPC UA Server --TCO binary --> Gateway -- MQTT/JSON --> MQTT Broker
+`OPC UA Server` -- TCP binary --> `Gateway` -- MQTT/JSON --> `MQTT Broker`
 
 ## MQTT Broker
 
