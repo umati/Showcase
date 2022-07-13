@@ -13,3 +13,4 @@
 | METAV | 2022 | METAV 2022 | <https://metav.de> |
 | CTRL | 2022 | Control Stuttgart 2022 | <https://www.control-messe.de/> |
 | K | 2022 | K 2022 | <https://www.k-online.de/> |
+| GLASSTEC | 2022 | glasstec 2022 | <https://www.glasstec.de/> |

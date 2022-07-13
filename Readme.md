@@ -20,6 +20,7 @@ To learn more please visit [https://umati.org](https://umati.org)
   - [Software Solutions](Specs/Software.md)
   - [WoodWorking](Specs/Woodworking.md)
   - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+  - [Flat Glass Processing](Specs/Flatglass.md)
 - Upcoming Specifications
   - [Robotics](Specs/WIP.md)
   - [MachineVision](Specs/WIP.md)
