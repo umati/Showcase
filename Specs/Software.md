@@ -6,7 +6,7 @@ Then you can showcase you products also through the umati.app.
 Going forward we will create software products as a separate listing inside the umati.app.
 So an user of the app, will not only be able to browse connected machines but also software solutions.
 
-## What informations will be provided to a prospect:
+## What informations will be provided to a prospect
 
 - **Manufacturer**
 - URL of the manufacturer/product site

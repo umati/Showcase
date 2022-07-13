@@ -14,5 +14,5 @@ moulding machines and MES
 
 For not listed OPC UA 400xx specifications or information about the Generic Model, please contact
 
-- Marc Schmitt (marc.schmitt@vdma.org)
-- Dr. Harald Weber (harald.weber@vdma.org)
+- Marc Schmitt [marc.schmitt@vdma.org](mailto:marc.schmitt@vdma.org)
+- Dr. Harald Weber[harald.weber@vdma.org](mailto:harald.weber@vdma.org)
