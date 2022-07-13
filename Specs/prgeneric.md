@@ -1,7 +1,8 @@
 # umati showcase information model for Plastics and Rubber machines Generic Model
 
 ## 1. General
-The namespace for the instances is manufacturer specific, e.g. http://samplemanufacturer.com/umati_plasticsrubber_generic_sample_instance/
+
+The namespace for the instances is manufacturer specific, e.g. <http://samplemanufacturer.com/umati_plasticsrubber_generic_sample_instance/>
 
 Table 1 shows the complete structure of the instance needed for the umati demonstrator when two process values are used. The demonstrator requires, that all mandatory elements of used MachineIdentificationType are existent, even if there are not displayed in the dashboard. If the value of a variable a not displayed, is can be filled with a static dummy value (e.g. empty string). All displayed values are marked in **bold**.
 
@@ -11,7 +12,7 @@ Table 1 shows the complete structure of the instance needed for the umati demons
 
 Download: [Compleate documentation umati showcase information model Plastics and Rubber](https://github.com/umati/Showcase/tree/main/img/PlasticsRubber/PR_Generic_PDF.pdf)
 
-**Table 1 – Sample instance of UmatiPlasticsRubberGenericType**
+### Table 1 – Sample instance of UmatiPlasticsRubberGenericType
 
 |**BrowseName**|**Type**|**Example Value**|**Remarks**|
 | :- | :- | :- | :- |
@@ -19,7 +20,7 @@ Download: [Compleate documentation umati showcase information model Plastics and
 |&ensp; Machines||||
 |&ensp;&ensp; &lt;EntryNodeforMachine>|UmatiPlasticsRubberGenericType|||
 |&ensp;&ensp;&ensp; 2:Identification|3:MachineIdentificationType|||
-|&ensp;&ensp;&ensp;&ensp; 2:ProductInstanceUri||“http://samplemanufacturer.com/BM123”|1)|
+|&ensp;&ensp;&ensp;&ensp; 2:ProductInstanceUri||“<http://samplemanufacturer.com/BM123>”|1)|
 |&ensp;&ensp;&ensp;&ensp; **2:Manufacturer**|0:LocalizedText|“Sample Manufacturer”||
 |&ensp;&ensp;&ensp;&ensp; **2:Model**|0:LocalizedText|“Machine Model 3000”|2)|
 |&ensp;&ensp;&ensp;&ensp; **2:SerialNumber**|0:String|“BM123”||
@@ -41,9 +42,9 @@ Download: [Compleate documentation umati showcase information model Plastics and
 |&ensp;&ensp;&ensp;&ensp; **Value**|0:Double|5.2||
 |&ensp;&ensp;&ensp;&ensp; **Unit**|0:String|“bar”||
 
-1)	This variable is mandatory in the model but will not be displayed in the demonstrator
-2)	Not mandatory in OPC UA for Machinery but for this model and will be displayed in the demonstrator
-3)	See https://showcase.umati.org/Dashboard.html#location-of-fair-machine-and-software-icons-on-the-dashboard for rules for filling the location.
+1) This variable is mandatory in the model but will not be displayed in the demonstrator
+2) Not mandatory in OPC UA for Machinery but for this model and will be displayed in the demonstrator
+3) See <https://showcase.umati.org/Dashboard.html#location-of-fair-machine-and-software-icons-on-the-dashboard> for rules for filling the location.
 
 ## 2. Process values for different machine types
 
