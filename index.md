@@ -47,6 +47,7 @@ This documentation is versioned, as some content details will be delivered later
 | v1.04.0 | 03.09.2021 | Addition of Woodworking companion specification |
 | v1.04.1 | 08.02.2022 | Updates to Machine Tools, Woodworking |
 | v1.05.0 | 03.03.2022 | Integrates Geomentrical Measuring Systems |
+| v1.06.0 | 13.07.2020 | Integrates PlasticsRubber specifications |
 
 ### Changelog
 
@@ -66,7 +67,8 @@ This documentation is versioned, as some content details will be delivered later
 | [Organizational Information](Organization.md) | Timeline | Removed the obsolete timeline for a 2020 showcase | [2416d15](https://github.com/umati/Showcase/commit/2416d1569cc43267d86530a934dcab267833d7fb) |
 | [MachineTool](Specs/MachineTool.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
 | [Woodworking](Specs/Woodworking.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
-| [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS | Adds specification page [49c11bc](https://github.com/umati/Showcase/commit/49c11bc70113b8ceb4ea718e8cef5e27dd9ec5ff) |
+| [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS | Adds specification page | [49c11bc](https://github.com/umati/Showcase/commit/49c11bc70113b8ceb4ea718e8cef5e27dd9ec5ff) |
+| [PlasticsRubber](Specs/PlasticRubber.md) | PlasticsRubber | Adds specifications 40077, 40079 RC, 40082-1, 40082-2, 40082-3, 40084-2, 40084-11, PRGeneric | [5c95751](https://github.com/umati/Showcase/commit/5c95751e6a9220ed2fdda5f030d841a8b22e944b) |
 
 ## Demonstrator story umati showcase
 
