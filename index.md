@@ -1,7 +1,9 @@
 # General Information
 
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
-- Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier. The umati project group **cannot** supply individual support on how to get [OPC UA Servers](Server.md) installed, online and deliver data. If questions arise regarding the information provided in **this documentation** or the connection to the datahub for the umati showcase demonstrator, please open an issue [here](https://github.com/umati/Showcase).
+- Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier.
+- The umati project group **cannot** supply individual support on how to get [OPC UA Servers](Server.md) installed, online and deliver data.
+- If questions arise regarding the information provided in **this documentation** or the connection to the datahub for the umati showcase demonstrator, please open an issue [here](https://github.com/umati/Showcase).
 
 - An FAQ is provided [here](FAQ.md) and will be updated as needed.
 
@@ -55,7 +57,7 @@ This documentation is versioned, as some content details will be delivered later
 | Doc | Area | Description | Commit |
 | --- | --- | --- | --- |
 | [Dashboard](Dashboard.md) | Dashboard | Extend the datahub section | [122940e](https://github.com/umati/Showcase/commit/122940ebdd091251cbe5a028c3ffe719b5b6ec63) |
-| [License](LICENSE) | License | Update of Repo License| [1e4f3d9](https://github.com/umati/Showcase/commit/1e4f3d934e4e4420554d0509fff11ba4f853e2f3)|
+| [License](LICENSE) | License | Update of Repository License| [1e4f3d9](https://github.com/umati/Showcase/commit/1e4f3d934e4e4420554d0509fff11ba4f853e2f3)|
 | [MachineTool](Specs/MachineTool.md) | Mapping of information | Pictures of app with mapping added | [f59f93d](https://github.com/umati/Showcase/commit/f59f93dc4eda4bdf4bf00efc53f8560bc6108b35) |
 | [MachineTool](Specs/MachineTool.md) | Fair Specification | SoftwareRevision mandatory | [117ce4b](https://github.com/umati/Showcase/pull/16/commits/117ce4bde7a57574de1240e76d2d3aa1160bd517) |
 | [MachineTool](Specs/MachineTool.md) | NodeSets for Machine Tools | Clarification on prototyping nodeset for showcase | [a2c4926](https://github.com/umati/Showcase/commit/a2c49264ca66caf6813de1ad8a5706d83ec3aa46) [7628b8a](https://github.com/umati/Showcase/commit/7628b8af38c41da2e01dac70f3d8f8be44f8949c) |
@@ -75,11 +77,16 @@ This documentation is versioned, as some content details will be delivered later
 
 ### The umati vision
 
-Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with an umati interface can be easily connected with applications. No matter whether you are end user, system integrator or machine builder: with the umati interface you will be able to easily connect to machines of all manufacturers and controls. umati is an initiative by the umati community and is an association of companies from the mechanical and plant engineering industry that jointly and comprehensively bring a common interface concept based on OPC UA to the market for the entire mechanical and plant engineering sector. Currently it is sponsored and hosted by the German Machine Tool Builders' Association [(VDW)](https://vdw.de) and the mechanical engineering industry association [(VDMA)](https://vdma.org).
+Connectivity with umati - universal machine technology interface - is simple, secure and future-oriented. Any machine with an umati interface can be easily connected with applications.
+No matter whether you are end user, system integrator or machine builder: with the umati endorsed companion specficiations you will be able to easily connect to machines of all manufacturers and controls.
+umati is an initiative by the umati community and is an association of companies from the mechanical and plant engineering industry that jointly and comprehensively bring a common interface concept based on OPC UA to the market for the entire mechanical and plant engineering sector.
+
+Currently it is sponsored and hosted by the German Machine Tool Builders' Association [(VDW)](https://vdw.de) and the mechanical engineering industry association [(VDMA)](https://vdma.org).
 
 ## umati showcase
 
-This showcase demonstrates how **umati partners** connect components, machines and applications via a connectivity showcase. This showcase targets decision-makers in the machinery industry with a uniform marketing strategy and demonstrations showing the depth of the umati interface: from umati component suppliers over umati machine builders to umati partner applications that cumulate the data in dashboards, ERP, MES and cloud systems.
+This showcase demonstrates how **umati partners** connect components, machines and applications via a connectivity showcase.
+This showcase targets decision-makers in the machinery industry with a uniform marketing strategy and demonstrations showing the depth of the umati interface: from umati component suppliers over umati machine builders to umati partner applications that cumulate the data in dashboards, ERP, MES and cloud systems.
 
 Trade fair guests will get information about umati at the virtual showcase and will be offered a hands-on experience via a white-label dashboard. The dashboard offers data of each individual machine connected through umati. The dashboard is easily accessible through any web browser with individual QR codes offering weblinks at each machine. It further offers responsive design for mobile end users.
 

@@ -29,7 +29,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | IsAbstract | False |
 | Description | Contains information about the identification and nameplate of a machine |
 |     |     |     |     |     |     |
-| **References** | **Node Class** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
+| **References** | **NodeClass** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
 | Subtype of the 2:FunctionalGroupType defined in OPC 10000-100, i.e. inheriting the InstanceDeclarations of that Node. |
 | 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType |     |
 | 0:HasInterface | ObjectType | IMachineVendorNameplateType |
