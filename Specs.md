@@ -11,5 +11,6 @@ moulding machines and MES
 - [OPC 40084-3 - EXTRUDER](Specs/pr40084-3.md) - Extrusion – Part 3: Extruder
 - [OPC 40084-11 - CORRUGATOR](Specs/pr40084-11.md) - Extrusion – Part 11: Corrugator
 - [OPC 40550 UA for Woodworking](Specs/Woodworking.md)
-  - [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+- [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+- [OPC 40301 UA for Flat Glass Processing](Specs/Flatglass.md)
 - [Software Solutions](Specs/Software.md)

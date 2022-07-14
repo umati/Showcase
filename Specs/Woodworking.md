@@ -34,7 +34,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 | IsAbstract | False |
 | Description | Contains information about the identification and nameplate of a machine |
 |     |     |     |     |     |     |
-| **References** | **Node Class** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
+| **References** | **NodeClass** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
 | Subtype of the 2:FunctionalGroupType defined in OPC 10000-100, i.e. inheriting the InstanceDeclarations of that Node. |
 | 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType |     |
 | 0:HasInterface | ObjectType | IMachineVendorNameplateType |
@@ -72,7 +72,7 @@ Fair shortnames are defined [here.](Fairs.md)
 
   `http://www.<MANUFACTURERDOMAIN>/example`
 
-- The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a website as a URI, it is not necessary that the website actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
+- The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
 
 - The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 
