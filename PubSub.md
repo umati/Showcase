@@ -45,7 +45,8 @@ For the showcase two brokers are used:
 
 * `<prefix>`: Free to choose, e.g company name, e.g, `isw`
 
-* `<machine_id>` url encoding of e.g.: `prefix=<prefix>;nsu=<ns_uri of machine node>;<index of machine node>`, e.g. `prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002`
+* `<machine_id>` url encoding of e.g.: `prefix=<prefix>;nsu=<ns_uri of machine node>;<node id of machine node>`, e.g. 
+`prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234`
 
 The topics follow the browse paths.
 
@@ -58,30 +59,27 @@ The topics follow the browse paths.
 ### Metadata-Topics (Examples)
 
 ```html
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Identification_Writer
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification
 
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Equipment.Tools.Tool1_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Equipment.Tools_Writer
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Channel 1
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Spindle
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 0
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight
 
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.MachineTool_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.Channel 1_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.Spindle_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.Stacklight_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.Stacklight.Light 0_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.Stacklight.Light 1_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Monitoring.Stacklight.Light 2_Writer
-
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Production.ActiveProgram_Writer
-<prefix>/json/metadata/<machine_id>/_WriterGroup/.Production.ActiveProgram.State_Writer
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State
+<prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram
 ```
 
 ## Examples
 
 ### Data Topic
 
-Topic: `isw/json/data/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup`
-
-Json:
+`isw/json/data/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup`
 
 ```json
 {
@@ -89,342 +87,344 @@ Json:
     "MessageType": "ua-data",
     "Messages": [
         {
-            "DataSetWriterId": 53,
-            "DataSetWriterName": ".Production.ActiveProgram_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 9,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920589240,
-                "MinorVersion": 3920587330
+                "MajorVersion": 388877790,
+                "MinorVersion": 388875340
             },
-            "Timestamp": "2022-07-07T16:10:29.805737Z",
+            "Timestamp": "2022-07-15T15:34:20.850936Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 32,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "Name": {
-                    "Type": 12,
                     "Body": "Basic Program"
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 0
                 }
             }
         },
         {
-            "DataSetWriterId": 52,
-            "DataSetWriterName": ".Production.ActiveProgram.State_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 8,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920588010,
-                "MinorVersion": 3920587890
+                "MajorVersion": 388876230,
+                "MinorVersion": 388876050
             },
-            "Timestamp": "2022-07-07T16:10:29.805765Z",
+            "Timestamp": "2022-07-15T15:34:20.850992Z",
             "Payload": {
-                "CurrentState": {
-                    "Type": 21,
+                "TypeDefinition": {
                     "Body": {
-                        "Locale": "en",
-                        "Text": "Running"
+                        "Id": 24,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
                     }
+                },
+                "CurrentState": {
+                    "Body": "Running"
                 }
             }
         },
         {
-            "DataSetWriterId": 51,
-            "DataSetWriterName": ".Monitoring.Stacklight_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 7,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920577050,
-                "MinorVersion": 3920576210
+                "MajorVersion": 388865050,
+                "MinorVersion": 388864420
             },
-            "Timestamp": "2022-07-07T16:10:29.805787Z",
+            "Timestamp": "2022-07-15T15:34:20.851015Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 1002,
+                        "Namespace": "http://opcfoundation.org/UA/IA/"
+                    }
+                },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "NodeVersion": {
-                    "Type": 12,
                     "Body": ""
                 }
             }
         },
         {
-            "DataSetWriterId": 50,
-            "DataSetWriterName": ".Monitoring.Stacklight.Light 2_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 6,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920585300,
-                "MinorVersion": 3920583640
+                "MajorVersion": 388872940,
+                "MinorVersion": 388871100
             },
-            "Timestamp": "2022-07-07T16:10:29.805821Z",
+            "Timestamp": "2022-07-15T15:34:20.851047Z",
             "Payload": {
                 "SignalColor": {
-                    "Type": 6,
                     "Body": 2
                 },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "IsPartOfBase": {
-                    "Type": 1,
                     "Body": false
                 },
                 "SignalOn": {
-                    "Type": 1,
                     "Body": true
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 2
                 }
             }
         },
         {
-            "DataSetWriterId": 49,
-            "DataSetWriterName": ".Monitoring.Stacklight.Light 1_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 5,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920582860,
-                "MinorVersion": 3920580630
+                "MajorVersion": 388870180,
+                "MinorVersion": 388868310
             },
-            "Timestamp": "2022-07-07T16:10:29.805888Z",
+            "Timestamp": "2022-07-15T15:34:20.851108Z",
             "Payload": {
                 "SignalColor": {
-                    "Type": 6,
                     "Body": 4
                 },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "IsPartOfBase": {
-                    "Type": 1,
                     "Body": false
                 },
                 "SignalOn": {
-                    "Type": 1,
-                    "Body": false
+                    "Body": true
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 1
                 }
             }
         },
         {
-            "DataSetWriterId": 48,
-            "DataSetWriterName": ".Monitoring.Stacklight.Light 0_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 4,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 0",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920579490,
-                "MinorVersion": 3920577350
+                "MajorVersion": 388867340,
+                "MinorVersion": 388865450
             },
-            "Timestamp": "2022-07-07T16:10:29.805949Z",
+            "Timestamp": "2022-07-15T15:34:20.851161Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 1006,
+                        "Namespace": "http://opcfoundation.org/UA/IA/"
+                    }
+                },
                 "SignalColor": {
-                    "Type": 6,
                     "Body": 1
                 },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "IsPartOfBase": {
-                    "Type": 1,
                     "Body": false
                 },
                 "SignalOn": {
-                    "Type": 1,
                     "Body": true
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 0
                 }
             }
         },
         {
-            "DataSetWriterId": 47,
-            "DataSetWriterName": ".Monitoring.Spindle_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 3,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Spindle",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920574090,
-                "MinorVersion": 3920573210
+                "MajorVersion": 388862930,
+                "MinorVersion": 388862090
             },
-            "Timestamp": "2022-07-07T16:10:29.80601Z",
+            "Timestamp": "2022-07-15T15:34:20.851214Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 22,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "IsRotating": {
-                    "Type": 1,
                     "Body": true
                 },
                 "IsUsedAsAxis": {
-                    "Type": 1,
                     "Body": false
                 },
                 "Override": {
-                    "Type": 11,
                     "Body": 103
                 },
                 "Name": {
-                    "Type": 12,
                     "Body": "Spindle"
                 }
             }
         },
         {
-            "DataSetWriterId": 46,
-            "DataSetWriterName": ".Monitoring.Channel 1_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 2,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Channel 1",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920571210,
-                "MinorVersion": 3920570240
+                "MajorVersion": 388860440,
+                "MinorVersion": 388859470
             },
-            "Timestamp": "2022-07-07T16:10:29.806042Z",
+            "Timestamp": "2022-07-15T15:34:20.851239Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 16,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "ChannelState": {
-                    "Type": 6,
                     "Body": 1
                 },
                 "FeedOverride": {
-                    "Type": 11,
-                    "Body": 16.35999999940395355224609375
+                    "Body": 41.4300000001676380634307861328125
                 },
                 "ChannelMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "Name": {
-                    "Type": 12,
                     "Body": "Channel 1"
                 }
             }
         },
         {
-            "DataSetWriterId": 45,
-            "DataSetWriterName": ".Monitoring.MachineTool_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 1,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920569310,
-                "MinorVersion": 3920568700
+                "MajorVersion": 388858450,
+                "MinorVersion": 388857720
             },
-            "Timestamp": "2022-07-07T16:10:29.806094Z",
+            "Timestamp": "2022-07-15T15:34:20.851283Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 26,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "OperationMode": {
-                    "Type": 6,
                     "Body": 1
                 },
                 "PowerOnDuration": {
-                    "Type": 7,
                     "Body": 0
                 }
             }
         },
         {
-            "DataSetWriterId": 23,
-            "DataSetWriterName": ".Equipment.Tools_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 1,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920565170,
-                "MinorVersion": 3920565000
+                "MajorVersion": 388853500,
+                "MinorVersion": 388853310
             },
-            "Timestamp": "2022-07-07T16:10:29.806124Z",
+            "Timestamp": "2022-07-15T15:34:20.851306Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 44,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "NodeVersion": {
-                    "Type": 12,
                     "Body": null
                 }
             }
         },
         {
-            "DataSetWriterId": 22,
-            "DataSetWriterName": ".Equipment.Tools.Tool1_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 0,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920566820,
-                "MinorVersion": 3920565440
+                "MajorVersion": 388855620,
+                "MinorVersion": 388853860
             },
-            "Timestamp": "2022-07-07T16:10:29.806135Z",
+            "Timestamp": "2022-07-15T15:34:20.851311Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 50,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "ControlIdentifier1": {
-                    "Type": 7,
                     "Body": 12
                 },
                 "ControlIdentifierInterpretation": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "Locked": {
-                    "Type": 1,
                     "Body": false
                 },
                 "Name": {
-                    "Type": 12,
                     "Body": "Tool1"
                 }
             }
         },
         {
-            "DataSetWriterId": 44,
-            "DataSetWriterName": ".Identification_Writer",
-            "SequenceNumber": 3,
+            "DataSetWriterId": 0,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3920563480,
-                "MinorVersion": 3920560150
+                "MajorVersion": 388851690,
+                "MinorVersion": 388847890
             },
-            "Timestamp": "2022-07-07T16:10:29.806175Z",
+            "Timestamp": "2022-07-15T15:34:20.851346Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 11,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "YearOfConstruction": {
-                    "Type": 5,
                     "Body": 2021
                 },
                 "MonthOfConstruction": {
-                    "Type": 3,
                     "Body": 11
                 },
                 "Manufacturer": {
-                    "Type": 21,
-                    "Body": {
-                        "Locale": "",
-                        "Text": "umati Showcase"
-                    }
+                    "Body": "umati Showcase"
                 },
                 "ProductInstanceUri": {
-                    "Type": 12,
                     "Body": "https://showcase.umati.org/Specs/Machinetools.html"
                 },
                 "SerialNumber": {
-                    "Type": 12,
                     "Body": "2021-15360620311222485159"
                 },
                 "Model": {
-                    "Type": 21,
-                    "Body": {
-                        "Locale": "",
-                        "Text": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002"
-                    }
+                    "Body": "ShowcaseMachineTool"
                 },
                 "ProductCode": {
-                    "Type": 12,
                     "Body": "2653837gg1548"
                 },
                 "SoftwareRevision": {
-                    "Type": 12,
                     "Body": "v1.02.1"
                 },
                 "DeviceClass": {
-                    "Type": 12,
                     "Body": "Machining centre (other)"
                 },
                 "Location": {
-                    "Type": 12,
                     "Body": "CIMT E8 B014/VIRTUAL 0 0/N 49.871215 E 8.654204"
                 },
                 "ComponentName": {
-                    "Type": 21,
-                    "Body": {
-                        "Locale": "",
-                        "Text": "umati Showcase Component"
-                    }
+                    "Body": "umati Showcase Component"
                 }
             }
         }
@@ -433,29 +433,52 @@ Json:
 ```
 
 ### Metadata Topics
-
-Topic: `isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Identification_Writer`
-
-Json:
-
 ```json
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification
+
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 44,
-    "DataSetWriterName": ".Identification_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 0,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Identification",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=11"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "19AF8453-36B8-1C2C-F8AF-EACEE9DE9DF9",
+                "Properties": []
+            },
             {
                 "Name": "YearOfConstruction",
                 "Description": {
@@ -470,7 +493,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "76E35778-47BC-098F-0DA0-4A147C279209",
+                "DataSetFieldId": "31ADB51B-7D7E-D3C2-0BF0-CF6C58357387",
                 "Properties": []
             },
             {
@@ -487,7 +510,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "4898AED0-D893-9809-4BC4-5CA5B15BB5CB",
+                "DataSetFieldId": "D7AA4248-E66F-8B2C-8D98-2962EEDE8D58",
                 "Properties": []
             },
             {
@@ -504,7 +527,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "22D78A78-07FC-CDE9-89B8-7B778E188148",
+                "DataSetFieldId": "772218BF-8DC3-DDB0-0400-8008A51A4104",
                 "Properties": []
             },
             {
@@ -521,7 +544,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "20E22A33-5AF0-8A44-5965-667614E1FE6F",
+                "DataSetFieldId": "36914B8E-69BB-9CD9-F7EF-CE0CEC3E6386",
                 "Properties": []
             },
             {
@@ -538,7 +561,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "624FE9E4-4C1F-0A3A-3743-7407F68F7857",
+                "DataSetFieldId": "5DEDA318-14DF-D288-9F59-A5DAA32AD21D",
                 "Properties": []
             },
             {
@@ -555,7 +578,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "87021A33-8413-F03F-AE6A-C6CC8E98D9AD",
+                "DataSetFieldId": "19EF6AF1-AC68-DD0B-ADEA-CE6CD66D7667",
                 "Properties": []
             },
             {
@@ -572,7 +595,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "20F4A41C-5FF7-7321-7FC7-1C01F3FFCF9C",
+                "DataSetFieldId": "769FD65B-3522-FFC2-0DE0-AEBA2D526506",
                 "Properties": []
             },
             {
@@ -589,7 +612,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "918C3834-0B1F-DD67-2622-A2EABBEB5E45",
+                "DataSetFieldId": "51FBA6C0-0095-8554-60E6-BEDB289259F5",
                 "Properties": []
             },
             {
@@ -606,7 +629,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "11116866-0CCF-863A-9C69-6626AC3A8388",
+                "DataSetFieldId": "2BA94D84-F95E-6C57-D78D-286264D69DE9",
                 "Properties": []
             },
             {
@@ -623,7 +646,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "7B86AA05-D66A-90CA-D06D-D67DB80B9089",
+                "DataSetFieldId": "6FA63C23-4AF4-68F4-2172-D70D3B63F69F",
                 "Properties": []
             },
             {
@@ -640,43 +663,63 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "0FA09BFF-AA6E-345D-6C66-C61C4FC49C49",
+                "DataSetFieldId": "E924D793-A52A-25EE-9959-C53C7D672632",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920563480,
-            "MinorVersion": 3920560150
+            "MajorVersion": 388851690,
+            "MinorVersion": 388847890
         }
     }
 }
-```
 
-### Topic
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1
 
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Equipment.Tools.Tool1_Writer`
-
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 22,
-    "DataSetWriterName": ".Equipment.Tools.Tool1_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 0,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Equipment.Tools.Tool1",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=50"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "1B2CA533-7843-EF0F-5EB5-DB4DBBAB3A23",
+                "Properties": []
+            },
             {
                 "Name": "ControlIdentifier1",
                 "Description": {
@@ -691,7 +734,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "8BF5D4F7-A852-8D50-D50D-6056788708E0",
+                "DataSetFieldId": "629B03B6-A3BE-4247-2842-04C03793F94F",
                 "Properties": []
             },
             {
@@ -709,7 +752,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "A4F9AA8D-9C31-FE94-26A2-6A8615A17A77",
+                "DataSetFieldId": "90802AC3-7831-AE80-1CF1-6F16C55C05A0",
                 "Properties": []
             },
             {
@@ -726,7 +769,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "1C0DE6B1-F4AD-DCE4-9D69-5615C2AC5A05",
+                "DataSetFieldId": "35DE50E3-B396-75B2-A1FA-BF7B6C1611E1",
                 "Properties": [
                     {
                         "Key": {
@@ -754,42 +797,134 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "3583F550-2658-6708-6196-E93E1281A85A",
+                "DataSetFieldId": "06D2B035-E5B2-585D-2CE2-2E3233831831",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920566820,
-            "MinorVersion": 3920565440
+            "MajorVersion": 388855620,
+            "MinorVersion": 388853860
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Equipment.Tools_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 45,
-    "DataSetWriterName": ".Monitoring.MachineTool_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 1,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Monitoring.MachineTool",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools",
+        "Description": {
+            "Locale": "en",
+            "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=44"
+        },
+        "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "CBACCF7F-6D0F-5DA8-4514-F11F9C795705",
+                "Properties": []
+            },
+            {
+                "Name": "NodeVersion",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 11,
+                "DataType": {
+                    "Id": 12
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "060B3DB1-EB89-7DB1-FD5F-75D7E25E7547",
+                "Properties": []
+            }
+        ],
+        "DataSetClassId": "00000000-0000-0000-0000-000000000000",
+        "ConfigurationVersion": {
+            "MajorVersion": 388853500,
+            "MinorVersion": 388853310
+        }
+    }
+}
+
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool
+
+{
+    "MessageId": null,
+    "MessageType": "ua-metadata",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 1,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool",
+    "MetaData": {
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
+        "StructureDataTypes": [],
+        "EnumDataTypes": [],
+        "SimpleDataTypes": [],
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=26"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "15A8D595-A92E-C051-1321-D22DD7FD4F44",
+                "Properties": []
+            },
             {
                 "Name": "OperationMode",
                 "Description": {
@@ -805,7 +940,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "1564B7F8-E549-0C5C-CBCC-ECAECC7CF79F",
+                "DataSetFieldId": "9CA023F6-BB01-0252-3DA3-3AE329C2BCBB",
                 "Properties": []
             },
             {
@@ -822,42 +957,63 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "061C1A48-34D1-786E-77D7-9D9970E75EB5",
+                "DataSetFieldId": "82649134-46F7-ED64-6CF6-BF3B20527597",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920569310,
-            "MinorVersion": 3920568700
+            "MajorVersion": 388858450,
+            "MinorVersion": 388857720
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Monitoring.Channel 1_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Channel 1
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 46,
-    "DataSetWriterName": ".Monitoring.Channel 1_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 2,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Channel 1",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Monitoring.Channel 1",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Channel 1",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=16"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "24D157AB-5927-95D8-CFAC-EA4E1E519519",
+                "Properties": []
+            },
             {
                 "Name": "ChannelState",
                 "Description": {
@@ -873,7 +1029,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "534B0891-E249-25F1-51B5-8B680BD0CD8C",
+                "DataSetFieldId": "4A417944-340F-0103-ECAE-1A91D9FDAFBA",
                 "Properties": []
             },
             {
@@ -890,7 +1046,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "4457A379-B2F3-2AFC-EFFE-8F98AC2A2262",
+                "DataSetFieldId": "2B71750D-BAE9-6BAF-AB2A-E26E6ED64DD4",
                 "Properties": [
                     {
                         "Key": {
@@ -904,7 +1060,7 @@ Json:
                                 },
                                 "Body": {
                                     "Low": 0,
-                                    "High": 100
+                                    "High": 110
                                 }
                             }
                         }
@@ -951,7 +1107,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "AAC3BD75-1A70-567F-F8AF-EAFE7F4764E6",
+                "DataSetFieldId": "7E4E1715-5B00-27E0-E7CE-4C543D43C47C",
                 "Properties": []
             },
             {
@@ -968,42 +1124,63 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "1D7A9D9C-DE72-8ECF-E00E-609639C3DC7D",
+                "DataSetFieldId": "5210C40F-F262-00BE-2042-74D751F5EF0E",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920571210,
-            "MinorVersion": 3920570240
+            "MajorVersion": 388860440,
+            "MinorVersion": 388859470
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Monitoring.Spindle_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Spindle
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 47,
-    "DataSetWriterName": ".Monitoring.Spindle_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 3,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Spindle",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Monitoring.Spindle",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Spindle",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=22"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "C566192A-A7DA-5B3D-5AA5-7AC7A69A0970",
+                "Properties": []
+            },
             {
                 "Name": "IsRotating",
                 "Description": {
@@ -1018,7 +1195,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "2C7A784A-1A3B-D5FC-8B48-344385589599",
+                "DataSetFieldId": "0D93A83B-F2BB-EE62-2892-09307CD79D29",
                 "Properties": []
             },
             {
@@ -1035,7 +1212,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "BE09124E-6C85-4D5F-ABEA-5EE5B7BBAB0A",
+                "DataSetFieldId": "07666488-712F-35AD-8888-E84EAABA1BE1",
                 "Properties": []
             },
             {
@@ -1052,7 +1229,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "821867B2-DD61-C0AF-7457-C5FCB3DB3D33",
+                "DataSetFieldId": "CC1C6F8E-7608-5E3A-A7FA-0F4085283243",
                 "Properties": [
                     {
                         "Key": {
@@ -1112,37 +1289,182 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "ABF9F23D-6E76-ADF2-07F0-BF4B5BA51AB1",
+                "DataSetFieldId": "2256326A-6CD2-3D12-76A7-AAEA0150D5CD",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920574090,
-            "MinorVersion": 3920573210
+            "MajorVersion": 388862930,
+            "MinorVersion": 388862090
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Monitoring.Stacklight.Light 0_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 0
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 48,
-    "DataSetWriterName": ".Monitoring.Stacklight.Light 0_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 4,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 0",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Monitoring.Stacklight.Light 0",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 0",
+        "Description": {
+            "Locale": "en",
+            "Text": "nsu=http://opcfoundation.org/UA/IA/;i=1006"
+        },
+        "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "FCA26FD1-3A03-DBCB-1041-D41D9119C15C",
+                "Properties": []
+            },
+            {
+                "Name": "SignalColor",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 5,
+                "DataType": {
+                    "Id": 3004,
+                    "Namespace": 3
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "3AAC5F3A-682A-4199-DDBD-9B697C07F02F",
+                "Properties": []
+            },
+            {
+                "Name": "StacklightMode",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 5,
+                "DataType": {
+                    "Id": 3005,
+                    "Namespace": 3
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "12A8ECB5-99EB-5A93-FBAF-4AD4C5CCFC3F",
+                "Properties": []
+            },
+            {
+                "Name": "IsPartOfBase",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 0,
+                "DataType": {
+                    "Id": 1
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "0CF608E2-D27C-1222-E72E-C22CD4FDFFEF",
+                "Properties": []
+            },
+            {
+                "Name": "SignalOn",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 0,
+                "DataType": {
+                    "Id": 1
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "79F78A65-FE88-3995-8218-2132B63BC31C",
+                "Properties": []
+            },
+            {
+                "Name": "NumberInList",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 4,
+                "DataType": {
+                    "Id": 28
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "2C40D65C-BFAF-DFBF-DC3D-D3DD58D5DD5D",
+                "Properties": []
+            }
+        ],
+        "DataSetClassId": "00000000-0000-0000-0000-000000000000",
+        "ConfigurationVersion": {
+            "MajorVersion": 388867340,
+            "MinorVersion": 388865450
+        }
+    }
+}
+
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1
+
+{
+    "MessageId": null,
+    "MessageType": "ua-metadata",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 5,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1",
+    "MetaData": {
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
+        "StructureDataTypes": [],
+        "EnumDataTypes": [],
+        "SimpleDataTypes": [],
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/IA/;i=1006"
@@ -1163,7 +1485,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "5A2F1248-10E8-3318-5D95-6926C41CD18D",
+                "DataSetFieldId": "083082C1-8B51-0D98-DB4D-04B0D3AD6A36",
                 "Properties": []
             },
             {
@@ -1181,7 +1503,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "2A2CB495-0EF8-5B98-ABBA-6B06E83E5345",
+                "DataSetFieldId": "3C181295-208C-15FA-3323-0260BA0B5025",
                 "Properties": []
             },
             {
@@ -1198,7 +1520,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "ADC52DDC-7D47-3376-B44B-949950556596",
+                "DataSetFieldId": "254E866C-176F-9C5D-6516-A19A96E93ED3",
                 "Properties": []
             },
             {
@@ -1215,7 +1537,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "175ABD9B-4CD5-7BAD-2BF2-7F77E56E86C8",
+                "DataSetFieldId": "D5A7F6B0-3967-2C77-DF5D-45C435835865",
                 "Properties": []
             },
             {
@@ -1232,37 +1554,40 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "09E07496-BFB0-3FE4-7B47-A41AEB0E4014",
+                "DataSetFieldId": "6DAF9166-08F9-C7E5-6F76-C71CA84A8418",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920579490,
-            "MinorVersion": 3920577350
+            "MajorVersion": 388870180,
+            "MinorVersion": 388868310
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Monitoring.Stacklight.Light 1_Writer`
-
-Json:
-
-```json
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 49,
-    "DataSetWriterName": ".Monitoring.Stacklight.Light 1_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 6,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Monitoring.Stacklight.Light 1",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/IA/;i=1006"
@@ -1283,7 +1608,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "0C723215-7752-F231-6546-44E450E53E63",
+                "DataSetFieldId": "D96807B3-696E-0ADC-9DF9-5FD509302342",
                 "Properties": []
             },
             {
@@ -1301,7 +1626,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "22DF3E94-9166-02DF-E37E-F7CFE44EC4FC",
+                "DataSetFieldId": "6F0DC22C-E189-2B00-5115-814894298298",
                 "Properties": []
             },
             {
@@ -1318,7 +1643,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "A4137327-B3F8-7D7A-7977-5725C43C33C3",
+                "DataSetFieldId": "8F534544-0814-DCB9-7E17-D13D254284C8",
                 "Properties": []
             },
             {
@@ -1335,7 +1660,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "6BA74528-3C50-DFAF-FB0F-107166967987",
+                "DataSetFieldId": "993736B0-3C5D-EBD8-F16F-36D3D5DD6DA6",
                 "Properties": []
             },
             {
@@ -1352,162 +1677,63 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "D5A11AAE-C94E-B4F9-B2CB-3CD3D41D51D5",
+                "DataSetFieldId": "2EB65D4E-6650-CC72-CF2C-32134FE43E63",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920582860,
-            "MinorVersion": 3920580630
+            "MajorVersion": 388872940,
+            "MinorVersion": 388871100
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Monitoring.Stacklight.Light 2_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 50,
-    "DataSetWriterName": ".Monitoring.Stacklight.Light 2_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 7,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight",
     "MetaData": {
-        "Namespaces": [],
-        "StructureDataTypes": [],
-        "EnumDataTypes": [],
-        "SimpleDataTypes": [],
-        "Name": ".Monitoring.Stacklight.Light 2",
-        "Description": {
-            "Locale": "en",
-            "Text": "nsu=http://opcfoundation.org/UA/IA/;i=1006"
-        },
-        "Fields": [
-            {
-                "Name": "SignalColor",
-                "Description": {
-                    "Locale": "",
-                    "Text": ""
-                },
-                "FieldFlags": 0,
-                "BuiltInType": 5,
-                "DataType": {
-                    "Id": 3004,
-                    "Namespace": 3
-                },
-                "ValueRank": -2,
-                "ArrayDimensions": [],
-                "MaxStringLength": 0,
-                "DataSetFieldId": "92A35434-F8DA-405C-0400-40548658A5DA",
-                "Properties": []
-            },
-            {
-                "Name": "StacklightMode",
-                "Description": {
-                    "Locale": "",
-                    "Text": ""
-                },
-                "FieldFlags": 0,
-                "BuiltInType": 5,
-                "DataType": {
-                    "Id": 3005,
-                    "Namespace": 3
-                },
-                "ValueRank": -2,
-                "ArrayDimensions": [],
-                "MaxStringLength": 0,
-                "DataSetFieldId": "590EC972-A5A6-5406-D50D-A0DA62064014",
-                "Properties": []
-            },
-            {
-                "Name": "IsPartOfBase",
-                "Description": {
-                    "Locale": "",
-                    "Text": ""
-                },
-                "FieldFlags": 0,
-                "BuiltInType": 0,
-                "DataType": {
-                    "Id": 1
-                },
-                "ValueRank": -2,
-                "ArrayDimensions": [],
-                "MaxStringLength": 0,
-                "DataSetFieldId": "812C0E2A-81A5-DCBB-8208-5055CD7C37E3",
-                "Properties": []
-            },
-            {
-                "Name": "SignalOn",
-                "Description": {
-                    "Locale": "",
-                    "Text": ""
-                },
-                "FieldFlags": 0,
-                "BuiltInType": 0,
-                "DataType": {
-                    "Id": 1
-                },
-                "ValueRank": -2,
-                "ArrayDimensions": [],
-                "MaxStringLength": 0,
-                "DataSetFieldId": "C443E79E-0EF5-0FF7-9939-43C4F2AF5A65",
-                "Properties": []
-            },
-            {
-                "Name": "NumberInList",
-                "Description": {
-                    "Locale": "",
-                    "Text": ""
-                },
-                "FieldFlags": 0,
-                "BuiltInType": 4,
-                "DataType": {
-                    "Id": 28
-                },
-                "ValueRank": -2,
-                "ArrayDimensions": [],
-                "MaxStringLength": 0,
-                "DataSetFieldId": "CFBB0365-51EE-7165-A08A-F83F0A005025",
-                "Properties": []
-            }
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
         ],
-        "DataSetClassId": "00000000-0000-0000-0000-000000000000",
-        "ConfigurationVersion": {
-            "MajorVersion": 3920585300,
-            "MinorVersion": 3920583640
-        }
-    }
-}
-```
-
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Monitoring.Stacklight_Writer`
-
-Json:
-
-```json
-{
-    "MessageId": null,
-    "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 51,
-    "DataSetWriterName": ".Monitoring.Stacklight_Writer",
-    "MetaData": {
-        "Namespaces": [],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Monitoring.Stacklight",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/IA/;i=1002"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "8A1E01F7-3227-285C-7317-81C808808828",
+                "Properties": []
+            },
             {
                 "Name": "StacklightMode",
                 "Description": {
@@ -1523,7 +1749,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "7807F6AA-CD82-1FF6-14E1-1E113A03F08F",
+                "DataSetFieldId": "D71B4BCC-5209-8419-5E05-9039AC4A54E5",
                 "Properties": []
             },
             {
@@ -1540,42 +1766,63 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "4FC81002-5D7A-058B-7707-B06B3763C63C",
+                "DataSetFieldId": "12F17944-7FE8-BDE2-6036-C39C2FF28F08",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920577050,
-            "MinorVersion": 3920576210
+            "MajorVersion": 388865050,
+            "MinorVersion": 388864420
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Production.ActiveProgram.State_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 52,
-    "DataSetWriterName": ".Production.ActiveProgram.State_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 8,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Production.ActiveProgram.State",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=24"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "992AA8A9-D8BF-51DF-A83A-63269EB94B04",
+                "Properties": []
+            },
             {
                 "Name": "CurrentState",
                 "Description": {
@@ -1590,7 +1837,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "107A8B7F-2C61-3217-8EA8-8AE85A151171",
+                "DataSetFieldId": "E7103213-4822-6BD3-F22F-12711A518598",
                 "Properties": [
                     {
                         "Key": {
@@ -1618,36 +1865,57 @@ Json:
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920588010,
-            "MinorVersion": 3920587890
+            "MajorVersion": 388876230,
+            "MinorVersion": 388876050
         }
     }
 }
-```
 
-Topic:
-`isw/json/metadata/prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002/_WriterGroup/.Production.ActiveProgram_Writer`
+isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram
 
-Json:
-
-```json
 {
     "MessageId": null,
     "MessageType": "ua-metadata",
-    "PublisherId": "prefix%3Disw%3Bnsu%3Dhttp%3A_2F_2Fisw.com_2Fiotconnect_2F%3Bi%3D5002",
-    "DataSetWriterId": 53,
-    "DataSetWriterName": ".Production.ActiveProgram_Writer",
+    "PublisherId": "ShowcaseMachineTool",
+    "DataSetWriterId": 9,
+    "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram",
     "MetaData": {
-        "Namespaces": [],
+        "Namespaces": [
+            "http://opcfoundation.org/UA/",
+            "urn:open62541.server.application",
+            "http://opcfoundation.org/UA/DI/",
+            "http://opcfoundation.org/UA/IA/",
+            "http://opcfoundation.org/UA/Machinery/",
+            "http://opcfoundation.org/UA/MachineTool/",
+            "http://opcfoundation.org/UA/Woodworking/",
+            "http://example.com/ShowcaseMachineTool/"
+        ],
         "StructureDataTypes": [],
         "EnumDataTypes": [],
         "SimpleDataTypes": [],
-        "Name": ".Production.ActiveProgram",
+        "Name": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram",
         "Description": {
             "Locale": "en",
             "Text": "nsu=http://opcfoundation.org/UA/MachineTool/;i=32"
         },
         "Fields": [
+            {
+                "Name": "TypeDefinition",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 16,
+                "DataType": {
+                    "Id": 17
+                },
+                "ValueRank": -1,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "80E504D3-BE2A-B42D-6CE6-EEEEB4DB3DE3",
+                "Properties": []
+            },
             {
                 "Name": "Name",
                 "Description": {
@@ -1662,7 +1930,7 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "4A28D008-4B67-8B97-47A4-EA9E2B5205E0",
+                "DataSetFieldId": "1A68444B-E28C-CA20-9B99-E99E4C84C87C",
                 "Properties": []
             },
             {
@@ -1679,19 +1947,18 @@ Json:
                 "ValueRank": -2,
                 "ArrayDimensions": [],
                 "MaxStringLength": 0,
-                "DataSetFieldId": "FEAB0F10-64AC-F99D-5735-933989B86B56",
+                "DataSetFieldId": "F43D67F4-5BF0-57FC-B44B-3443F97F47A4",
                 "Properties": []
             }
         ],
         "DataSetClassId": "00000000-0000-0000-0000-000000000000",
         "ConfigurationVersion": {
-            "MajorVersion": 3920589240,
-            "MinorVersion": 3920587330
+            "MajorVersion": 388877790,
+            "MinorVersion": 388875340
         }
     }
 }
 ```
-
 ## Example Datasets
 
 * MachineTool Examples:
