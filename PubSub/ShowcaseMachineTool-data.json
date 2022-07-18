@@ -1,346 +1,348 @@
-vdw/json/data/ShowcaseMachineTool/MachineTool_WriterGroup
+isw/json/data/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup
 
 {
     "MessageId": null,
     "MessageType": "ua-data",
     "Messages": [
         {
-            "DataSetWriterId": 53,
-            "DataSetWriterName": "ShowcaseMachineTool_.Production.ActiveProgram_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 9,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215324878,
-                "MinorVersion": 3215322298
+                "MajorVersion": 388877790,
+                "MinorVersion": 388875340
             },
-            "Timestamp": "2022-07-07T08:40:01.117489Z",
+            "Timestamp": "2022-07-15T15:34:20.850936Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 32,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "Name": {
-                    "Type": 12,
                     "Body": "Basic Program"
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 0
                 }
             }
         },
         {
-            "DataSetWriterId": 52,
-            "DataSetWriterName": "ShowcaseMachineTool_.Production.ActiveProgram.State_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 8,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215322918,
-                "MinorVersion": 3215322768
+                "MajorVersion": 388876230,
+                "MinorVersion": 388876050
             },
-            "Timestamp": "2022-07-07T08:40:01.117514Z",
+            "Timestamp": "2022-07-15T15:34:20.850992Z",
             "Payload": {
-                "CurrentState": {
-                    "Type": 21,
+                "TypeDefinition": {
                     "Body": {
-                        "Locale": "en",
-                        "Text": "Running"
+                        "Id": 24,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
                     }
+                },
+                "CurrentState": {
+                    "Body": "Running"
                 }
             }
         },
         {
-            "DataSetWriterId": 51,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.Stacklight_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 7,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215308868,
-                "MinorVersion": 3215308008
+                "MajorVersion": 388865050,
+                "MinorVersion": 388864420
             },
-            "Timestamp": "2022-07-07T08:40:01.117533Z",
+            "Timestamp": "2022-07-15T15:34:20.851015Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 1002,
+                        "Namespace": "http://opcfoundation.org/UA/IA/"
+                    }
+                },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "NodeVersion": {
-                    "Type": 12,
                     "Body": ""
                 }
             }
         },
         {
-            "DataSetWriterId": 50,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.Stacklight.Light 2_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 6,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215319438,
-                "MinorVersion": 3215317108
+                "MajorVersion": 388872940,
+                "MinorVersion": 388871100
             },
-            "Timestamp": "2022-07-07T08:40:01.117562Z",
+            "Timestamp": "2022-07-15T15:34:20.851047Z",
             "Payload": {
                 "SignalColor": {
-                    "Type": 6,
                     "Body": 2
                 },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "IsPartOfBase": {
-                    "Type": 1,
                     "Body": false
                 },
                 "SignalOn": {
-                    "Type": 1,
                     "Body": true
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 2
                 }
             }
         },
         {
-            "DataSetWriterId": 49,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.Stacklight.Light 1_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 5,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215315608,
-                "MinorVersion": 3215312878
+                "MajorVersion": 388870180,
+                "MinorVersion": 388868310
             },
-            "Timestamp": "2022-07-07T08:40:01.117626Z",
+            "Timestamp": "2022-07-15T15:34:20.851108Z",
             "Payload": {
                 "SignalColor": {
-                    "Type": 6,
                     "Body": 4
                 },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "IsPartOfBase": {
-                    "Type": 1,
                     "Body": false
                 },
                 "SignalOn": {
-                    "Type": 1,
                     "Body": true
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 1
                 }
             }
         },
         {
-            "DataSetWriterId": 48,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.Stacklight.Light 0_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 4,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 0",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215311608,
-                "MinorVersion": 3215309048
+                "MajorVersion": 388867340,
+                "MinorVersion": 388865450
             },
-            "Timestamp": "2022-07-07T08:40:01.117689Z",
+            "Timestamp": "2022-07-15T15:34:20.851161Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 1006,
+                        "Namespace": "http://opcfoundation.org/UA/IA/"
+                    }
+                },
                 "SignalColor": {
-                    "Type": 6,
                     "Body": 1
                 },
                 "StacklightMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "IsPartOfBase": {
-                    "Type": 1,
                     "Body": false
                 },
                 "SignalOn": {
-                    "Type": 1,
-                    "Body": false
+                    "Body": true
                 },
                 "NumberInList": {
-                    "Type": 5,
                     "Body": 0
                 }
             }
         },
         {
-            "DataSetWriterId": 47,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.Spindle_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 3,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Spindle",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215306168,
-                "MinorVersion": 3215305348
+                "MajorVersion": 388862930,
+                "MinorVersion": 388862090
             },
-            "Timestamp": "2022-07-07T08:40:01.117725Z",
+            "Timestamp": "2022-07-15T15:34:20.851214Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 22,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "IsRotating": {
-                    "Type": 1,
                     "Body": true
                 },
                 "IsUsedAsAxis": {
-                    "Type": 1,
                     "Body": false
                 },
                 "Override": {
-                    "Type": 11,
                     "Body": 103
                 },
                 "Name": {
-                    "Type": 12,
                     "Body": "Spindle"
                 }
             }
         },
         {
-            "DataSetWriterId": 46,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.Channel 1_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 2,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Channel 1",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215302808,
-                "MinorVersion": 3215301868
+                "MajorVersion": 388860440,
+                "MinorVersion": 388859470
             },
-            "Timestamp": "2022-07-07T08:40:01.117748Z",
+            "Timestamp": "2022-07-15T15:34:20.851239Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 16,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "ChannelState": {
-                    "Type": 6,
                     "Body": 1
                 },
                 "FeedOverride": {
-                    "Type": 11,
-                    "Body": 33.379999999888241291046142578125
+                    "Body": 41.4300000001676380634307861328125
                 },
                 "ChannelMode": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "Name": {
-                    "Type": 12,
                     "Body": "Channel 1"
                 }
             }
         },
         {
-            "DataSetWriterId": 45,
-            "DataSetWriterName": "ShowcaseMachineTool_.Monitoring.MachineTool_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 1,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215300348,
-                "MinorVersion": 3215299838
+                "MajorVersion": 388858450,
+                "MinorVersion": 388857720
             },
-            "Timestamp": "2022-07-07T08:40:01.117779Z",
+            "Timestamp": "2022-07-15T15:34:20.851283Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 26,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "OperationMode": {
-                    "Type": 6,
                     "Body": 1
                 },
                 "PowerOnDuration": {
-                    "Type": 7,
                     "Body": 0
                 }
             }
         },
         {
-            "DataSetWriterId": 23,
-            "DataSetWriterName": "ShowcaseMachineTool_.Equipment.Tools_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 1,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215295048,
-                "MinorVersion": 3215294888
+                "MajorVersion": 388853500,
+                "MinorVersion": 388853310
             },
-            "Timestamp": "2022-07-07T08:40:01.117797Z",
+            "Timestamp": "2022-07-15T15:34:20.851306Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 44,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "NodeVersion": {
-                    "Type": 12,
                     "Body": null
                 }
             }
         },
         {
-            "DataSetWriterId": 22,
-            "DataSetWriterName": "ShowcaseMachineTool_.Equipment.Tools.Tool1_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 0,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215296508,
-                "MinorVersion": 3215295278
+                "MajorVersion": 388855620,
+                "MinorVersion": 388853860
             },
-            "Timestamp": "2022-07-07T08:40:01.117804Z",
+            "Timestamp": "2022-07-15T15:34:20.851311Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 50,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "ControlIdentifier1": {
-                    "Type": 7,
                     "Body": 12
                 },
                 "ControlIdentifierInterpretation": {
-                    "Type": 6,
                     "Body": 0
                 },
                 "Locked": {
-                    "Type": 1,
                     "Body": false
                 },
                 "Name": {
-                    "Type": 12,
                     "Body": "Tool1"
                 }
             }
         },
         {
-            "DataSetWriterId": 44,
-            "DataSetWriterName": "ShowcaseMachineTool_.Identification_Writer",
-            "SequenceNumber": 53,
+            "DataSetWriterId": 0,
+            "DataSetWriterName": ".nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification",
+            "SequenceNumber": 24,
             "MetaDataVersion": {
-                "MajorVersion": 3215292588,
-                "MinorVersion": 3215289318
+                "MajorVersion": 388851690,
+                "MinorVersion": 388847890
             },
-            "Timestamp": "2022-07-07T08:40:01.117831Z",
+            "Timestamp": "2022-07-15T15:34:20.851346Z",
             "Payload": {
+                "TypeDefinition": {
+                    "Body": {
+                        "Id": 11,
+                        "Namespace": "http://opcfoundation.org/UA/MachineTool/"
+                    }
+                },
                 "YearOfConstruction": {
-                    "Type": 5,
                     "Body": 2021
                 },
                 "MonthOfConstruction": {
-                    "Type": 3,
                     "Body": 11
                 },
                 "Manufacturer": {
-                    "Type": 21,
-                    "Body": {
-                        "Locale": "",
-                        "Text": "umati Showcase"
-                    }
+                    "Body": "umati Showcase"
                 },
                 "ProductInstanceUri": {
-                    "Type": 12,
                     "Body": "https://showcase.umati.org/Specs/Machinetools.html"
                 },
                 "SerialNumber": {
-                    "Type": 12,
                     "Body": "2021-15360620311222485159"
                 },
                 "Model": {
-                    "Type": 21,
-                    "Body": {
-                        "Locale": "",
-                        "Text": "ShowcaseMachineTool"
-                    }
+                    "Body": "ShowcaseMachineTool"
                 },
                 "ProductCode": {
-                    "Type": 12,
                     "Body": "2653837gg1548"
                 },
                 "SoftwareRevision": {
-                    "Type": 12,
                     "Body": "v1.02.1"
                 },
                 "DeviceClass": {
-                    "Type": 12,
                     "Body": "Machining centre (other)"
                 },
                 "Location": {
-                    "Type": 12,
                     "Body": "CIMT E8 B014/VIRTUAL 0 0/N 49.871215 E 8.654204"
                 },
                 "ComponentName": {
-                    "Type": 21,
-                    "Body": {
-                        "Locale": "",
-                        "Text": "umati Showcase Component"
-                    }
+                    "Body": "umati Showcase Component"
                 }
             }
         }
