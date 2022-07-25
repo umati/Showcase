@@ -2,7 +2,9 @@
 
 The usage of the UA-Cloudpublisher is described [here](https://github.com/umati/UA-CloudPublisher).
 
-For demonstration purpose we provide a sample [publishednodes.json](publishednodes.json) to show how to confiure for machine tool instance.
+For demonstration purpose we provide a sample [publishednodes.json](publishednodes.json) to show how to configure a machine tool instance.
+
+## publishednodes.json configuration example
 
 ``` json
 [
