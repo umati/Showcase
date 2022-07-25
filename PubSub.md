@@ -45,7 +45,7 @@ For the showcase two brokers are used:
 
 * `<prefix>`: Free to choose, e.g company name, e.g, `isw`
 
-* `<machine_id>` url encoding of e.g.: `prefix=<prefix>;nsu=<ns_uri of machine node>;<node id of machine node>`, e.g. 
+* `<machine_id>` url encoding of e.g.: `prefix=<prefix>;nsu=<ns_uri of machine node>;<node id of machine node>`, e.g.
 `prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234`
 
 The topics follow the browse paths.
@@ -433,6 +433,7 @@ The topics follow the browse paths.
 ```
 
 ### Metadata Topics
+
 ```json
 isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification
 
@@ -1959,6 +1960,7 @@ isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_Write
     }
 }
 ```
+
 ## Example Datasets
 
 * MachineTool Examples:
@@ -1967,5 +1969,5 @@ isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_Write
   * [MRMachineTool Data](PubSub/MRMachineTool-data.json)
   * [MRMachineTool MetaData](PubSub/MRMachineTool-metadata.json)
 * Woodworking Examples:
-  * [FullWoodworking Data](PubSub/FullWoodworking-data.json)
-  * [FullWoodworking MetaData](PubSub/FullWoodworking-metadata.json)
+  * [FullWoodworking Data](#example-datasets)
+  * [FullWoodworking MetaData](#example-datasets)

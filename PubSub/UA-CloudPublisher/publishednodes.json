@@ -1,6 +1,6 @@
 [
   {
-    "EndpointUrl": "opc.tcp://opcua.umati.app:4843/UA",
+    "EndpointUrl": "opc.tcp://opcua.umati.app:4840",
     "OpcNodes": [
       {
         "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55245",
