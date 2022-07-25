@@ -20,7 +20,7 @@ Additionally Gateways such as [UA-CloudPublisher](https://github.com/umati/UA-Cl
 
 For the showcase two brokers are used:
 
-`dev.umati.app`
+### Development instance for `https://dev.umati.app`
 
 ``` json
     "Prefix": "<companyname>", // see Topic Structure for details
@@ -31,7 +31,7 @@ For the showcase two brokers are used:
 
 ```
 
-`umati.app`
+### Productíon instance for `https://umati.app`
 
 ``` json
     "Prefix": "<companyname>",
@@ -41,11 +41,14 @@ For the showcase two brokers are used:
     "Password": ""
 ```
 
+### Credentials
+
+The credentials for the broker can be obtained by mailing to info (at) umati.org.
+
 ## Topic Structure
 
 * `<prefix>`: Free to choose, e.g company name, e.g, `isw`
-
-* `<machine_id>` url encoding of e.g.: `prefix=<prefix>;nsu=<ns_uri of machine node>;<node id of machine node>`, e.g.
+* `<machine_id>` URL encoding of `prefix=<prefix>;nsu=<ns_uri of machine node>;<node id of machine node>`, e.g.
 `prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234`
 
 The topics follow the browse paths.
@@ -60,7 +63,7 @@ The topics follow the browse paths.
 
 ```html
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FDI_2F;name=Identification
-
+...
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Tool1
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Equipment.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Tools
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=MachineTool
@@ -70,7 +73,7 @@ The topics follow the browse paths.
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 1
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight.nsu=http:_2F_2Fexample.com_2FShowcaseMachineTool_2F;name=Light 2
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Monitoring.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Stacklight
-
+...
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=State
 <prefix>/json/metadata/<machine_id>/_WriterGroup/.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=Production.nsu=http:_2F_2Fopcfoundation.org_2FUA_2FMachineTool_2F;name=ActiveProgram
 ```
