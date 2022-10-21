@@ -1,0 +1,33 @@
+{
+    "MessageId": null,
+    "MessageType": "ua-data",
+    "Messages": [
+        {
+            "DataSetWriterId": 0,
+            "DataSetWriterName": "MoreRealisticMachineTool_.MachineTool_Writer",
+            "SequenceNumber": 358,
+            "MetaDataVersion": {
+                "MajorVersion": 3215192808,
+                "MinorVersion": 1585130426
+            },
+            "Timestamp": "2022-07-07T08:50:11.226388Z",
+            "Payload": {
+                "FeedOverride": {
+                    "Type": 11,
+                    "Body": 0
+                },
+                "IsWarmUp": {
+                    "Type": 1,
+                    "Body": true
+                },
+                "CurrentState": {
+                    "Type": 21,
+                    "Body": {
+                        "Locale": "en",
+                        "Text": "Initializing"
+                    }
+                }
+            }
+        }
+    ]
+}

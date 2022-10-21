@@ -1,4 +1,4 @@
-# Current implemented specifications
+# Current implemented companion specifications
 
 - [GENERIC](Specs/prgeneric.md) - Generic Model for umati Plastics and Rubber
 - [OPC 40501-1 UA for MachineTool](Specs/MachineTool.md)

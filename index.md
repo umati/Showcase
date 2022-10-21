@@ -4,7 +4,6 @@
 - Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier.
 - The umati project group **cannot** supply individual support on how to get [OPC UA Servers](Server.md) installed, online and deliver data.
 - If questions arise regarding the information provided in **this documentation** or the connection to the datahub for the umati showcase demonstrator, please open an issue [here](https://github.com/umati/Showcase).
-
 - An FAQ is provided [here](FAQ.md) and will be updated as needed.
 
 ## What is umati - the universal machine technology interface
@@ -17,6 +16,7 @@ To learn more please visit [https://umati.org](https://umati.org)
 
 - [OPC UA Server](Server.md)
 - [OPC UA Client](Client.md)
+- [OPC UA PubSub](PubSub.md)
 - [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
   - [MachineTool](Specs/MachineTool.md)
