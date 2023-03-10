@@ -18,4 +18,4 @@
 | FORMNEXT  | Formnext               | <https://formnext.mesago.com/>            |
 | IMTS      | IMTS                   | <https://www.imts.com/>                   |
 | INNOTEQ   | Innoteq                | <https://www.innoteq.digital/>            |
-| JIMTOF    | JIMTOF                 |  <https://www.jimtof.org/en/> | 
+| JIMTOF    | JIMTOF                 |  <https://www.jimtof.org/en/>             |
