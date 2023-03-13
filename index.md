@@ -15,19 +15,21 @@ To learn more please visit [https://umati.org](https://umati.org)
 
 ## Structure of the specification
 
+- [Overview](index.md)
 - [OPC UA Server](Server.md)
-- [OPC UA Client](Client.md)
+- [OPC UA Gateway](Gateway.md)
 - [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
+  - [Flat Glass Processing](Specs/Flatglass.md)
+  - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+  - [IJT - Tightening](Specs/WIP.md)
   - [MachineTool](Specs/MachineTool.md)
+  - [MachineVision](Specs/WIP.md)
   - [PlasticsRubber](Specs/PlasticsRubber.md)
+  - [Robotics](Specs/WIP.md)
   - [Software Solutions](Specs/Software.md)
   - [WoodWorking](Specs/Woodworking.md)
-  - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
-  - [Flat Glass Processing](Specs/Flatglass.md)
 - Upcoming Specifications
-  - [Robotics](Specs/WIP.md)
-  - [MachineVision](Specs/WIP.md)
   - [Scales](Specs/WIP.md)
 - [Organizational Information](Organization.md)
   - [Fairs](Specs/Fairs.md)
@@ -50,7 +52,8 @@ This documentation is versioned, as some content details will be delivered later
 | v1.04.0 | 03.09.2021 | Addition of Woodworking companion specification |
 | v1.04.1 | 08.02.2022 | Updates to Machine Tools, Woodworking |
 | v1.05.0 | 03.03.2022 | Integrates Geomentrical Measuring Systems |
-| v1.06.0 | 13.07.2020 | Integrates PlasticsRubber specifications |
+| v1.06.0 | 13.07.2022 | Integrates PlasticsRubber specifications |
+| v1.07.0 | XX.03.2023 | Remove Datahub and OpenVPN requirements |
 
 ### Changelog
 

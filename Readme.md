@@ -4,7 +4,7 @@ This repository provides the specification to connect to the umati virtual demon
 
 ## What is umati - the universal machine technology interface
 
-To learn more please visit [https://umati.org](https://umati.org)
+To learn more about the umati initative, please visit [https://umati.org](https://umati.org)
 
 ---
 
@@ -12,18 +12,19 @@ To learn more please visit [https://umati.org](https://umati.org)
 
 - [Overview](index.md)
 - [OPC UA Server](Server.md)
-- [OPC UA Client](Client.md)
+- [OPC UA Gateway](Gateway.md)
 - [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
+  - [Flat Glass Processing](Specs/Flatglass.md)
+  - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
+  - [IJT - Tightening](Specs/WIP.md)
   - [MachineTool](Specs/MachineTool.md)
+  - [MachineVision](Specs/WIP.md)
   - [PlasticsRubber](Specs/PlasticsRubber.md)
+  - [Robotics](Specs/WIP.md)
   - [Software Solutions](Specs/Software.md)
   - [WoodWorking](Specs/Woodworking.md)
-  - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
-  - [Flat Glass Processing](Specs/Flatglass.md)
 - Upcoming Specifications
-  - [Robotics](Specs/WIP.md)
-  - [MachineVision](Specs/WIP.md)
   - [Scales](Specs/WIP.md)
 - [Organizational Information](Organization.md)
   - [Fairs](Specs/Fairs.md)
