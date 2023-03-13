@@ -4,7 +4,7 @@
 
 ### Process summary for connecting an OPC UA server to the [umati.app](https://umati.app)
 
-1. Fill in and sign the MoU as participant and indicate which/how many machines or you want to connect.
+1. Fill in and sign the MoU as participant and indicate which/how many machines you want to connect.
 2. Receive an email with your MQTT broker credentials
 3. Prepare a `configuration.json` as per documentation at [Gateway Config](Gateway.md)
 4. Run a local OPC UA to MQTT over Websockets gateway

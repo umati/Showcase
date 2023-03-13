@@ -1,4 +1,4 @@
-# Current implemented specifications
+# Current implemented companion specifications
 
 - [GENERIC-Plastics&Rubber](Specs/prgeneric.md) - Generic Model for umati Plastics and Rubber
 - [OPC 40077 - IMM 2 MES](Specs/pr40077.md) - Data exchange between injection
