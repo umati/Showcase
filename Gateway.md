@@ -30,6 +30,8 @@ The detailed configuration of the client and how to deploy and run it is describ
 - Standalone binary x86_64 (64bit) Linux .deb package for ubuntu 20.04 and 22.04
 - container image x86_64
 
+The binaries can be downloaded [here](https://github.com/umati/Dashboard-OPCUA-Client/releases)
+
 A configuration file example as well as documentation is available [here](https://github.com/umati/Dashboard-OPCUA-Client/blob/docs/docker/doc/Configuration.md).
 
 To obtain credentials to connect to the umati.app MQTT broker please follow [Server documentation](Server.md#connecting-an-opc-ua-server-to-umatiapp).
