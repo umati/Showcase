@@ -67,7 +67,7 @@ All participants received a marketing package which will be updated as the trade
 
 - **umati partner logo:** The umati Partner logo should be used in your marketing and press materials online as well as offline.
 
-- **umati sticker for the connected machines:** [is currently prepared – not yet available] Each machine should be outfitted with a umati sticker. If you are connecting a machine that is not located on the fair ground, please find a suitable place for this sticker on your booth to enable visitors to access the dashboard side of your machine with this code. A picture of the sticker is shown below (diameter 200mm).
+- **umati sticker for the connected machines:** Each machine should be outfitted with a umati sticker. If you are connecting a machine that is not located on the fair ground, please find a suitable place for this sticker on your booth to enable visitors to access the dashboard side of your machine with this code.
 
 - **press release from umati** : informs about the showcase and the registered parties. Please use it also for your own communication as a template. Further press releases are going to follow.
 - **umati showcase folder** : [is currently prepared – not yet available] we will prepare a umati showcase folder, with more content and listing every partner and the booth information.
