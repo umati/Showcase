@@ -20,9 +20,7 @@ OPC UA server --- Gateway --- MQTT Broker --- umati.app
 
 ## Configuration and connection
 
- // TODO: update after <https://github.com/umati/Dashboard-OPCUA-Client/pull/352> is merged.
-
-The detailed configuration of the client and how to deploy and run it is described in the [source repository](https://github.com/umati/Dashboard-OPCUA-Client/blob/docs/docker/usage.md).
+The detailed configuration of the client and how to deploy and run it is described in the [source repository](https://github.com/umati/Dashboard-OPCUA-Client/blob/development/usage.md).
 
 ### The gateway is provided as
 

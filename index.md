@@ -53,7 +53,7 @@ This documentation is versioned, as some content details will be delivered later
 | v1.04.1 | 08.02.2022 | Updates to Machine Tools, Woodworking |
 | v1.05.0 | 03.03.2022 | Integrates Geomentrical Measuring Systems |
 | v1.06.0 | 13.07.2022 | Integrates PlasticsRubber specifications |
-| v1.07.0 | XX.03.2023 | Remove Datahub and OpenVPN requirements |
+| v1.07.0 | 17.03.2023 | Remove Datahub and OpenVPN requirements |
 
 ### Changelog
 

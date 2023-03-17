@@ -51,7 +51,7 @@ Every participant is permitted to advertise his or her involvement in the umati 
 
 #### Obligations of participants (C) supplying components
 
-- Participants (C) without connected machines must verifiably offer support to other participants (M) for the connectivity via the umati interface.
+- Participants (C) without connected machines must verifiably offer support to other participants (M) for the connectivity to the umati.app.
 
 #### Obligations of participants (A) showing applications
 
