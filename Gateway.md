@@ -32,6 +32,6 @@ The detailed configuration of the client and how to deploy and run it is describ
 
 The binaries can be downloaded [here](https://github.com/umati/Dashboard-OPCUA-Client/releases)
 
-A configuration file example as well as documentation is available [here](https://github.com/umati/Dashboard-OPCUA-Client/blob/docs/docker/doc/Configuration.md).
+A configuration file example as well as documentation is available [here](https://github.com/umati/Dashboard-OPCUA-Client/blob/development/doc/Configuration.md).
 
 To obtain credentials to connect to the umati.app MQTT broker please follow [Server documentation](Server.md#connecting-an-opc-ua-server-to-umatiapp).
