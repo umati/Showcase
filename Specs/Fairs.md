@@ -14,6 +14,7 @@
 | HMI       | Hannover Messe           | <https://www.hannovermesse.de/>           |
 | IMTS      | IMTS                     | <https://www.imts.com/>                   |
 | INNOTEQ   | Innoteq                  | <https://www.innoteq.digital/>            |
+| ITMA      | ITMA Milano              | <https://itma.com/>                       |
 | JIMTOF    | JIMTOF                   | <https://www.jimtof.org/en/>              |
 | K         | K                        | <https://www.k-online.de/>                |
 | LASER     | Laser World of Photonics | <https://world-of-photonics.com/de/>      |
