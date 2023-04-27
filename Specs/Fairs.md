@@ -5,6 +5,7 @@
 | AMB       | AMB Stuttgart          | <https://www.messe-stuttgart.de/amb/>     |
 | AMTC      | automatica             | <https://automatica-munich.com/de/>       |
 | AMTECH    | AMTech Shenzhen        | <http://www.amtech-china.com/?lang=en>    |
+| CIMT      | CIMT Beijing           | <http://www.cimtshow.com/enindex.jsp>     |
 | CTRL      | Control Stuttgart      | <https://www.control-messe.de/>           |
 | EMO       | EMO                    | <https://emo-milano.com/>                 |
 | FORMNEXT  | Formnext               | <https://formnext.mesago.com/>            |
