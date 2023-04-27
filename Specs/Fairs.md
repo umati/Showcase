@@ -2,20 +2,20 @@
 
 | Shortname | Description            | Site |
 |-----------|------------------------|------|
-| VIRTUAL   | Permanent virtual fair | <https://umati.app>                       |
-| EMO       | EMO                    | <https://emo-milano.com/>                 |
-| AMTECH    | AMTech Shenzhen        | <http://www.amtech-china.com/?lang=en>    |
-| SPS       | SPS Nürnberg           | <https://sps.mesago.com/>                 |
-| METAV     | METAV                  | <https://metav.de>                        |
-| HMI       | Hannover Messe         | <https://www.hannovermesse.de/>           |
-| GRIND     | GrindingHub Stuttgart  | <https://www.grindinghub.de/>             |
 | AMB       | AMB Stuttgart          | <https://www.messe-stuttgart.de/amb/>     |
-| METAV     | METAV                  | <https://metav.de>                        |
-| CTRL      | Control Stuttgart      | <https://www.control-messe.de/>           |
-| K         | K                      | <https://www.k-online.de/>                |
-| GLASSTEC  | glasstec               | <https://www.glasstec.de/>                |
 | AMTC      | automatica             | <https://automatica-munich.com/de/>       |
+| AMTECH    | AMTech Shenzhen        | <http://www.amtech-china.com/?lang=en>    |
+| CTRL      | Control Stuttgart      | <https://www.control-messe.de/>           |
+| EMO       | EMO                    | <https://emo-milano.com/>                 |
 | FORMNEXT  | Formnext               | <https://formnext.mesago.com/>            |
+| GLASSTEC  | glasstec               | <https://www.glasstec.de/>                |
+| GRIND     | GrindingHub Stuttgart  | <https://www.grindinghub.de/>             |
+| HMI       | Hannover Messe         | <https://www.hannovermesse.de/>           |
 | IMTS      | IMTS                   | <https://www.imts.com/>                   |
 | INNOTEQ   | Innoteq                | <https://www.innoteq.digital/>            |
-| JIMTOF    | JIMTOF                 |  <https://www.jimtof.org/en/>             |
+| JIMTOF    | JIMTOF                 | <https://www.jimtof.org/en/>              |
+| K         | K                      | <https://www.k-online.de/>                |
+| LIGNA     | LIGNA Hannover         | <https://www.ligna.de/>                   |
+| METAV     | METAV                  | <https://metav.de>                        |
+| SPS       | SPS Nürnberg           | <https://sps.mesago.com/>                 |
+| VIRTUAL   | Permanent virtual fair | <https://umati.app>                       |
