@@ -83,4 +83,4 @@ Hint: TTD has not stacklight so it is not shown
 
 ### TTD - Results
 
-![Results](../img/TTD/ttd_Spec.jpg.png "TTD Results")
+![Results](../img/TTD/ttd_Result.png "TTD Results")
