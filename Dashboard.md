@@ -30,13 +30,13 @@ The machine instance _Location_ property (according to OPC 40001-1) shall be set
 
 ### FAIR Shortnames
 
-Fair shortnames are defined [here](Specs/Fairs.md).
+Fair shortnames are defined in [Fairs](Specs/Fairs.md).
 
 ### Software
 
 ![Software](img/map_pin_software_cyan.svg)
 
-The software location will be manual set as discribed [here](Specs/Software.md).
+The software location will be manual set as described in [Software](Specs/Software.md).
 
 ## Dashboard Features
 
