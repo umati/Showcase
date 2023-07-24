@@ -6,7 +6,7 @@ Please refer to the provided XML-NodeSets, UaModeler-project or the [Sample Serv
 
 ## NodeSets
 
-[Normative NodeSet hosted by the OPC Foundation](https://github.com/OPCFoundation/UA-Nodeset/tree/v1.04/MachineTool)
+[Normative NodeSet hosted by the OPC Foundation](https://github.com/OPCFoundation/UA-Nodeset/tree/latest/MachineTool)
 
 ### For umati Machine Tool partners
 
