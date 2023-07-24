@@ -3,7 +3,7 @@
 - [GENERIC-Plastics&Rubber](Specs/prgeneric.md) - Generic Model for umati Plastics and Rubber
 - [OPC 40077 - IMM 2 MES](Specs/pr40077.md) - Data exchange between injection
 moulding machines and MES
-- [OPC 40079 - IMM 2 Robot](Specs/pr400779.md) - Data exchange between injection
+- [OPC 40079 - IMM 2 Robot](Specs/pr40079.md) - Data exchange between injection
 - [OPC 40082-1 - TCD](Specs/pr40082-1.md) - Peripheral devices – Part 1: Temperature control devices
 - [OPC 40082-2 - HRD](Specs/pr40082-2.md) - Peripheral devices – Part 2: Hot runner devices
 - [OPC 40082-3 - LSR](Specs/pr40082-3.md) - Peripheral devices – Part 3: LSR Dosing Systems

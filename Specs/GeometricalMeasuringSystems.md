@@ -12,7 +12,7 @@ All participants not familiar with the release candidate information model do no
 
 ## NodeSets for the showcase
 
-[Release Candidate NodeSet](https://github.com/umati/Sample-Server/tree/dev_gms/model/GMS)
+[Release Candidate NodeSet](https://github.com/umati/Sample-Server/tree/develop/model/GMS)
 
 ## General information valid for the umati showcase demonstration
 

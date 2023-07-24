@@ -74,7 +74,7 @@ This documentation is versioned, as some content details will be delivered later
 | [MachineTool](Specs/MachineTool.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
 | [Woodworking](Specs/Woodworking.md) | Links | Updates broken links | [5e1af5c](https://github.com/umati/Showcase/commit/5e1af5ce1649addc68d87b87dd1323806a9194e3)  |
 | [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS | Adds specification page | [49c11bc](https://github.com/umati/Showcase/commit/49c11bc70113b8ceb4ea718e8cef5e27dd9ec5ff) |
-| [PlasticsRubber](Specs/PlasticRubber.md) | PlasticsRubber | Adds specifications 40077, 40079 RC, 40082-1, 40082-2, 40082-3, 40084-2, 40084-11, PRGeneric | [5c95751](https://github.com/umati/Showcase/commit/5c95751e6a9220ed2fdda5f030d841a8b22e944b) |
+| [PlasticsRubber](Specs/PlasticsRubber.md) | PlasticsRubber | Adds specifications 40077, 40079 RC, 40082-1, 40082-2, 40082-3, 40084-2, 40084-11, PRGeneric | [5c95751](https://github.com/umati/Showcase/commit/5c95751e6a9220ed2fdda5f030d841a8b22e944b) |
 
 ## Demonstrator story umati showcase
 
