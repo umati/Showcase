@@ -6,8 +6,7 @@ Please refer to the provided XML-NodeSets, UaModeler-project or the [TTD repos](
 
 ## NodeSets
 
-[Release Canidate Nodet ](https://github.com/umati/TTD)
-
+[Release Canidate Nodet](https://github.com/umati/TTD)
 
 ## General information valid for the umati showcase demonstration
 
@@ -79,7 +78,6 @@ Hint: TTD has not stacklight so it is not shown
 ### TTD - Active Program
 
 ![ActiveProgram](../img/MachineTool/MT-ActiveProgram.png "MT ActiveProgram")
-
 
 ### TTD - Results
 
