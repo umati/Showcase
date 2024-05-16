@@ -75,17 +75,17 @@ The instance _Location_ property is evaluated according to the special requireme
 
 ### Active Program Statusbar
 
-For the status overview in the dashboard, the _State_ of the _ProductionActiveProgramType_ is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
+For the status overview in the dashboard, the _StateNumber_ of the _ProductionActiveProgramType.State.CurrentState.Number_ is stored and plotted over time. The status bar **does NOT relate to the stacklight** status!
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 
-| State | Color |
-| --- | --- |
-| Initializing | &#9898; Gray |
-| Running | &#128994; Green |
-| Ended | &#128309; Cyan |
-| Interrupted | &#128992; Orange |
-| Aborted | &#128308; Red |
+| State |Number | Color |
+| --- | --- | --- |
+| Initializing |0| &#9898; Grey |
+| Running |1| &#128994; Green |
+| Ended |2| &#128309; Cyan |
+| Interrupted |3| &#128992; Orange |
+| Aborted |4| &#128308; Red |
 | Any other (unspecified) state | &#9899; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
