@@ -63,7 +63,7 @@ The instance _Location_ property is evaluated according to the special requireme
 
   `http://www.<MANUFACTURERDOMAIN>/example`
 
-- The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a website as a URI, it is not necessary that the website actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
+- The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
 
 - The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 
