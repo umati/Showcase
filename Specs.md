@@ -2,7 +2,7 @@
 
 - [GENERIC-Plastics&Rubber](Specs/prgeneric.md) - Generic Model for umati Plastics and Rubber
 - [OPC 40077 - IMM 2 MES](Specs/pr40077.md) - Data exchange between injection
-moulding machines and MES
+  moulding machines and MES
 - [OPC 40079 - IMM 2 Robot](Specs/pr40079.md) - Data exchange between injection
 - [OPC 40082-1 - TCD](Specs/pr40082-1.md) - Peripheral devices – Part 1: Temperature control devices
 - [OPC 40082-2 - HRD](Specs/pr40082-2.md) - Peripheral devices – Part 2: Hot runner devices
@@ -12,5 +12,6 @@ moulding machines and MES
 - [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
 - [OPC 40301 UA for Flat Glass Processing](Specs/Flatglass.md)
 - [OPC 40501-1 UA for MachineTool](Specs/MachineTool.md)
+- [OPC 40530 UA for LaserSystems](Specs/Laser.md)
 - [OPC 40550 UA for Woodworking](Specs/Woodworking.md)
 - [Software Solutions](Specs/Software.md)
