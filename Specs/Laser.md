@@ -1,4 +1,4 @@
-# umati showcase information model for Lasers
+# umati showcase information model for Laser Systems
 
 In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for Laser](https://reference.opcfoundation.org/LaserSystems/v100/docs/) companion specification.
 
@@ -14,7 +14,7 @@ In the following the umati showcase describes the additional information on top 
 
 ### Identification data
 
-The identification for Lasers are inherited from the Machinery companion specification.
+The identification for Laser Systems are inherited from the Machinery companion specification.
 To fill the demo dashboard machine page with the most content the variables marked with a **strong mandatory** should be provided if you like to look the machine identification nicely.
 
 #### [**MachineIdentificationType Definition**](https://reference.opcfoundation.org/Machinery/docs/8.6/)
@@ -54,20 +54,20 @@ The instance _Location_ property is evaluated according to the special requireme
 
 ### Adaption of the provided information models for your purpose
 
-- The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the MachineTools companion specification and **must not** be changed.
+- The provided NodeSet contains the address space with the ObjectTypes, VariableTypes and DataTypes of the Laser Systems companion specification and **must not** be changed.
 - Change the URI of the instance namespace (optional, but recommended)
 
   `http://www.<MANUFACTURERDOMAIN>/example`
 
 - The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
 
-- The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
+- The machine will get a unique identifier like clientId%3Dvdw%7Csmplsrv1%3Bnsu%3Dhttp%3A_2F_2Fwww.wenzel-group.com_2FWenzel_20LH_2087_2F%3Bi%3D66382 <clientId><mqttusername><NamespaceUri><EntryNodeId> in the MQTT tree and in the Dashboard url.
 
 ## Value mapping between OPC UA companion specification and umati.app MachineTool page
 
 ### Laser System - Overview
 
-![Overview](../img/Laser/Overview.png "Laser Overview")
+![Overview](../img/Laser/Overview.png "Laser System Overview")
 
 ### Active Program Statusbar
 
@@ -89,15 +89,14 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
 
-### Laser - Identification
+### Laser Systems - Identification
 
 ![Identification](../img/MachineTool/MT-Identification.png "Identification")
 
-
-### Laser - Production
+### Laser Systems- Production
 
 ![Production](../img/Laser/Production.png "Production")
 
-### Laser - Monitoring 
+### Laser Systems - Monitoring 
 
 ![Monitoring](../img/Laser/Monitoring.png "Monitoring")
