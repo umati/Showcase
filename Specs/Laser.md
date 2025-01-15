@@ -1,6 +1,6 @@
 # umati showcase information model for Laser Systems
 
-In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for LaserSystems](https://reference.opcfoundation.org/LaserSystems/v100/docs/) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40530 UA for LaserSystems](https://reference.opcfoundation.org/LaserSystems/v100/docs/) companion specification.
 
 ## NodeSets
 
