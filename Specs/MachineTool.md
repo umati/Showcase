@@ -23,34 +23,34 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### [**MachineIdentificationType Definition**](https://reference.opcfoundation.org/Machinery/docs/8.6/)
 
-| **Attribute** | **Value** |     |     |     |     |
-| --- | --- | --- | --- | --- | --- |
-| BrowseName | MachineIdentificationType | | | | |
-| IsAbstract | False | | | | |
-| Description | Contains information about the identification and nameplate of a machine | | | | |
-|     |     |     |     |     |     |
-| **References** | **NodeClass** | **BrowseName** | **DataType** | **TypeDefinition** | **Other** |
-| Subtype of the 2:FunctionalGroupType defined in OPC 10000-100, i.e. inheriting the InstanceDeclarations of that Node. | | | | | |
-| 0:HasProperty | Variable | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType |     |
-| 0:HasInterface | ObjectType | IMachineVendorNameplateType | | | |
-| 0:HasInterface | ObjectType | IMachineTagNameplateType | | | |
-| Applied from IMachineVendorNameplateType |     |     |     |     |     |
-| 0:HasProperty | Variable | 2:ProductInstanceUri | 0:String | 0:PropertyType | M, RO |
-| 0:HasProperty | Variable | 2:Manufacturer | 0:LocalizedText | 0:PropertyType | M, RO |
-| 0:HasProperty | Variable | 2:ManufacturerUri | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | **2:Model** | 0:LocalizedText | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | **2:ProductCode** | 0:String | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | 2:HardwareRevision | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | **2:SoftwareRevision** | 0:String | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | 2:DeviceClass | 0:String | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | 2:SerialNumber | 0:String | 0:PropertyType | M, RO |
-| 0:HasProperty | Variable | **YearOfConstruction** | UInt16 | 0:PropertyType | **M**, RO |
-| 0:HasProperty | Variable | MonthOfConstruction | Byte | 0:PropertyType | O, RO |
-| 0:HasProperty | Variable | InitialOperationDate | DateTime | 0:PropertyType | O, RO |
-| Applied from IMachineTagNameplateType |     |     |     |     |     |
-| 0:HasProperty | Variable | 2:AssetId | 0:String | 0:PropertyType | O, RW |
-| 0:HasProperty | Variable | 2:ComponentName | 0:LocalizedText | 0:PropertyType | O, RW |
-| 0:HasProperty | Variable | **Location** | 0:String | 0:PropertyType | **M**, RW |
+| **Attribute**                                                                                                         | **Value**                                                                |                             |                 |                    |           |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------- | --------------- | ------------------ | --------- |
+| BrowseName                                                                                                            | MachineIdentificationType                                                |                             |                 |                    |           |
+| IsAbstract                                                                                                            | False                                                                    |                             |                 |                    |           |
+| Description                                                                                                           | Contains information about the identification and nameplate of a machine |                             |                 |                    |           |
+|                                                                                                                       |                                                                          |                             |                 |                    |           |
+| **References**                                                                                                        | **NodeClass**                                                            | **BrowseName**              | **DataType**    | **TypeDefinition** | **Other** |
+| Subtype of the 2:FunctionalGroupType defined in OPC 10000-100, i.e. inheriting the InstanceDeclarations of that Node. |                                                                          |                             |                 |                    |           |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 0:DefaultInstanceBrowseName | 0:QualifiedName | 0:PropertyType     |           |
+| 0:HasInterface                                                                                                        | ObjectType                                                               | IMachineVendorNameplateType |                 |                    |           |
+| 0:HasInterface                                                                                                        | ObjectType                                                               | IMachineTagNameplateType    |                 |                    |           |
+| Applied from IMachineVendorNameplateType                                                                              |                                                                          |                             |                 |                    |           |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:ProductInstanceUri        | 0:String        | 0:PropertyType     | M, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:Manufacturer              | 0:LocalizedText | 0:PropertyType     | M, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:ManufacturerUri           | 0:String        | 0:PropertyType     | O, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | **2:Model**                 | 0:LocalizedText | 0:PropertyType     | **M**, RO |
+| 0:HasProperty                                                                                                         | Variable                                                                 | **2:ProductCode**           | 0:String        | 0:PropertyType     | **M**, RO |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:HardwareRevision          | 0:String        | 0:PropertyType     | O, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | **2:SoftwareRevision**      | 0:String        | 0:PropertyType     | **M**, RO |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:DeviceClass               | 0:String        | 0:PropertyType     | O, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:SerialNumber              | 0:String        | 0:PropertyType     | M, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | **YearOfConstruction**      | UInt16          | 0:PropertyType     | **M**, RO |
+| 0:HasProperty                                                                                                         | Variable                                                                 | MonthOfConstruction         | Byte            | 0:PropertyType     | O, RO     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | InitialOperationDate        | DateTime        | 0:PropertyType     | O, RO     |
+| Applied from IMachineTagNameplateType                                                                                 |                                                                          |                             |                 |                    |           |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:AssetId                   | 0:String        | 0:PropertyType     | O, RW     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | 2:ComponentName             | 0:LocalizedText | 0:PropertyType     | O, RW     |
+| 0:HasProperty                                                                                                         | Variable                                                                 | **Location**                | 0:String        | 0:PropertyType     | **M**, RW |
 
 #### Special requirements for correct location of the machine icon on the dashboard
 
@@ -63,7 +63,8 @@ The instance _Location_ property is evaluated according to the special requireme
 
   `http://www.<MANUFACTURERDOMAIN>/example`
 
-- The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier). In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
+- The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier).
+  In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
 
 - The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 
@@ -79,14 +80,14 @@ For the status overview in the dashboard, the _StateNumber_ of the _ProductionAc
 
 Each status is assigned to a color, the color scheme is here (subject to change):
 
-| State |Number | Color |
-| --- | --- | --- |
-| Initializing |0| &#9898; Grey |
-| Running |1| &#128994; Green |
-| Ended |2| &#128309; Cyan |
-| Interrupted |3| &#128992; Orange |
-| Aborted |4| &#128308; Red |
-| Any other (unspecified) state | | &#9899; Black |
+| State                         | Number | Color            |
+| ----------------------------- | ------ | ---------------- |
+| Initializing                  | 0      | &#9898; Grey     |
+| Running                       | 1      | &#128994; Green  |
+| Ended                         | 2      | &#128309; Cyan   |
+| Interrupted                   | 3      | &#128992; Orange |
+| Aborted                       | 4      | &#128308; Red    |
+| Any other (unspecified) state |        | &#9899; Black    |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
 

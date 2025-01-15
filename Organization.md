@@ -22,11 +22,11 @@ Participants can provide more than one umati partner solution type.
 
 Regulations concerning offered services, obligations of the participants and brand usage are collected in a **memorandum of understanding** (MoU) which participants of the umati showcase will need to sign ahead of the umati showcase demonstration. Please refer to **MoU document** for further information. (Please request a copy by mailing to [info@umati.org](mailto:info@umati.org))
 
-Every participant is permitted to advertise his or her involvement in the umati community through the free, time-limited **&quot;umati partner&quot;** logo, e.g. in the web or in prints etc.  Details of this permission are regulated in the individual **MoU**.
+Every participant is permitted to advertise his or her involvement in the umati community through the free, time-limited **&quot;umati partner&quot;** logo, e.g. in the web or in prints etc. Details of this permission are regulated in the individual **MoU**.
 
 ### Services offered by umati iniative include
 
-- Listing all participants on the [http://umati.org](http://umati.org) website, prints, presentations etc. where practicable in scope and extent.
+- Listing all participants on the [http://umati.org](http://umati.org) site, prints, presentations etc. where practicable in scope and extent.
 - Providing a corporate design to be used by all participants for free.
 - Advertisement flyers, press conference, social media campaign with mentioning of all participants.
 - Access to a partners-only repositiory with necessary files and instructions to implement a solution
