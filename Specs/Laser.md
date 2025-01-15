@@ -1,12 +1,10 @@
 # umati showcase information model for Laser Systems
 
-In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for Laser](https://reference.opcfoundation.org/LaserSystems/v100/docs/) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for LaserSystems](https://reference.opcfoundation.org/LaserSystems/v100/docs/) companion specification.
 
 ## NodeSets
 
 [Normative NodeSet hosted by the OPC Foundation](https://github.com/OPCFoundation/UA-Nodeset/tree/latest/LaserSystems)
-
-
 
 ## General information valid for the umati showcase demonstration
 
@@ -63,9 +61,9 @@ The instance _Location_ property is evaluated according to the special requireme
 In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely.
 In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
 
-- The machine will get a unique identifier like clientId%3Dvdw%7Csmplsrv1%3Bnsu%3Dhttp%3A_2F_2Fwww.wenzel-group.com_2FWenzel_20LH_2087_2F%3Bi%3D66382 <clientId><mqttusername><NamespaceUri><EntryNodeId> in the MQTT tree and in the Dashboard URL.
+- The machine will get a unique identifier like `clientId%3Dvdw%7Csmplsrv1%3Bnsu%3Dhttp%3A_2F_2Fwww.wenzel-group.com_2FWenzel_20LH_2087_2F%3Bi%3D66382` -  `<clientId><mqttusername><NamespaceUri><EntryNodeId>` in the MQTT tree and in the Dashboard URL.
 
-## Value mapping between OPC UA companion specification and umati.app MachineTool page
+## Value mapping between OPC UA companion specification and umati.app machine instance page
 
 ### Laser System - Overview
 
@@ -79,21 +77,21 @@ Each status is assigned to a color, the color scheme is here (subject to change)
 
 | State |Number | Color |
 | --- | --- | --- |
-| Off |0| &#EAEAEA; Grey |
-| EnergySaving |1| &#EAEAEA; Grey |
-| Idle |2| &#EAEAEA; Grey |
-| SetUp |3|&#EAEAEA; Grey |
-| LaserReady |4|&#EAEAEA; Grey |
-| Maintenance | 5 | &#EAEAEA; Grey|
-| Error | 6 | &#EAEAEA; Grey|
-| LaserOn | 7 | &#00b20e; Green|
-| Any other (unspecified) state | | &#9899; Black |
+| Off | 0 | &#9898; Grey |
+| EnergySaving | 1 | &#9898; Grey |
+| Idle | 2 | &#9898; Grey |
+| SetUp | 3 | &#9898; Grey |
+| LaserReady | 4 | &#9898; Grey |
+| Maintenance | 5 | &#9898; Grey |
+| Error | 6 | &#9898; Grey |
+| LaserOn | 7 | &#128994; Green |
+| Any other (unspecified) state |   | &#9899; Black |
 
 A gap is left for periods of time in which no data was recorded (e.g. machine offline). An exemplary timeline is shown above.
 
 ### Laser Systems - Identification
 
-![Identification](../img/MachineTool/MT-Identification.png "Identification")
+![Identification](../img/Laser/Overview.png "Identification")
 
 ### Laser Systems- Production
 

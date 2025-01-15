@@ -12,6 +12,6 @@ moulding machines and MES
 - [OPC 40210 UA for Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
 - [OPC 40301 UA for Flat Glass Processing](Specs/Flatglass.md)
 - [OPC 40501-1 UA for MachineTool](Specs/MachineTool.md)
-- [OPC 40530 UA for Laser Systems](Specs/Laser.md)
+- [OPC 40530 UA for LaserSystems](Specs/Laser.md)
 - [OPC 40550 UA for Woodworking](Specs/Woodworking.md)
 - [Software Solutions](Specs/Software.md)
