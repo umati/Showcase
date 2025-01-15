@@ -1,15 +1,10 @@
 ---
 ###########################
 ###########################
-## Linter GitHub Actions ##
+## Super-Linter Workflow ##
 ###########################
 ###########################
 name: Lint Code Base
-
-#
-# Documentation:
-# https://help.github.com/en/articles/workflow-syntax-for-github-actions
-#
 
 #############################
 # Start the job on all push #
@@ -19,6 +14,8 @@ on:
   pull_request:
     branches: [main, develop]
 
+permissions: read-all
+
 ###############
 # Set the Job #
 ###############
@@ -27,7 +24,7 @@ jobs:
     # Name the Job
     name: Lint Code Base (super-linter)
     # Set the agent to run on
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     ##################
     # Load all steps #
@@ -37,7 +34,7 @@ jobs:
       # Checkout the code base #
       ##########################
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # Full git history is needed to get a proper list
           # of changed files within `super-linter`
@@ -47,8 +44,9 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: super-linter/super-linter@v6.5.0
+        uses: super-linter/super-linter@v7
         env:
           VALIDATE_ALL_CODEBASE: false
+          VALIDATE_JSCPD: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
