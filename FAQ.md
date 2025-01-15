@@ -8,7 +8,7 @@ This is most likely because your enterprise firewall is blocking UDP-Requests on
 
 ## Organizational questions
 
-**The participant shall connect to the demonstrator scenario with a machine and/ or a “value-added service” (platform, dashboard,…). Are there any number limits or  is just one machine OK?**
+**The participant shall connect to the demonstrator scenario with a machine and/ or a “value-added service” (platform, dashboard,…). Are there any number limits or is just one machine OK?**
 Yes, one is enough, but you are free to connect more.
 
 **After implemented UMATI on the machine, the UMATI booth will show my machine on the dashboard as well as the machines of other participants. Is my understanding, right?**
