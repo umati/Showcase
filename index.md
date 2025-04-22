@@ -3,7 +3,7 @@
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
 - Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier.
 - The umati project group **cannot** supply individual support on how to get [OPC UA Servers](Server.md) installed, online and deliver data.
-- If questions arise regarding the information provided in **this documentation** or the connection to the datahub for the umati showcase demonstrator, please open an issue [here](https://github.com/umati/Showcase).
+- If questions arise regarding the information provided in **this documentation** or the connection to umati showcase demonstrator, please open an issue [here](https://github.com/umati/support).
 
 - An FAQ is provided [here](FAQ.md) and will be updated as needed.
 
