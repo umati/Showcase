@@ -3,11 +3,11 @@
 ## Connectivity Issues
 
 **The gateway stop with the following error message: `The remote certificate is invalid because of errors in the certificate chain: UntrustedRoot`**
-TLS inspection is active on the firewall. Please ensure that the corresponding Root CA certificate is installed on your computer.
+TLS inspection is active on your company firewall. Please ensure that the corresponding Root CA certificate is installed on your computer.
 
 ## Organizational questions
 
-**The participant shall connect to the demonstrator scenario with a machine and/ or a “value-added service” (platform, dashboard,…). Are there any number limits or is just one machine OK?**
+**The participant shall connect to the demonstrator scenario with a machine and/or a “value-added service” (platform, dashboard,…). Are there any number limits or is just one machine OK?**
 Yes, one is enough, but you are free to connect more.
 
 **After implemented umati on the machine, the umati booth will show my machine on the dashboard as well as the machines of other participants. Is my understanding, right?**

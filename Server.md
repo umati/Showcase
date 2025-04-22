@@ -4,8 +4,8 @@
 
 ### Process summary for connecting an OPC UA server to the [umati.app](https://umati.app)
 
-1. Fill in and sign the MoU as participant and an github account to get access to the github umati community.
-2. Create an Onboarding issue here (https://github.com/umati/support/issues/new?template=Onboarding.md) (only possbile with an account in the umati community on github)
+1. Fill in and sign the MoU as participant and provide a GitHub account username of the responsible person to get access to the umati community.
+2. Create an Onboarding issue [here](https://github.com/umati/support/issues/new?template=Onboarding.md) (only possible with an account in the umati community on GitHub)
 3. Prepare a configuration as per documentation at [Gateway Config](Gateway.md)
 4. (optional) Run a local OPC UA to MQTT over Websockets gateway
 5. (optional) Check whether the connection to the MQTT broker is working and your gateway is publishing data
@@ -29,7 +29,7 @@ The minimal required profiles according to the OPC UA Specification Part 7 are l
     - TCP Binary
 - Enhanced DataChange Subscription 2017 Server Facet (500 Monitored Items) (Model might contain more than 100 nodes)
 - Data Access Server Facet
-  - With mandatory &quot;Data Access AnalogItems&quot; as OverrideItemType is a subtype of AnalogItemType
+  - With mandatory _Data Access AnalogItems_ as _OverrideItemType_ is a subtype of _AnalogItemType_
 
 ## Getting started: OPC UA server for umati showcase
 
