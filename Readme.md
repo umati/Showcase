@@ -26,6 +26,7 @@ To learn more about the umati initative, please visit [https://umati.org](https:
   - [WoodWorking](Specs/Woodworking.md)
 - Upcoming Specifications
   - [Scales](Specs/WIP.md)
+  - [TTD](Specs/TTD.md)
 - [Organizational Information](Organization.md)
   - [Fairs](Specs/Fairs.md)
 - [FAQ](FAQ.md)
