@@ -1,6 +1,6 @@
 # umati showcase information model for Machine Tools
 
-In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for MachineTools](https://www.vdma.eu/viewer/-/v2article/render/1322270) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for MachineTools](https://umati.org/ua4mt) companion specification.
 
 Please refer to the provided XML-NodeSets, UaModeler-project or the [Sample Server](https://github.com/umati/Sample-Server) for exemplary implementation.
 

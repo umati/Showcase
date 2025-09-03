@@ -5,12 +5,12 @@
 ### Process summary for connecting an OPC UA server to the [umati.app](https://umati.app)
 
 1. Fill in and sign the MoU as participant and provide a GitHub account username of the responsible person to get access to the umati community.
-2. Create an Onboarding issue [here](https://github.com/umati/support/issues/new?template=Onboarding.md) (only possible with an account in the umati community on GitHub)
+2. Create an Onboarding issue at [umati/support](https://github.com/umati/support/issues/new?template=Onboarding.md) (only possible with an account in the umati community on GitHub)
 3. Prepare a configuration as per documentation at [Gateway Config](Gateway.md)
 4. (optional) Run a local OPC UA to MQTT over Websockets gateway
 5. (optional) Check whether the connection to the MQTT broker is working and your gateway is publishing data
 6. There is a delay between start of publishing of machine data to the broker until they are added to the dashboard. (the browser-based umati.app) as this takes a couple of minutes to propagate to the system.
-7. Send an email to [info@umati.org](mailto:info@umati.org) with an image of the machine (PNG / 1000x800 pixel or larger) and the Namespace URI of the machine in the datahub. This image will be used for the dashboard at [https://umati.app](https://umati.app/) . If you do not provide a picture, we will instead display a generic machine icon.
+7. Send an email to [info@umati.org](mailto:info@umati.org) with an image of the machine (PNG / 1000x800 pixel or larger) and the Namespace URI of the machine in the datahub. This image will be used for the dashboard at [https://umati.app](https://umati.app/). If you do not provide a picture, we will instead display a generic machine icon.
 
 ## OPC UA server functionalities
 

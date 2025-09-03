@@ -1,7 +1,7 @@
 # umati showcase information model for Textile Testing Devices
 
 In the following the umati showcase describes the additional information on top
-of the OPC 40444 UA for Textile Testing Devices companion specification.
+of the [OPC 40444 UA for Textile Testing Devices](https:/umati.org/ua4ttd) companion specification.
 
 Please refer to the provided XML-NodeSets, UaModeler-project or the [TTD
 repos](https://github.com/umati/TTD) for exemplary implementation.

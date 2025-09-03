@@ -1,6 +1,6 @@
 # umati showcase information model for Geometrical Measuring Systems
 
-In the following the umati showcase describes the additional information on top of the [OPC 40210 UA for Geometrical Measuring Systems](https://www.vdma.eu/catalog-detail/-/catalog/26336) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40210 UA for Geometrical Measuring Systems](https://umati.org/ua4gms) companion specification.
 
 Please refer to the provided XML-Nodesets or UaModeler-project for exemplary implementation.
 

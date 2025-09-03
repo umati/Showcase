@@ -1,6 +1,6 @@
 # umati showcase information model for Flat Glass Processing
 
-In the following the umati showcase describes the additional information on top of the [OPC 40301 UA for Flat Glass Processing](https://www.vdma.eu/viewer/-/v2article/render/15410388) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40301 UA for Flat Glass Processing](https://umati.org/ua4flat-glass) companion specification.
 
 The following describes the umati showcase information model for Flat Glass Processing.
 

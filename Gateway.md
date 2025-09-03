@@ -31,6 +31,6 @@ The detailed configuration of the client and how to deploy and run it is describ
 - Standalone binary x86_64 (64bit) Linux .deb package for ubuntu 22.04 and 24.04
 - container image x86_64/arm64
 
-The binaries can be downloaded [here](https://github.com/umati/umatiGateway/releases)
+The binaries can be downloaded at [umatiGateway Releases](https://github.com/umati/umatiGateway/releases)
 
 To obtain credentials to connect to the umati.app MQTT broker please follow [Server documentation](Server.md#connecting-an-opc-ua-server-to-umatiapp).
