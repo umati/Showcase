@@ -1,6 +1,6 @@
 # umati showcase information model for Geometrical Measuring Systems
 
-In the following the umati showcase describes the additional information on top of the [OPC 40210 UA for Geometrical Measuring Systems](https://www.vdma.org/viewer/-/v2article/render/47597927) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40210 UA for Geometrical Measuring Systems](https://www.vdma.eu/catalog-detail/-/catalog/26336) companion specification.
 
 Please refer to the provided XML-Nodesets or UaModeler-project for exemplary implementation.
 
@@ -12,7 +12,8 @@ All participants not familiar with the release candidate information model do no
 
 ## NodeSets for the showcase
 
-[Release Candidate NodeSet](https://github.com/umati/Sample-Server/tree/develop/model/GMS)
+[NodeSet](https://github.com/OPCFoundation/UA-Nodeset/tree/latest/GMS)
+[SampleServer](https://github.com/umati/Sample-Server/tree/develop/GMS)
 
 ## General information valid for the umati showcase demonstration
 
@@ -57,11 +58,11 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### Special requirements for correct location of the machine icon on the dashboard
 
-The instance _Location_ property is evaluated according to the special requirements detailed [here](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
+The instance _Location_ property is evaluated according to the special requirements detailed [Dashboard feature](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
 #### FAIR Shortnames
 
-Fair shortnames are defined [here.](Fairs.md)
+Fair shortnames are defined at [Fairs](Fairs.md).
 
 ### Adaption of the provided information models for your purpose
 
@@ -71,7 +72,7 @@ Fair shortnames are defined [here.](Fairs.md)
   `http://www.<MANUFACTURERDOMAIN>/example`
 
 - The rules for creating a URI can be found online. Please follow [this link](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier).
-  In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g. by including the company name.
+  In the case of a URL as a URI, it is not necessary that the site actually exists, it only identifies the machine uniquely. In order to simplify debugging it is recommended to choose a URI which allows an identification of the machine also for third persons, e.g., by including the company name.
 
 - The machine will get a unique NamespaceURI after being integrated to the datahub by addition of a suffix to ensure unique namespaces.
 

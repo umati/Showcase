@@ -60,8 +60,7 @@ you like to look the machine identification nicely.
 #### Special requirements for correct location of the machine icon on the dashboard
 
 The instance _Location_ property is evaluated according to the special
-requirements detailed [Dashboard
-feature](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard)
+requirements detailed [Dashboard feature](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard)
 to place a map icon for the machine.
 
 ### Adaption of the provided information models for your purpose
