@@ -23,6 +23,7 @@ To learn more about the umati initative, please visit [https://umati.org](https:
   - [PlasticsRubber](Specs/PlasticsRubber.md)
   - [Robotics](Specs/WIP.md)
   - [Software Solutions](Specs/Software.md)
+  - [TTD](Specs/TTD.md)
   - [WoodWorking](Specs/Woodworking.md)
 - Upcoming Specifications
   - [Scales](Specs/WIP.md)
