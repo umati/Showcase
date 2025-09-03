@@ -10,7 +10,7 @@ Please refer to the provided XML-NodeSets, UaModeler-project or the [Sample Serv
 
 ### For umati Machine Tool partners
 
-[UaModeler Project](https://github.com/umati/MachineTool-Plugfest/tree/master/UaModelerProject) as a quick start ( **Remark:** You have to be an umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
+[UaModeler Project](https://github.com/umati/MachineTool-Plugfest/tree/main/UaModelerProject) as a quick start ( **Remark:** You have to be an umati partner and added to the access list. (Contact: [info@umati.org](mailto:info@umati.org))
 
 ## General information valid for the umati showcase demonstration
 
