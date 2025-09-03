@@ -29,6 +29,7 @@ To learn more please visit [https://umati.org](https://umati.org)
   - [PlasticsRubber](Specs/PlasticsRubber.md)
   - [Robotics](Specs/WIP.md)
   - [Software Solutions](Specs/Software.md)
+  - [TTD](Specs/TTD.md)
   - [WoodWorking](Specs/Woodworking.md)
 - Upcoming Specifications
   - [Scales](Specs/WIP.md)
@@ -56,6 +57,7 @@ This documentation is versioned, as some content details will be delivered later
 | v1.06.0     | 13.07.2022         | Integrates PlasticsRubber specifications        |
 | v1.07.0     | 17.03.2023         | Remove Datahub and OpenVPN requirements         |
 | v1.08.0     | 15.01.2025         | Integrate LaserSystems                          |
+| v1.09.0     | 03.09.2025         | Integrate Textile Testing Specification         |
 
 ### Changelog
 
@@ -78,6 +80,7 @@ This documentation is versioned, as some content details will be delivered later
 | [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md) | GMS                        | Adds specification page                                                                      | [49c11bc](https://github.com/umati/Showcase/commit/49c11bc70113b8ceb4ea718e8cef5e27dd9ec5ff)                                                                                                       |
 | [PlasticsRubber](Specs/PlasticsRubber.md)                             | PlasticsRubber             | Adds specifications 40077, 40079 RC, 40082-1, 40082-2, 40082-3, 40084-2, 40084-11, PRGeneric | [5c95751](https://github.com/umati/Showcase/commit/5c95751e6a9220ed2fdda5f030d841a8b22e944b)                                                                                                       |
 | [LaserSystems](Specs/Laser.md)                                        | LaserSystems               | Adds specification 40530                                                                     | [8391639](https://github.com/umati/Showcase/commit/839163922925d93c733563f6c99b133f2ccc120c)                                                                                                       |
+| [TextileTestingDevices](Specs/TTD.md)                                        | Textile Testing Devices   | Adds specification 40444                                                                     | [d7dd188](https://github.com/umati/Showcase/commit/d7dd18858a1d67414c98c4aa3d3535a87f5e7dec)                                                                                                       |
 
 ## Demonstrator story umati showcase
 

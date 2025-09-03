@@ -18,6 +18,7 @@ To learn more about the umati initative, please visit [https://umati.org](https:
   - [Flat Glass Processing](Specs/Flatglass.md)
   - [Geometrical Measuring Systems](Specs/GeometricalMeasuringSystems.md)
   - [IJT - Tightening](Specs/WIP.md)
+  - [LaserSystems](Specs/Laser.md)
   - [MachineTool](Specs/MachineTool.md)
   - [MachineVision](Specs/WIP.md)
   - [PlasticsRubber](Specs/PlasticsRubber.md)
