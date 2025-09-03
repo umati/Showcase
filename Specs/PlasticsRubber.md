@@ -14,4 +14,4 @@
 
 For not listed OPC UA 400xx specifications or information about the Generic Model, please contact
 
-- Marc Schmitt [marc.schmitt@vdma.org](mailto:marc.schmitt@vdma.org)
+- [Mikula Thiem](mailto:mikula.thiem@vdma.eu)
