@@ -7,7 +7,7 @@ The namespace for the instances is manufacturer specific, e.g. <http://sampleman
 Table 1 shows the complete structure of the instance needed for the umati demonstrator when two process values are used. The demonstrator requires, that all mandatory elements of used MachineIdentificationType are existent, even if there are not displayed in the dashboard.
 If the value of a variable a not displayed, is can be filled with a static dummy value (e.g. empty string). All displayed values are marked in **bold**.
 
-**Note:** Please contact [Mikula Thiem](mailto:mikula.thiem@vdma.org) if your machine type (Section 2) is not available.
+**Note:** Please contact [Mikula Thiem](mailto:mikula.thiem@vdma.eu) if your machine type (Section 2) is not available.
 
 ![Generic Overview](../img/PlasticsRubber/PR_Generic_Overview.png "Generic Overview")
 

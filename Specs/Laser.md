@@ -1,6 +1,6 @@
 # umati showcase information model for Laser Systems
 
-In the following the umati showcase describes the additional information on top of the [OPC 40530 UA for LaserSystems](https://reference.opcfoundation.org/LaserSystems/v100/docs/) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40530 UA for LaserSystems](https://umati.org/ua4laser/) companion specification.
 
 ## NodeSets
 
@@ -48,7 +48,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### Special requirements for correct location of the machine icon on the dashboard
 
-The instance _Location_ property is evaluated according to the special requirements detailed [here](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
+The instance _Location_ property is evaluated according to the special requirements detailed [Dashboard feature](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
 ### Adaption of the provided information models for your purpose
 

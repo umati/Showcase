@@ -1,6 +1,6 @@
 # umati showcase information model for Wood Working machines
 
-In the following the umati showcase describes the additional information on top of the [OPC 40550 UA for Woodworking](https://) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40550 UA for Woodworking](https://www.vdma.eu/catalog-detail/-/catalog/24613) companion specification.
 
 Please refer to the provided XML-Nodesets or UaModeler-project for exemplary implementation.
 
@@ -57,11 +57,11 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### Special requirements for correct location of the machine icon on the dashboard
 
-The instance _Location_ property is evaluated according to the special requirements detailed [here](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
+The instance _Location_ property is evaluated according to the special requirements detailed [Dashboard feature](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
 #### FAIR Shortnames
 
-Fair shortnames are defined [here.](Fairs.md)
+Fair shortnames are defined [Fairs](Fairs.md).
 
 ### Adaption of the provided information models for your purpose
 

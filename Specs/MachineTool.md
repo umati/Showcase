@@ -1,6 +1,6 @@
 # umati showcase information model for Machine Tools
 
-In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for MachineTools](https://www.vdma.org/viewer/-/v2article/render/1322270) companion specification.
+In the following the umati showcase describes the additional information on top of the [OPC 40501-1 UA for MachineTools](https://umati.org/ua4mt) companion specification.
 
 Please refer to the provided XML-NodeSets, UaModeler-project or the [Sample Server](https://github.com/umati/Sample-Server) for exemplary implementation.
 
@@ -54,7 +54,7 @@ To fill the demo dashboard machine page with the most content the variables mark
 
 #### Special requirements for correct location of the machine icon on the dashboard
 
-The instance _Location_ property is evaluated according to the special requirements detailed [here](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
+The instance _Location_ property is evaluated according to the special requirements detailed [Dashboard feature](../Dashboard.md#location-of-fair-machine-and-software-icons-on-the-dashboard) to place a map icon for the machine.
 
 ### Adaption of the provided information models for your purpose
 

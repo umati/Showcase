@@ -8,7 +8,7 @@ The umati dashboard at [https://umati.app](https://umati.app) is available as a 
 Machine data are available in a MQTT broker to provide live to the umati.app
 
 Currently the companion specifications listed at [Specs](Specs.md) are implemented.
-Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://www.vdma.org/viewer/-/v2article/render/2737109) are in progress.
+Integrations of future additional companion specification implementations based on the [OPC 40001-1 UA for Machinery](https://www.vdma.eu/viewer/-/v2article/render/2737109) are in progress.
 
 ## Location of Fair, Machine and Software icons on the dashboard
 

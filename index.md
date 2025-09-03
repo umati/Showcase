@@ -3,9 +3,9 @@
 - This document provides **all information** to get connected to the umati showcase demonstrator scenario.
 - Participants who connect to the showcase, need to do so **on their own**, or with the help of their controls or software supplier.
 - The umati project group **cannot** supply individual support on how to get [OPC UA Servers](Server.md) installed, online and deliver data.
-- If questions arise regarding the information provided in **this documentation** or the connection to umati showcase demonstrator, please open an issue [here](https://github.com/umati/support).
+- If questions arise regarding the information provided in **this documentation** or the connection to umati showcase demonstrator, please open an issue at [umati/support](https://github.com/umati/support).
 
-- An FAQ is provided [here](FAQ.md) and will be updated as needed.
+- An FAQ is provided at [FAQ](FAQ.md) and will be updated as needed.
 
 ## What is umati - the universal machine technology interface
 
@@ -87,7 +87,7 @@ Connectivity with umati - universal machine technology interface - is simple, se
 No matter whether you are end user, system integrator or machine builder: with the umati endorsed companion specficiations you will be able to easily connect to machines of all manufacturers and controls.
 umati is an initiative by the umati community and is an association of companies from the mechanical and plant engineering industry that jointly and comprehensively bring a common interface concept based on OPC UA to the market for the entire mechanical and plant engineering sector.
 
-Currently it is sponsored and hosted by the German Machine Tool Builders' Association [(VDW)](https://vdw.de) and the mechanical engineering industry association [(VDMA)](https://vdma.org).
+Currently it is sponsored and hosted by the German Machine Tool Builders' Association [(VDW)](https://vdw.de) and the mechanical engineering industry association [(VDMA)](https://vdma.eu).
 
 ## umati showcase
 
