@@ -1,0 +1,247 @@
+[
+  {
+    "EndpointUrl": "opc.tcp://opcua.umati.app:4840",
+    "OpcNodes": [
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55245",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55248",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55247",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55249",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55203",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55204",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55197",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55205",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55201",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55199",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55198",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55202",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55200",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55233",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55232",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55229",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55231",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55230",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55234",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55193",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55206",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55236",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55241",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55237",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55239",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55238",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55240",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55212",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55211",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55215",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55214",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55213",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55218",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      },
+      {
+        "Id": "nsu=http://example.com/ShowcaseMachineTool/;i=55217",
+        "OpcSamplingInterval": 500,
+        "OpcPublishingInterval": 1000,
+        "HeartbeatInterval": 0,
+        "SkipFirst": false
+      }
+    ],
+    "OpcEvents": [],
+    "OpcAuthenticationMode": "Anonymous"
+  }
+]
