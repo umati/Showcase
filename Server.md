@@ -50,10 +50,10 @@ We define a well-known entry point (Machines, nsu=<http://opcfoundation.org/UA/M
 
 one machine tool:
 
-![Address space](img/Addressspace_sample.png "Addressspace sample")
+![Address space](img/Addressspace_sample.png "Address space sample")
 
 These two address spaces should be merged so that in the aggregated server there is only one _Machines_-Folder and each Machine instance is under this organization-node with the same NodeId-Identifiers und NodeId-URI (the NodeId-Index will be different) as in the originating OPC UA server.
 
 The required namespaces for Machinery and related Companion Specifcations is only loaded once in the aggregated server.
 
-![Address space](img/Addressspace_aggregated.png "Adress space aggregated")
+![Address space](img/Addressspace_aggregated.png "Address space aggregated")

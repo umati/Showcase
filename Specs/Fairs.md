@@ -21,4 +21,5 @@
 | LIGNA     | LIGNA Hannover           | <https://www.ligna.de/>               |
 | METAV     | METAV                    | <https://metav.de>                    |
 | SPS       | SPS Nürnberg             | <https://sps.mesago.com/>             |
+| TMTS      | TMTS Taiwan              | <https://www.tmts.tw/>                |
 | VIRTUAL   | Permanent virtual fair   | <https://umati.app>                   |
