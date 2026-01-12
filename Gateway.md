@@ -3,9 +3,7 @@
 To connect your local OPC UA server to the umati.app the initiative provides a software gateway.
 This gateway subscribes via OPC UA (Client/Server; TCP Binary) to your server and publishes the information to an MQTT broker.
 
-~~This [gateway](https://github.com/umati/Dashboard-OPCUA-Client) is provided as an open source version based on [open62541](https://open62541.org) and currently uses a _custom_ JSON encoding for the payload. It is planned to migrate to OPC UA part 14 JSON encoding and defined topic tree, as soon as v1.05.03 is published.~~
-
-A new version of the [gateway](https://github.com/umati/umatiGateway) is provided as an open source version based on [OPC UA .NET Standard Stack](https://github.com/OPCFoundation/UA-.NETStandard) and currently uses a _custom_ JSON encoding for the payload. The umati core team currently migrate the encoding to OPC UA part 14 UA JSON encoding and a defined topic tree.
+The [uamtiGateway](https://github.com/umati/umatiGateway) is provided as an open source version based on [OPC UA .NET Standard Stack](https://github.com/OPCFoundation/UA-.NETStandard) and uses the UA JSON encoding to OPC UA part 14 and a defined topic tree.
 
 ## Architecture
 
