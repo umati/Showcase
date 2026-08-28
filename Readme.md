@@ -12,7 +12,8 @@ To learn more about the umati initative, please visit [https://umati.org](https:
 
 - [Overview](index.md)
 - [OPC UA Server](Server.md)
-- [OPC UA Gateway](Gateway.md)
+- [OPC UA Client](Client.md)
+- [OPC UA PubSub](PubSub.md)
 - [Dashboard](Dashboard.md)
 - [Implemented Specifications](Specs.md)
   - [Flat Glass Processing](Specs/Flatglass.md)

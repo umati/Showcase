@@ -1,0 +1,15 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Equipment",
+    "payload": {
+        "MessageId": "4ab2bf69-05c1-4994-aab1-efd24335986c",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "virtualId": "17:ShowcaseMachineTool.5:Equipment"
+                }
+            }
+        ]
+    }
+}

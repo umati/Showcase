@@ -1,0 +1,250 @@
+{
+    "topic": "opcua/umati/v3/json/metadata/vdw/server-cpp-dev/ShowcaseMachineTool/Monitoring",
+    "payload": {
+        "MessageId": "9d270df1-064a-4554-8f85-d45f91088169",
+        "MessageType": "ua-metadata",
+        "PublisherId": "1",
+        "DataSetWriterId": 199,
+        "MetaData": {
+            "Namespaces": [
+                "http://opcfoundation.org/UA/",
+                "urn:UmatiSampleServer",
+                "http://opcfoundation.org/UA/DI/",
+                "http://opcfoundation.org/UA/Machinery/",
+                "http://opcfoundation.org/UA/IA/",
+                "http://opcfoundation.org/UA/MachineTool/",
+                "http://opcfoundation.org/UA/Woodworking/",
+                "http://opcfoundation.org/UA/Machinery/Result/",
+                "http://opcfoundation.org/UA/GMS/",
+                "http://opcfoundation.org/UA/Dictionary/IRDI",
+                "http://opcfoundation.org/UA/PADIM/",
+                "http://opcfoundation.org/UA/Machinery/ProcessValues/",
+                "http://opcfoundation.org/UA/AdditiveManufacturing/NodeSet2/",
+                "http://example.com/FullMachineTool/",
+                "http://example.com/FullMachineToolDynamic/",
+                "http://example.com/BasicMachineTool/",
+                "http://example.com/MRMachineTool/",
+                "http://example.com/ShowcaseMachineTool/",
+                "http://example.com/CNShowcaseMachineTool/",
+                "http://example.com/BasicWoodworking/",
+                "http://example.com/FullWoodworking/",
+                "https://www.hexagonmi.com/Hexagon PMM Gold/",
+                "https://www.hexagonmi.com/Hexagon GLOBAL S/",
+                "http://www.ogpgmbh.de/SmartScope CNC 500/",
+                "http://www.wenzel-group.com/Wenzel LH 87/",
+                "http://www.isw.uni-stuttgart.de/FullGMS/",
+                "http://www.3yourmind.com/BasicAMMachine/",
+                "http://www.3yourmind.com/ShowcaseAMMachine/"
+            ],
+            "Name": "ns=17;i=59004",
+            "Fields": [
+                {
+                    "Name": "virtualId",
+                    "Description": {
+                        "Text": "VirtualId used by the Gateway"
+                    },
+                    "FieldFlags": 0,
+                    "BuiltInType": 12,
+                    "DataType": {
+                        "Id": 12
+                    },
+                    "ValueRank": -1,
+                    "MaxStringLength": 0,
+                    "DataSetFieldId": "8b5a75a8-1f18-43a8-81b9-2d9558e9d8f7",
+                    "Properties": [
+                        {
+                            "Key": {
+                                "Name": "relations"
+                            },
+                            "Value": {
+                                "Type": 24,
+                                "Body": [
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 59005,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "MachineTool",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "MachineTool"
+                                                },
+                                                "NodeClass": 1,
+                                                "TypeDefinition": {
+                                                    "Id": 26,
+                                                    "Namespace": 5
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 59019,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "Stacklight",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "Stacklight"
+                                                },
+                                                "NodeClass": 1,
+                                                "TypeDefinition": {
+                                                    "Id": 1002,
+                                                    "Namespace": 4
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 59040,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "Channel 1",
+                                                    "Uri": 17
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "Channel 1"
+                                                },
+                                                "NodeClass": 1,
+                                                "TypeDefinition": {
+                                                    "Id": 16,
+                                                    "Namespace": 5
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 59047,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "Spindle",
+                                                    "Uri": 17
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "Spindle"
+                                                },
+                                                "NodeClass": 1,
+                                                "TypeDefinition": {
+                                                    "Id": 22,
+                                                    "Namespace": 5
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 47
+                                                },
+                                                "IsForward": false,
+                                                "NodeId": {
+                                                    "Id": 66382,
+                                                    "Namespace": 17
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "ShowcaseMachineTool",
+                                                    "Uri": 17
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "ShowcaseMachineTool"
+                                                },
+                                                "NodeClass": 1,
+                                                "TypeDefinition": {
+                                                    "Id": 13,
+                                                    "Namespace": 5
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "Type": 22,
+                                        "Body": {
+                                            "TypeId": {
+                                                "Id": 518
+                                            },
+                                            "Body": {
+                                                "ReferenceTypeId": {
+                                                    "Id": 40
+                                                },
+                                                "IsForward": true,
+                                                "NodeId": {
+                                                    "Id": 14,
+                                                    "Namespace": 5
+                                                },
+                                                "BrowseName": {
+                                                    "Name": "MonitoringType",
+                                                    "Uri": 5
+                                                },
+                                                "DisplayName": {
+                                                    "Text": "MonitoringType"
+                                                },
+                                                "NodeClass": 8
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "ConfigurationVersion": {
+                "MajorVersion": 1,
+                "MinorVersion": 0
+            }
+        }
+    }
+}

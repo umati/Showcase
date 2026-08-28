@@ -1,0 +1,15 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool",
+    "payload": {
+        "MessageId": "22d070b4-8dab-40f3-b30e-a3693746eef8",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "virtualId": "17:ShowcaseMachineTool"
+                }
+            }
+        ]
+    }
+}

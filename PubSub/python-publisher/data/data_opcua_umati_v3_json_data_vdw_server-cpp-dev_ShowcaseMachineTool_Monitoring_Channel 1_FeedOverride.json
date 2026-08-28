@@ -1,0 +1,24 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Monitoring/Channel 1/FeedOverride",
+    "payload": {
+        "MessageId": "9a6f08a5-5f48-4057-a3de-4b4431891aeb",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "EURange": {
+                        "Low": 0,
+                        "High": 140
+                    },
+                    "EngineeringUnits": {
+                        "NamespaceUri": "",
+                        "UnitId": 0,
+                        "DisplayName": "%"
+                    },
+                    "virtualId": "17:ShowcaseMachineTool.5:Monitoring.17:Channel 1.5:FeedOverride"
+                }
+            }
+        ]
+    }
+}

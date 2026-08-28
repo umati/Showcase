@@ -1,0 +1,20 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Monitoring/Stacklight/Light 0",
+    "payload": {
+        "MessageId": "8c646307-7321-4046-a950-91969f48ccf7",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "NumberInList": 0,
+                    "IsPartOfBase": false,
+                    "SignalOn": false,
+                    "SignalMode": 0,
+                    "SignalColor": 1,
+                    "virtualId": "17:ShowcaseMachineTool.5:Monitoring.5:Stacklight.17:Light 0"
+                }
+            }
+        ]
+    }
+}

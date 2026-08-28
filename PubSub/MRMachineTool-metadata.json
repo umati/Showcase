@@ -1,0 +1,141 @@
+{
+    "MessageId": null,
+    "MessageType": "ua-metadata",
+    "PublisherId": "MoreRealisticMachineTool",
+    "DataSetWriterId": 0,
+    "DataSetWriterName": "MoreRealisticMachineTool_.MachineTool_Writer",
+    "MetaData": {
+        "Namespaces": [],
+        "StructureDataTypes": [],
+        "EnumDataTypes": [],
+        "SimpleDataTypes": [],
+        "Name": "MoreRealisticMachineTool_.MachineTool",
+        "Description": {
+            "Locale": "",
+            "Text": ""
+        },
+        "Fields": [
+            {
+                "Name": "FeedOverride",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 10,
+                "DataType": {
+                    "Id": 11
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "492B8BBC-1FA8-0F09-EBBE-AB3A7DD77DF7",
+                "Properties": [
+                    {
+                        "Key": {
+                            "Name": "EngineeringUnits"
+                        },
+                        "Value": {
+                            "Type": 22,
+                            "Body": {
+                                "TypeId": {
+                                    "Id": 887
+                                },
+                                "Body": {
+                                    "NamespaceUri": "",
+                                    "UnitId": 0,
+                                    "DisplayName": {
+                                        "Locale": "",
+                                        "Text": "%"
+                                    },
+                                    "Description": {
+                                        "Locale": "",
+                                        "Text": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "Key": {
+                            "Name": "EURange"
+                        },
+                        "Value": {
+                            "Type": 22,
+                            "Body": {
+                                "TypeId": {
+                                    "Id": 884
+                                },
+                                "Body": {
+                                    "Low": 0,
+                                    "High": 100
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "Name": "IsWarmUp",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 0,
+                "DataType": {
+                    "Id": 1
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "594D502B-2A7F-255E-4224-6216CD8CE81E",
+                "Properties": []
+            },
+            {
+                "Name": "CurrentState",
+                "Description": {
+                    "Locale": "",
+                    "Text": ""
+                },
+                "FieldFlags": 0,
+                "BuiltInType": 20,
+                "DataType": {
+                    "Id": 21
+                },
+                "ValueRank": -2,
+                "ArrayDimensions": [],
+                "MaxStringLength": 0,
+                "DataSetFieldId": "DEBE6591-7B4A-7223-9759-E5DE61B63B53",
+                "Properties": [
+                    {
+                        "Key": {
+                            "Name": "Number"
+                        },
+                        "Value": {
+                            "Type": 7,
+                            "Body": 1
+                        }
+                    },
+                    {
+                        "Key": {
+                            "Name": "Id"
+                        },
+                        "Value": {
+                            "Type": 17,
+                            "Body": {
+                                "Id": 138,
+                                "Namespace": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "DataSetClassId": "00000000-0000-0000-0000-000000000000",
+        "ConfigurationVersion": {
+            "MajorVersion": 3215192808,
+            "MinorVersion": 184991996
+        }
+    }
+}
