@@ -1,0 +1,19 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Equipment/Tools/Tool1",
+    "payload": {
+        "MessageId": "ef09e40f-965d-42e2-84d1-3e759c9c14ea",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "Locked": false,
+                    "ControlIdentifierInterpretation": 0,
+                    "ControlIdentifier1": 12,
+                    "Name": "Tool1",
+                    "virtualId": "17:ShowcaseMachineTool.5:Equipment.5:Tools.17:Tool1"
+                }
+            }
+        ]
+    }
+}

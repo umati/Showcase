@@ -1974,3 +1974,12 @@ isw/json/metadata/prefix=isw;nsu=de.uni-stuttgart.isw.sampleserver;i=1234/_Write
 * Woodworking Examples:
   * [FullWoodworking Data](#example-datasets)
   * [FullWoodworking MetaData](#example-datasets)
+
+## Python Sample Publisher
+
+A complete example of an OPC UA PubSub JSON publisher written in Python is available in the `PubSub/python-publisher` directory. It demonstrates how to publish OPC UA Part 14 JSON messages (`ua-metadata` and `ua-data`) directly to an MQTT broker following the umati conventions, without requiring a full OPC UA server.
+
+Please refer to its [README](PubSub/python-publisher/README.md) for details on:
+* **Message Structure** (detailed explanation of `ua-metadata` and `ua-data` fields)
+* **MQTT Topic Layout** (the `opcua/umati/v3/json/...` topic convention)
+* **Configuration** (how to configure an OPC UA Publisher to publish directly to the MQTT broker)

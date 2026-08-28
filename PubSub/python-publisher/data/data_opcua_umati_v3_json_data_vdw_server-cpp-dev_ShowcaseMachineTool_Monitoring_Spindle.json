@@ -1,0 +1,19 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Monitoring/Spindle",
+    "payload": {
+        "MessageId": "2eac7007-8e34-4811-a17d-34b6fe3c5b0b",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "IsRotating": true,
+                    "Override": 103,
+                    "IsUsedAsAxis": false,
+                    "Name": "Spindle",
+                    "virtualId": "17:ShowcaseMachineTool.5:Monitoring.17:Spindle"
+                }
+            }
+        ]
+    }
+}

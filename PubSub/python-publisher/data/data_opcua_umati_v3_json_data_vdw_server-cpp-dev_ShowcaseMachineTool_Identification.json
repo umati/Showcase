@@ -1,0 +1,24 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Identification",
+    "payload": {
+        "MessageId": "c0f3f803-835c-4f92-bd7c-40a268facb64",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "SerialNumber": "2021-15360620311222485159",
+                    "ProductInstanceUri": "https://showcase.umati.org/Specs/Machinetools.html",
+                    "Manufacturer": "umati Showcase",
+                    "YearOfConstruction": 2021,
+                    "ProductCode": "2653837gg1548",
+                    "SoftwareRevision": "v1.02.1",
+                    "DeviceClass": "Machining centre (other)",
+                    "Location": "CCMT 5 A219/GRIND 9 B20/VIRTUAL 1 1/N 49.871215 E 8.654204",
+                    "Model": "ShowcaseMachineTool",
+                    "virtualId": "17:ShowcaseMachineTool.2:Identification"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Monitoring",
+    "payload": {
+        "MessageId": "9c83be9c-b7a0-430b-b5e1-6ec7e9124f6b",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "virtualId": "17:ShowcaseMachineTool.5:Monitoring"
+                }
+            }
+        ]
+    }
+}

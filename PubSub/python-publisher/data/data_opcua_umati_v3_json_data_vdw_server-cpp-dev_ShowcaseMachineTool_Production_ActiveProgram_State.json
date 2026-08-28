@@ -1,0 +1,16 @@
+{
+    "topic": "opcua/umati/v3/json/data/vdw/server-cpp-dev/ShowcaseMachineTool/Production/ActiveProgram/State",
+    "payload": {
+        "MessageId": "2e9ab6f6-bc4a-4055-b459-956016d92cd6",
+        "MessageType": "ua-data",
+        "PublisherId": "1",
+        "Messages": [
+            {
+                "Payload": {
+                    "CurrentState": "Running",
+                    "virtualId": "17:ShowcaseMachineTool.5:Production.5:ActiveProgram.5:State"
+                }
+            }
+        ]
+    }
+}
